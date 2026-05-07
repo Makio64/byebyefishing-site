@@ -1,48 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ByeByeFishing rounded cartoon fish">
-  <defs>
-    <linearGradient id="fish-body" x1="36" y1="43" x2="113" y2="86" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#ff8a2a"/>
-      <stop offset="0.48" stop-color="#ffbd3d"/>
-      <stop offset="1" stop-color="#ffd95e"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ByeByeFishing simple kawaii fish">
   <path
-    d="M40 64C30 50 20 42 10 39c5 10 6 18 6 25S15 79 10 89c10-3 20-11 30-25Z"
-    fill="#ff8a2a"
-    stroke="#d85f18"
+    d="M36 64C26 53 17 47 8 45c4 7 6 13 6 19s-2 12-6 19c9-2 18-8 28-19Z"
+    fill="#ffd36b"
+    stroke="#f97316"
+    stroke-linecap="round"
     stroke-linejoin="round"
-    stroke-width="5"
+    stroke-width="8"
   />
   <path
-    d="M55 48c3-12 12-20 25-22 1 11-3 20-11 27Z"
-    fill="#ff8a2a"
-    stroke="#d85f18"
+    d="M32 64c9-17 25-28 46-28 24 0 42 13 42 28S102 92 78 92c-21 0-37-11-46-28Z"
+    fill="#ffd36b"
+    stroke="#f97316"
+    stroke-linecap="round"
     stroke-linejoin="round"
-    stroke-width="5"
+    stroke-width="8"
   />
-  <path
-    d="M59 79c5 12 13 19 25 21-1-11-6-19-16-26Z"
-    fill="#ff8a2a"
-    stroke="#d85f18"
-    stroke-linejoin="round"
-    stroke-width="5"
-  />
-  <path
-    d="M34 64c0-19 18-32 42-32 25 0 40 14 40 32S101 96 76 96c-24 0-42-13-42-32Z"
-    fill="url(#fish-body)"
-    stroke="#d85f18"
-    stroke-linejoin="round"
-    stroke-width="6"
-  />
-  <path
-    d="M50 57c7-10 18-15 33-15 13 0 24 5 29 15-8-4-18-6-31-6-14 0-24 2-31 6Z"
-    fill="#ffe27b"
-    opacity="0.72"
-  />
-  <path d="M91 49c-5 9-5 22 0 31" fill="none" stroke="#e87922" stroke-linecap="round" stroke-width="5"/>
-  <circle cx="88" cy="55" r="9" fill="#fff" stroke="#19313c" stroke-width="3"/>
-  <circle cx="91" cy="55" r="3.5" fill="#19313c"/>
-  <circle cx="92.5" cy="53.5" r="1.2" fill="#fff"/>
-  <circle cx="100" cy="70" r="4.5" fill="#ff8f70" opacity="0.8"/>
-  <path d="M80 69c6 7 17 7 23 0" fill="none" stroke="#19313c" stroke-linecap="round" stroke-width="4.5"/>
+  <circle cx="92" cy="56" r="8" fill="#fffdf8" stroke="#21323a" stroke-width="4"/>
+  <circle cx="95" cy="56" r="3" fill="#21323a"/>
+  <circle cx="104" cy="69" r="4" fill="#ff9f80" opacity="0.72"/>
+  <path d="M86 70c5 5 13 5 18 0" fill="none" stroke="#21323a" stroke-linecap="round" stroke-width="4"/>
 </svg>
