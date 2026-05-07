@@ -1,0 +1,10 @@
+{
+  "name": "byebyefishing-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static website for the Bye Bye Fishing browser extension.",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "sync:extension": "node scripts/sync-extension-assets.mjs .."
+  }
+}

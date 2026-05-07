@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Install Bye Bye Fishing on Chrome, Edge, Firefox, Firefox Android, Safari, and local development builds."
+    >
+    <title>Install Bye Bye Fishing</title>
+    <link rel="icon" href="assets/byebyefishing.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-link" href="index.html" aria-label="Bye Bye Fishing home">
+        <img src="assets/icon-128.png" alt="" width="40" height="40">
+        <span>Bye Bye Fishing</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="install.html" aria-current="page">Install</a>
+        <a href="rules.html">Protection rules</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Install</p>
+        <h1>Use Bye Bye Fishing where webmail lives.</h1>
+        <p>
+          The extension protects supported webmail pages in browsers. It does not automatically scan
+          native Gmail, Outlook, Apple Mail, or Android mail apps.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="downloads/byebyefishing-0.1.0-chrome.zip">Download Chrome/Edge ZIP</a>
+          <a class="button secondary" href="downloads/byebyefishing-0.1.0-firefox-android.zip">Download Firefox ZIP</a>
+        </div>
+      </section>
+
+      <section class="platform-grid" aria-label="Platform install instructions">
+        <article class="platform-card">
+          <div class="platform-heading">
+            <span>Chrome</span>
+            <strong>Desktop</strong>
+          </div>
+          <ol>
+            <li>Download the Chrome/Edge ZIP package.</li>
+            <li>When the store listing is live, install from the Chrome Web Store.</li>
+            <li>For local testing, unzip it, open <code>chrome://extensions</code>, enable Developer mode, and choose Load unpacked.</li>
+            <li>Open Gmail, Outlook, Yahoo, iCloud Mail, Proton Mail, or another supported webmail page.</li>
+          </ol>
+        </article>
+
+        <article class="platform-card">
+          <div class="platform-heading">
+            <span>Edge</span>
+            <strong>Desktop</strong>
+          </div>
+          <ol>
+            <li>Use the same Chrome/Edge package.</li>
+            <li>When published, install from Microsoft Edge Add-ons or Chrome Web Store if allowed.</li>
+            <li>For local testing, unzip it, open <code>edge://extensions</code>, enable Developer mode, and choose Load unpacked.</li>
+            <li>Open a supported webmail site and read a message.</li>
+          </ol>
+        </article>
+
+        <article class="platform-card">
+          <div class="platform-heading">
+            <span>Firefox</span>
+            <strong>Desktop</strong>
+          </div>
+          <ol>
+            <li>Download the Firefox package.</li>
+            <li>When the listing is live, install from Mozilla Add-ons.</li>
+            <li>For temporary testing, open <code>about:debugging#/runtime/this-firefox</code>.</li>
+            <li>Choose Load Temporary Add-on and select <code>manifest.json</code> from the unzipped package.</li>
+          </ol>
+        </article>
+
+        <article class="platform-card">
+          <div class="platform-heading">
+            <span>Firefox Android</span>
+            <strong>Phones</strong>
+          </div>
+          <ol>
+            <li>Install Firefox for Android.</li>
+            <li>Use the Mozilla Add-ons listing once approved.</li>
+            <li>Open <code>mail.google.com</code>, Outlook webmail, or another supported webmail site in Firefox.</li>
+            <li>Remember that the native Gmail and Outlook apps are separate apps and are not scanned automatically.</li>
+          </ol>
+        </article>
+
+        <article class="platform-card">
+          <div class="platform-heading">
+            <span>Safari</span>
+            <strong>Mac, iPhone, iPad</strong>
+          </div>
+          <ol>
+            <li>Safari support ships as an App Store app containing the Safari Web Extension.</li>
+            <li>Install the app when the App Store release is ready.</li>
+            <li>Enable the extension in Safari settings.</li>
+            <li>Use Safari webmail pages. Native Apple Mail is not automatically protected.</li>
+          </ol>
+        </article>
+
+        <article class="platform-card">
+          <div class="platform-heading">
+            <span>Developers</span>
+            <strong>Source build</strong>
+          </div>
+          <ol>
+            <li>Clone the extension source.</li>
+            <li>Run <code>npm test</code>, then <code>npm run icons</code> and <code>npm run package</code>.</li>
+            <li>Load the unpacked extension in Chrome, Edge, or Firefox.</li>
+            <li>Review the plain-text rules before sharing with family or friends.</li>
+          </ol>
+        </article>
+      </section>
+
+      <section class="supported-band">
+        <div>
+          <p class="eyebrow">Supported webmail</p>
+          <h2>Built for everyday inboxes.</h2>
+          <p>
+            Bye Bye Fishing currently runs on Gmail, Outlook, Yahoo, AOL, iCloud Mail, Proton Mail,
+            Tuta, Zoho, Fastmail, Orange, SFR, Free, La Poste, Bouygues, Mailo, GMX, Web.de,
+            T-Online, Freenet, Mailbox.org, Posteo, Seznam, WP, Onet, O2, Interia, Libero, and Virgilio.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Bye Bye Fishing</span>
+      <span>Install carefully. Verify calmly.</span>
+    </footer>
+
+    <script src="site.js"></script>
+  </body>
+</html>

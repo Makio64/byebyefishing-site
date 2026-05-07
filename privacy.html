@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Bye Bye Fishing privacy details: local checks, no analytics, no backend, no email upload."
+    >
+    <title>Bye Bye Fishing Privacy</title>
+    <link rel="icon" href="assets/byebyefishing.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-link" href="index.html" aria-label="Bye Bye Fishing home">
+        <img src="assets/icon-128.png" alt="" width="40" height="40">
+        <span>Bye Bye Fishing</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="install.html">Install</a>
+        <a href="rules.html">Protection rules</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero narrow">
+        <p class="eyebrow">Privacy</p>
+        <h1>No inbox upload. No tracking. No backend.</h1>
+        <p>
+          Bye Bye Fishing is designed to run locally inside the browser. The boring architecture is
+          the privacy feature.
+        </p>
+      </section>
+
+      <section class="privacy-list">
+        <article>
+          <h2>What the extension reads</h2>
+          <p>
+            On supported webmail pages, it reads visible sender information, visible link destinations,
+            and visible mail body text so it can compare claimed brands and URLs with the local rule list.
+          </p>
+        </article>
+        <article>
+          <h2>What it stores</h2>
+          <p>
+            Settings, edited rules, and locally green-flagged sender domains are stored with the browser
+            extension storage API.
+          </p>
+        </article>
+        <article>
+          <h2>What it does not do</h2>
+          <p>
+            It does not collect, transmit, sell, or share email content, sender addresses, browsing
+            history, analytics events, or personal data.
+          </p>
+        </article>
+        <article>
+          <h2>What it does not use</h2>
+          <p>
+            It does not use remote code, third-party scripts, tracking pixels, cookies, ads, analytics,
+            or a backend service.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Bye Bye Fishing</span>
+      <span>Privacy by keeping the work local.</span>
+    </footer>
+
+    <script src="site.js"></script>
+  </body>
+</html>

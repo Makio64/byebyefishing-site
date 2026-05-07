@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ByeByeFishing happy fish">
+  <path d="M17 45 39 64 17 83c17-2 28-9 28-19S34 47 17 45Z" fill="#ff8e43"/>
+  <path d="M38 64c0-17 16-30 36-30 24 0 40 14 40 30S98 94 74 94c-20 0-36-13-36-30Z" fill="#ffbe48"/>
+  <path d="M57 47 70 29l10 21M61 80l11 19 10-20" fill="#ff8e43"/>
+  <path d="M89 49c-5 9-5 21-1 30" fill="none" stroke="#ef7e35" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="84" cy="56" r="7" fill="#fff"/>
+  <circle cx="87" cy="56" r="3" fill="#0f2b3a"/>
+  <path d="M72 67c7 9 18 9 25 0" fill="none" stroke="#0f2b3a" stroke-width="4" stroke-linecap="round"/>
+</svg>

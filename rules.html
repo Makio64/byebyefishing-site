@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="The practical protection rules and transparent brand catalog behind Bye Bye Fishing."
+    >
+    <title>Bye Bye Fishing Protection Rules</title>
+    <link rel="icon" href="assets/byebyefishing.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-link" href="index.html" aria-label="Bye Bye Fishing home">
+        <img src="assets/icon-128.png" alt="" width="40" height="40">
+        <span>Bye Bye Fishing</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="install.html">Install</a>
+        <a href="rules.html" aria-current="page">Protection rules</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Protection rules</p>
+        <h1>Simple rules for not getting rushed into a bad click.</h1>
+        <p>
+          These are the family-facing rules behind the product. They are direct on purpose:
+          pause, verify, then act.
+        </p>
+      </section>
+
+      <section class="rule-guide">
+        <article>
+          <span>01</span>
+          <h2>Do not obey urgency.</h2>
+          <p>If an email says act now, pay now, or respond within 24 hours, stop and open the real website yourself.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h2>Read the domain, not the display name.</h2>
+          <p>"Amazon Support" is just text. The part after <code>@</code> matters more.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h2>Never share codes or secrets.</h2>
+          <p>No real support team should ask for your password, 2FA code, seed phrase, private key, or API key.</p>
+        </article>
+        <article>
+          <span>04</span>
+          <h2>Do money checks twice.</h2>
+          <p>For invoices, refunds, bank details, fines, tolls, or delivery fees, verify in the official app or by a known phone number.</p>
+        </article>
+        <article>
+          <span>05</span>
+          <h2>Be careful with delivery messages.</h2>
+          <p>Parcel scams often ask for tiny fees or address confirmation. Open the courier site yourself.</p>
+        </article>
+        <article>
+          <span>06</span>
+          <h2>Short links are a pause signal.</h2>
+          <p>Links like <code>bit.ly</code>, <code>t.co</code>, or <code>lnkd.in</code> hide where they really go.</p>
+        </article>
+        <article>
+          <span>07</span>
+          <h2>Visible text must match the destination.</h2>
+          <p>If a link says one domain but opens another, treat it as suspicious until proven safe.</p>
+        </article>
+        <article>
+          <span>08</span>
+          <h2>Personal inboxes are not official billing teams.</h2>
+          <p>A bank, tax office, payment app, or large brand should not send security requests from a free personal mailbox.</p>
+        </article>
+        <article>
+          <span>09</span>
+          <h2>Typos and odd shapes matter.</h2>
+          <p>Extra hyphens, random digits, strange endings, very long URLs, and lookalike words are all warning signs.</p>
+        </article>
+        <article>
+          <span>10</span>
+          <h2>Public hosting is not proof of trust.</h2>
+          <p>Pages on storage buckets or free hosting can be legitimate, but they should not be trusted automatically.</p>
+        </article>
+        <article>
+          <span>11</span>
+          <h2>Ask before embarrassment wins.</h2>
+          <p>Attackers rely on shame and secrecy. Asking one trusted person is a protection step.</p>
+        </article>
+        <article>
+          <span>12</span>
+          <h2>Green-flag only after checking.</h2>
+          <p>Only trust a sender domain locally after you have verified it through a known, official channel.</p>
+        </article>
+      </section>
+
+      <section class="detector-section">
+        <div class="section-copy">
+          <p class="eyebrow">How the extension applies them</p>
+          <h2>One warning can come from several signals.</h2>
+        </div>
+        <div class="detector-list">
+          <article>
+            <h3>Known brand, unknown domain</h3>
+            <p>A protected brand appears in the sender or message, but the sender domain is not trusted for that brand.</p>
+          </article>
+          <article>
+            <h3>Lookalike or risky domain</h3>
+            <p>The domain looks like a typo, uses encoded international characters, has suspicious words, or uses a high-risk shape.</p>
+          </article>
+          <article>
+            <h3>Hidden destination</h3>
+            <p>A link is shortened, redirected, unusually long, or the visible domain does not match the real destination.</p>
+          </article>
+          <article>
+            <h3>Pressure content</h3>
+            <p>The email asks for payment, credentials, personal data, delivery confirmation, secrecy, or immediate action.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="brand-catalog" class="catalog-section">
+        <div class="catalog-heading">
+          <div>
+            <p class="eyebrow">Transparent catalog</p>
+            <h2>Protected brands and trusted domains</h2>
+            <p>
+              This list is generated from the extension defaults. It is meant to be audited, improved,
+              and updated in the open.
+            </p>
+          </div>
+          <div class="catalog-meta">
+            <strong data-rule-count>Loading</strong>
+            <span data-rule-version></span>
+          </div>
+        </div>
+
+        <div class="catalog-controls">
+          <label>
+            Search
+            <input
+              type="search"
+              data-rule-search
+              placeholder="Try PayPal, La Banque Postale, GitHub, delivery..."
+              autocomplete="off"
+            >
+          </label>
+          <label>
+            Category
+            <select data-category-filter>
+              <option value="">All categories</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="catalog-results" data-rules-catalog aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Bye Bye Fishing</span>
+      <span>Rules should be readable by the people they protect.</span>
+    </footer>
+
+    <script src="assets/rules-data.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>
