@@ -554,6 +554,42 @@ code {
   font-size: clamp(1.1rem, 2vw, 1.35rem);
 }
 
+.install-hero {
+  gap: 24px;
+}
+
+.detected-install {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 980px;
+  padding: clamp(20px, 4vw, 28px);
+  background: #ffffff;
+  border: 1px solid #f4c39d;
+  border-left: 5px solid var(--orange);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 45px rgba(249, 115, 22, 0.1);
+}
+
+.detected-install h2 {
+  margin: 5px 0 9px;
+  font-size: clamp(1.5rem, 3vw, 2.35rem);
+}
+
+.detected-install p:not(.eyebrow) {
+  max-width: 680px;
+  font-size: 1rem;
+}
+
+.detected-actions {
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
 .platform-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -583,10 +619,76 @@ code {
   font-size: 0.78rem;
 }
 
+.platform-detail summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 42px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.platform-detail summary::-webkit-details-marker {
+  display: none;
+}
+
+.platform-detail summary::after {
+  display: inline-flex;
+  flex: 0 0 28px;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  color: var(--teal-dark);
+  background: #e6f4f0;
+  border-radius: 50%;
+  content: "+";
+  font-weight: 900;
+}
+
+.platform-detail[open] summary::after {
+  content: "-";
+}
+
+.platform-detail summary span {
+  color: var(--teal-dark);
+  font-weight: 900;
+}
+
+.platform-detail summary strong {
+  margin-left: auto;
+  padding: 4px 8px;
+  color: #4b3411;
+  background: #fff0ca;
+  border-radius: 999px;
+  font-size: 0.78rem;
+}
+
+.platform-detail.is-detected {
+  border-color: #f4c39d;
+  background: #fffaf5;
+  box-shadow: 0 14px 35px rgba(249, 115, 22, 0.1);
+}
+
+.platform-detail.is-detected summary span::after {
+  display: inline-flex;
+  margin-left: 8px;
+  padding: 3px 7px;
+  color: #8a3205;
+  background: #ffe2c7;
+  border-radius: 999px;
+  content: "Detected";
+  font-size: 0.68rem;
+  font-weight: 950;
+  vertical-align: middle;
+}
+
 .platform-card ol {
   display: grid;
   gap: 10px;
   margin: 0;
+  padding-top: 12px;
   padding-left: 20px;
   color: var(--muted);
 }
@@ -873,9 +975,19 @@ select:focus {
   }
 
   .install-strip,
+  .detected-install,
   .catalog-heading {
     align-items: start;
     flex-direction: column;
+  }
+
+  .detected-actions {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .detected-actions .button {
+    width: 100%;
   }
 
   .catalog-meta {

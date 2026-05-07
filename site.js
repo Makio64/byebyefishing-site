@@ -10,6 +10,8 @@
     });
   }
 
+  initInstallGuide();
+
   const categoryNames = {
     accounting: "Accounting",
     "banks-fr": "French banks",
@@ -162,4 +164,123 @@
   searchInput?.addEventListener("input", renderCatalog);
   categoryFilter?.addEventListener("change", renderCatalog);
   renderCatalog();
+
+  function initInstallGuide() {
+    const guide = document.querySelector("[data-install-guide]");
+    const platformOptions = document.querySelector("#platform-options");
+    const cards = [...document.querySelectorAll("[data-platform]")];
+    if (!guide || !platformOptions || !cards.length) return;
+
+    const platforms = {
+      chrome: {
+        kicker: "Chrome detected",
+        title: "Install the Chrome package first.",
+        copy:
+          "Download the Chrome/Edge ZIP, unzip it, then load it from chrome://extensions with Developer mode enabled.",
+        primaryText: "Download Chrome/Edge ZIP",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip",
+        secondaryText: "Open Chrome steps",
+        secondaryHref: "#platform-chrome"
+      },
+      edge: {
+        kicker: "Edge detected",
+        title: "Use the Chrome-compatible package for Edge.",
+        copy:
+          "Download the Chrome/Edge ZIP, unzip it, then load it from edge://extensions with Developer mode enabled.",
+        primaryText: "Download Chrome/Edge ZIP",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip",
+        secondaryText: "Open Edge steps",
+        secondaryHref: "#platform-edge"
+      },
+      firefox: {
+        kicker: "Firefox detected",
+        title: "Install with the Firefox package.",
+        copy:
+          "Download the Firefox ZIP, unzip it, then load manifest.json from about:debugging while the store listing is pending.",
+        primaryText: "Download Firefox ZIP",
+        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip",
+        secondaryText: "Open Firefox steps",
+        secondaryHref: "#platform-firefox"
+      },
+      "firefox-android": {
+        kicker: "Firefox Android detected",
+        title: "Use Firefox webmail on Android.",
+        copy:
+          "Install Firefox for Android, add the extension from Mozilla Add-ons once approved, then open webmail in Firefox.",
+        primaryText: "Download Firefox ZIP",
+        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip",
+        secondaryText: "Open Android steps",
+        secondaryHref: "#platform-firefox-android"
+      },
+      safari: {
+        kicker: "Safari detected",
+        title: "Safari support uses an App Store wrapper.",
+        copy:
+          "Safari Web Extensions ship inside an app. Use the Safari steps below while the App Store release is prepared.",
+        primaryText: "Open Safari steps",
+        primaryHref: "#platform-safari",
+        secondaryText: "Download Firefox ZIP",
+        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
+      }
+    };
+
+    const fallback = {
+      kicker: "Choose your browser",
+      title: "Pick the browser you use for webmail.",
+      copy:
+        "Chrome, Edge, Firefox, Firefox Android, Safari, and source-build instructions are all available below.",
+      primaryText: "Download Chrome/Edge ZIP",
+      primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip",
+      secondaryText: "Download Firefox ZIP",
+      secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
+    };
+
+    const detectedKey = detectBrowser();
+    const config = platforms[detectedKey] || fallback;
+    const detectedCard = detectedKey ? cards.find((card) => card.dataset.platform === detectedKey) : null;
+
+    setText("[data-install-kicker]", config.kicker);
+    setText("[data-install-title]", config.title);
+    setText("[data-install-copy]", config.copy);
+    setLink("[data-install-primary]", config.primaryText, config.primaryHref);
+    setLink("[data-install-secondary]", config.secondaryText, config.secondaryHref);
+
+    for (const card of cards) {
+      const isMatch = card === detectedCard;
+      card.toggleAttribute("open", isMatch);
+      card.classList.toggle("is-detected", isMatch);
+    }
+
+    if (detectedCard && platformOptions.firstElementChild !== detectedCard) {
+      platformOptions.prepend(detectedCard);
+    }
+
+    function setText(selector, text) {
+      const element = guide.querySelector(selector);
+      if (element) element.textContent = text;
+    }
+
+    function setLink(selector, text, href) {
+      const element = guide.querySelector(selector);
+      if (!element) return;
+      element.textContent = text;
+      element.setAttribute("href", href);
+    }
+
+    function detectBrowser() {
+      const ua = navigator.userAgent || "";
+      const brands = navigator.userAgentData?.brands || [];
+      const brandNames = brands.map((brand) => brand.brand).join(" ");
+      const source = `${ua} ${brandNames}`;
+
+      if (/Firefox\/\d+/i.test(ua) && /Android/i.test(ua)) return "firefox-android";
+      if (/FxiOS|Firefox\/\d+/i.test(ua)) return "firefox";
+      if (/EdgA|EdgiOS|Edg\//i.test(ua) || /Microsoft Edge/i.test(brandNames)) return "edge";
+      if (/CriOS|Chrome\/\d+|Chromium/i.test(source) && !/OPR\/|Opera|SamsungBrowser|Edg\//i.test(source)) {
+        return "chrome";
+      }
+      if (/Safari/i.test(ua) && !/Chrome|Chromium|CriOS|FxiOS|Edg/i.test(ua)) return "safari";
+      return "";
+    }
+  }
 })();

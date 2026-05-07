@@ -29,97 +29,107 @@
     </header>
 
     <main>
-      <section class="page-hero">
+      <section class="page-hero install-hero">
         <p class="eyebrow">Install</p>
         <h1>Use Bye Bye Fishing where webmail lives.</h1>
         <p>
           The extension protects supported webmail pages in browsers. It does not automatically scan
           native Gmail, Outlook, Apple Mail, or Android mail apps.
         </p>
-        <div class="hero-actions">
-          <a class="button primary" href="downloads/byebyefishing-0.1.0-chrome.zip">Download Chrome/Edge ZIP</a>
-          <a class="button secondary" href="downloads/byebyefishing-0.1.0-firefox-android.zip">Download Firefox ZIP</a>
+        <div class="detected-install" data-install-guide aria-live="polite">
+          <div>
+            <p class="eyebrow" data-install-kicker>Browser-specific setup</p>
+            <h2 data-install-title>Pick the browser you use for webmail.</h2>
+            <p data-install-copy>
+              If we recognize your browser, the matching install path opens below. The other browser
+              instructions stay available without taking over the page.
+            </p>
+          </div>
+          <div class="detected-actions">
+            <a class="button primary" data-install-primary href="#platform-options">See install steps</a>
+            <a class="button secondary" data-install-secondary href="downloads/byebyefishing-0.1.0-firefox-android.zip">Download Firefox ZIP</a>
+          </div>
         </div>
       </section>
 
-      <section class="platform-grid" aria-label="Platform install instructions">
-        <article class="platform-card">
-          <div class="platform-heading">
+      <section id="platform-options" class="platform-grid platform-accordion" aria-label="Platform install instructions">
+        <details id="platform-chrome" class="platform-card platform-detail" data-platform="chrome">
+          <summary>
             <span>Chrome</span>
             <strong>Desktop</strong>
-          </div>
+          </summary>
           <ol>
             <li>Download the Chrome/Edge ZIP package.</li>
             <li>When the store listing is live, install from the Chrome Web Store.</li>
             <li>For local testing, unzip it, open <code>chrome://extensions</code>, enable Developer mode, and choose Load unpacked.</li>
             <li>Open Gmail, Outlook, Yahoo, iCloud Mail, Proton Mail, or another supported webmail page.</li>
           </ol>
-        </article>
+        </details>
 
-        <article class="platform-card">
-          <div class="platform-heading">
+        <details id="platform-edge" class="platform-card platform-detail" data-platform="edge">
+          <summary>
             <span>Edge</span>
             <strong>Desktop</strong>
-          </div>
+          </summary>
           <ol>
             <li>Use the same Chrome/Edge package.</li>
             <li>When published, install from Microsoft Edge Add-ons or Chrome Web Store if allowed.</li>
             <li>For local testing, unzip it, open <code>edge://extensions</code>, enable Developer mode, and choose Load unpacked.</li>
             <li>Open a supported webmail site and read a message.</li>
           </ol>
-        </article>
+        </details>
 
-        <article class="platform-card">
-          <div class="platform-heading">
+        <details id="platform-firefox" class="platform-card platform-detail" data-platform="firefox">
+          <summary>
             <span>Firefox</span>
             <strong>Desktop</strong>
-          </div>
+          </summary>
           <ol>
             <li>Download the Firefox package.</li>
             <li>When the listing is live, install from Mozilla Add-ons.</li>
             <li>For temporary testing, open <code>about:debugging#/runtime/this-firefox</code>.</li>
             <li>Choose Load Temporary Add-on and select <code>manifest.json</code> from the unzipped package.</li>
           </ol>
-        </article>
+        </details>
 
-        <article class="platform-card">
-          <div class="platform-heading">
+        <details id="platform-firefox-android" class="platform-card platform-detail" data-platform="firefox-android">
+          <summary>
             <span>Firefox Android</span>
             <strong>Phones</strong>
-          </div>
+          </summary>
           <ol>
             <li>Install Firefox for Android.</li>
             <li>Use the Mozilla Add-ons listing once approved.</li>
             <li>Open <code>mail.google.com</code>, Outlook webmail, or another supported webmail site in Firefox.</li>
             <li>Remember that the native Gmail and Outlook apps are separate apps and are not scanned automatically.</li>
           </ol>
-        </article>
+        </details>
 
-        <article class="platform-card">
-          <div class="platform-heading">
+        <details id="platform-safari" class="platform-card platform-detail" data-platform="safari">
+          <summary>
             <span>Safari</span>
             <strong>Mac, iPhone, iPad</strong>
-          </div>
+          </summary>
           <ol>
             <li>Safari support ships as an App Store app containing the Safari Web Extension.</li>
             <li>Install the app when the App Store release is ready.</li>
             <li>Enable the extension in Safari settings.</li>
             <li>Use Safari webmail pages. Native Apple Mail is not automatically protected.</li>
           </ol>
-        </article>
+        </details>
 
-        <article class="platform-card">
-          <div class="platform-heading">
+        <details id="platform-developers" class="platform-card platform-detail" data-platform="developers">
+          <summary>
             <span>Developers</span>
             <strong>Source build</strong>
-          </div>
+          </summary>
           <ol>
             <li>Clone the extension source.</li>
             <li>Run <code>npm test</code>, then <code>npm run icons</code> and <code>npm run package</code>.</li>
             <li>Load the unpacked extension in Chrome, Edge, or Firefox.</li>
             <li>Review the plain-text rules before sharing with family or friends.</li>
           </ol>
-        </article>
+        </details>
       </section>
 
       <section class="supported-band">
