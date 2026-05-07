@@ -1,9 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ByeByeFishing happy fish">
-  <path d="M17 45 39 64 17 83c17-2 28-9 28-19S34 47 17 45Z" fill="#ff8e43"/>
-  <path d="M38 64c0-17 16-30 36-30 24 0 40 14 40 30S98 94 74 94c-20 0-36-13-36-30Z" fill="#ffbe48"/>
-  <path d="M57 47 70 29l10 21M61 80l11 19 10-20" fill="#ff8e43"/>
-  <path d="M89 49c-5 9-5 21-1 30" fill="none" stroke="#ef7e35" stroke-width="5" stroke-linecap="round"/>
-  <circle cx="84" cy="56" r="7" fill="#fff"/>
-  <circle cx="87" cy="56" r="3" fill="#0f2b3a"/>
-  <path d="M72 67c7 9 18 9 25 0" fill="none" stroke="#0f2b3a" stroke-width="4" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ByeByeFishing rounded cartoon fish">
+  <defs>
+    <linearGradient id="fish-body" x1="36" y1="43" x2="113" y2="86" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff8a2a"/>
+      <stop offset="0.48" stop-color="#ffbd3d"/>
+      <stop offset="1" stop-color="#ffd95e"/>
+    </linearGradient>
+  </defs>
+  <path
+    d="M40 64C30 50 20 42 10 39c5 10 6 18 6 25S15 79 10 89c10-3 20-11 30-25Z"
+    fill="#ff8a2a"
+    stroke="#d85f18"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+  <path
+    d="M55 48c3-12 12-20 25-22 1 11-3 20-11 27Z"
+    fill="#ff8a2a"
+    stroke="#d85f18"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+  <path
+    d="M59 79c5 12 13 19 25 21-1-11-6-19-16-26Z"
+    fill="#ff8a2a"
+    stroke="#d85f18"
+    stroke-linejoin="round"
+    stroke-width="5"
+  />
+  <path
+    d="M34 64c0-19 18-32 42-32 25 0 40 14 40 32S101 96 76 96c-24 0-42-13-42-32Z"
+    fill="url(#fish-body)"
+    stroke="#d85f18"
+    stroke-linejoin="round"
+    stroke-width="6"
+  />
+  <path
+    d="M50 57c7-10 18-15 33-15 13 0 24 5 29 15-8-4-18-6-31-6-14 0-24 2-31 6Z"
+    fill="#ffe27b"
+    opacity="0.72"
+  />
+  <path d="M91 49c-5 9-5 22 0 31" fill="none" stroke="#e87922" stroke-linecap="round" stroke-width="5"/>
+  <circle cx="88" cy="55" r="9" fill="#fff" stroke="#19313c" stroke-width="3"/>
+  <circle cx="91" cy="55" r="3.5" fill="#19313c"/>
+  <circle cx="92.5" cy="53.5" r="1.2" fill="#fff"/>
+  <circle cx="100" cy="70" r="4.5" fill="#ff8f70" opacity="0.8"/>
+  <path d="M80 69c6 7 17 7 23 0" fill="none" stroke="#19313c" stroke-linecap="round" stroke-width="4.5"/>
 </svg>

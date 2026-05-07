@@ -10,6 +10,8 @@
   --teal-dark: #0b5f59;
   --coral: #f36f45;
   --amber: #ffba4a;
+  --orange: #f97316;
+  --orange-dark: #c94a0a;
   --violet: #6d5dfc;
   --mint: #d9f4e8;
   --shadow: 0 18px 55px rgba(16, 24, 32, 0.11);
@@ -106,11 +108,31 @@ code {
   font-weight: 800;
 }
 
+.brand-link span,
+.hero-copy h1,
+.site-footer span:first-child {
+  color: var(--orange);
+}
+
+.hero-copy h1 {
+  text-shadow: 0 8px 28px rgba(249, 115, 22, 0.18);
+}
+
+@supports ((background-clip: text) or (-webkit-background-clip: text)) {
+  .brand-link span,
+  .hero-copy h1 {
+    color: transparent;
+    background: linear-gradient(90deg, var(--orange-dark), var(--orange), var(--amber));
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
 .brand-link img {
   width: 40px;
   height: 40px;
-  border-radius: var(--radius);
-  box-shadow: 0 8px 20px rgba(15, 118, 110, 0.18);
+  border-radius: 50%;
+  filter: drop-shadow(0 8px 16px rgba(249, 115, 22, 0.22));
 }
 
 .site-nav {
@@ -337,9 +359,8 @@ code {
   top: 24px;
   right: 24px;
   width: 44px;
-  height: 28px;
-  color: var(--teal);
-  opacity: 0.28;
+  height: 44px;
+  opacity: 0.42;
 }
 
 .warning-band {
@@ -760,7 +781,6 @@ select:focus {
 }
 
 .site-footer span:first-child {
-  color: var(--ink);
   font-weight: 900;
 }
 

@@ -1,7 +1,7 @@
 window.BYEBYEFISHING_RULES = {
-  "version": "2026-05-07.10",
+  "version": "2026-05-07.12",
   "generatedFrom": "src/default-rules.js",
-  "count": 495,
+  "count": 518,
   "rules": [
     {
       "category": "developer",
@@ -5708,6 +5708,312 @@ window.BYEBYEFISHING_RULES = {
     },
     {
       "category": "travel",
+      "id": "southwest-airlines",
+      "name": "Southwest Airlines",
+      "aliases": [
+        "southwest airlines"
+      ],
+      "allowedDomains": [
+        "southwest.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "china-eastern",
+      "name": "China Eastern Airlines",
+      "aliases": [
+        "china eastern",
+        "china eastern airlines"
+      ],
+      "allowedDomains": [
+        "ceair.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "indigo",
+      "name": "IndiGo",
+      "aliases": [
+        "indigo",
+        "goindigo"
+      ],
+      "allowedDomains": [
+        "goindigo.in"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "china-southern-airlines",
+      "name": "China Southern Airlines",
+      "aliases": [
+        "china southern",
+        "china southern airlines"
+      ],
+      "allowedDomains": [
+        "csair.com",
+        "csair.cn"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "air-china",
+      "name": "Air China",
+      "aliases": [
+        "air china"
+      ],
+      "allowedDomains": [
+        "airchina.com.cn"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "alaska-airlines",
+      "name": "Alaska Airlines",
+      "aliases": [
+        "alaska airlines"
+      ],
+      "allowedDomains": [
+        "alaskaair.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "ana",
+      "name": "ANA",
+      "aliases": [
+        "ana",
+        "all nippon airways"
+      ],
+      "allowedDomains": [
+        "ana.co.jp"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "latam-airlines",
+      "name": "LATAM Airlines",
+      "aliases": [
+        "latam",
+        "latam airlines"
+      ],
+      "allowedDomains": [
+        "latam.com",
+        "latamairlines.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "turkish-airlines",
+      "name": "Turkish Airlines",
+      "aliases": [
+        "turkish airlines"
+      ],
+      "allowedDomains": [
+        "thy.com",
+        "turkishairlines.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "japan-airlines",
+      "name": "Japan Airlines",
+      "aliases": [
+        "jal",
+        "japan airlines"
+      ],
+      "allowedDomains": [
+        "jal.co.jp",
+        "jal.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "air-canada",
+      "name": "Air Canada",
+      "aliases": [
+        "air canada"
+      ],
+      "allowedDomains": [
+        "aircanada.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "hainan-airlines",
+      "name": "Hainan Airlines",
+      "aliases": [
+        "hainan airlines"
+      ],
+      "allowedDomains": [
+        "hainanairlines.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "qantas",
+      "name": "Qantas",
+      "aliases": [
+        "qantas"
+      ],
+      "allowedDomains": [
+        "qantas.com",
+        "qantas.com.au"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "shenzhen-airlines",
+      "name": "Shenzhen Airlines",
+      "aliases": [
+        "shenzhen airlines"
+      ],
+      "allowedDomains": [
+        "shenzhenair.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "avianca",
+      "name": "Avianca",
+      "aliases": [
+        "avianca"
+      ],
+      "allowedDomains": [
+        "avianca.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "aeroflot",
+      "name": "Aeroflot",
+      "aliases": [
+        "aeroflot"
+      ],
+      "allowedDomains": [
+        "aeroflot.ru"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "air-india",
+      "name": "Air India",
+      "aliases": [
+        "air india"
+      ],
+      "allowedDomains": [
+        "airindia.com",
+        "airindia.in"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "jetblue",
+      "name": "JetBlue",
+      "aliases": [
+        "jetblue",
+        "jetblue airways"
+      ],
+      "allowedDomains": [
+        "jetblue.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "xiamen-airlines",
+      "name": "Xiamen Airlines",
+      "aliases": [
+        "xiamen airlines",
+        "xiamenair"
+      ],
+      "allowedDomains": [
+        "xiamenair.com",
+        "xiamenair.com.cn"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "sichuan-airlines",
+      "name": "Sichuan Airlines",
+      "aliases": [
+        "sichuan airlines"
+      ],
+      "allowedDomains": [
+        "scal.com.cn",
+        "sichuanair.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "azul",
+      "name": "Azul",
+      "aliases": [
+        "azul",
+        "azul airlines",
+        "azul brazilian airlines",
+        "voe azul"
+      ],
+      "allowedDomains": [
+        "voeazul.com.br"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "shandong-airlines",
+      "name": "Shandong Airlines",
+      "aliases": [
+        "shandong airlines"
+      ],
+      "allowedDomains": [
+        "sda.cn",
+        "shandongair.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
       "id": "emirates",
       "name": "Emirates",
       "aliases": [
@@ -5728,6 +6034,19 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "qatarairways.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "asiana-airlines",
+      "name": "Asiana Airlines",
+      "aliases": [
+        "asiana airlines"
+      ],
+      "allowedDomains": [
+        "flyasiana.com"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null
