@@ -1,7 +1,7 @@
 window.BYEBYEFISHING_RULES = {
-  "version": "2026-05-07.9",
+  "version": "2026-05-07.10",
   "generatedFrom": "src/default-rules.js",
-  "count": 488,
+  "count": 495,
   "rules": [
     {
       "category": "developer",
@@ -5727,17 +5727,116 @@ window.BYEBYEFISHING_RULES = {
       "senderMatchSubdomains": null
     },
     {
+      "category": "maps",
+      "id": "waze",
+      "name": "Waze",
+      "aliases": [
+        "waze"
+      ],
+      "allowedDomains": [
+        "waze.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "maps",
+      "id": "openstreetmap",
+      "name": "OpenStreetMap",
+      "aliases": [
+        "openstreetmap",
+        "open street map",
+        "osm"
+      ],
+      "allowedDomains": [
+        "openstreetmap.org",
+        "osm.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "maps",
+      "id": "here-wego",
+      "name": "HERE WeGo",
+      "aliases": [
+        "here wego",
+        "here maps"
+      ],
+      "allowedDomains": [
+        "here.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "maps",
+      "id": "mapquest",
+      "name": "MapQuest",
+      "aliases": [
+        "mapquest"
+      ],
+      "allowedDomains": [
+        "mapquest.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "maps",
+      "id": "tomtom",
+      "name": "TomTom",
+      "aliases": [
+        "tomtom",
+        "tomtom maps"
+      ],
+      "allowedDomains": [
+        "tomtom.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "maps",
+      "id": "mapbox",
+      "name": "Mapbox",
+      "aliases": [
+        "mapbox"
+      ],
+      "allowedDomains": [
+        "mapbox.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "maps",
+      "id": "citymapper",
+      "name": "Citymapper",
+      "aliases": [
+        "citymapper"
+      ],
+      "allowedDomains": [
+        "citymapper.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
       "category": "big-tech",
       "id": "microsoft",
       "name": "Microsoft",
       "aliases": [
         "microsoft",
         "outlook",
-        "onedrive"
+        "onedrive",
+        "bing",
+        "bing maps"
       ],
       "allowedDomains": [
         "microsoft.com",
         "accountprotection.microsoft.com",
+        "bing.com",
         "outlook.com",
         "office.com",
         "office365.com",
@@ -5754,7 +5853,8 @@ window.BYEBYEFISHING_RULES = {
       "aliases": [
         "google",
         "gmail",
-        "youtube"
+        "youtube",
+        "google maps"
       ],
       "allowedDomains": [
         "google.com",
@@ -5774,6 +5874,7 @@ window.BYEBYEFISHING_RULES = {
         "google.ch",
         "google.at",
         "google.pl",
+        "maps.app.goo.gl",
         "g.co",
         "goo.gle",
         "c.gle",
@@ -5793,7 +5894,8 @@ window.BYEBYEFISHING_RULES = {
         "apple",
         "icloud",
         "itunes",
-        "app store"
+        "app store",
+        "apple maps"
       ],
       "allowedDomains": [
         "apple.com",
