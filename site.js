@@ -108,7 +108,7 @@
     if (rule.senderDomains && rule.senderDomains.length) {
       const sender = createTextElement(
         "p",
-        `Official sender domains: ${rule.senderDomains.join(", ")}`,
+        `Known sender domains: ${rule.senderDomains.join(", ")}`,
         "sender-domains"
       );
       article.append(sender);

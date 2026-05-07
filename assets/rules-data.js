@@ -736,10 +736,16 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "lydia-app.com",
+        "lydia.me",
         "sumeria.eu"
       ],
-      "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderDomains": [
+        "lydia-app.com",
+        "lydia.me",
+        "sumeria.eu",
+        "isbs.eu"
+      ],
+      "senderMatchSubdomains": true
     },
     {
       "category": "payments",
