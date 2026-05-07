@@ -309,6 +309,7 @@ code {
 }
 
 .mail-message {
+  position: relative;
   display: grid;
   align-content: start;
   gap: 18px;
@@ -316,14 +317,8 @@ code {
 }
 
 .sender-line {
-  display: grid;
-  grid-template-columns: 44px 1fr;
-  gap: 12px;
-  align-items: center;
-}
-
-.sender-line img {
-  border-radius: var(--radius);
+  display: block;
+  padding-right: 52px;
 }
 
 .sender-line strong,
@@ -335,6 +330,16 @@ code {
   overflow-wrap: anywhere;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.preview-fish {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 28px;
+  color: var(--teal);
+  opacity: 0.28;
 }
 
 .warning-band {
