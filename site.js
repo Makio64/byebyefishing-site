@@ -14,28 +14,43 @@
 
   const categoryNames = {
     accounting: "Accounting",
+    ai: "AI platforms",
     "banks-fr": "French banks",
     "banks-global": "Global banks",
     "big-tech": "Big tech",
     commerce: "Commerce",
     "consumer-credit-fr": "French credit providers",
     crypto: "Crypto",
+    "data-analytics": "Data and analytics",
     delivery: "Delivery",
     developer: "Developer platforms",
+    devices: "Devices and electronics",
     events: "Events and tickets",
+    education: "Education",
+    "food-local": "Food, grocery, and local services",
     forms: "Forms and scheduling",
     "government-fr": "French public services",
     "government-global": "Global public services",
     "health-fr": "Healthcare France",
+    "health-global": "Global healthcare and insurance",
     "hr-finance-ops": "HR and finance operations",
     "insurance-fr": "French insurance",
+    "jobs-real-estate": "Jobs and real estate",
     "mail-providers": "Mail providers",
     "media-gaming": "Media and gaming",
+    "news-reference": "News and reference",
     payments: "Payments",
+    "privacy-security": "Privacy, VPN, and security",
+    "regional-social": "Regional portals and social",
+    "sales-marketing": "Sales and marketing",
     "site-builders": "Site builders",
+    "sports-entertainment": "Sports, tickets, and entertainment",
     "telecom-utilities-fr": "French telecom and utilities",
     "telecom-utilities-global": "Global telecom and utilities",
-    travel: "Travel"
+    "toll-roads-fr": "French toll roads",
+    travel: "Travel",
+    "weather-emergency": "Weather and emergency info",
+    "workplace-saas": "Workplace SaaS"
   };
 
   const data = window.BYEBYEFISHING_RULES;
@@ -46,6 +61,19 @@
   const categoryFilter = document.querySelector("[data-category-filter]");
   const countTarget = document.querySelector("[data-rule-count]");
   const versionTarget = document.querySelector("[data-rule-version]");
+  const indexedRules = data.rules.map((rule) => ({
+    rule,
+    searchText: [
+      rule.name,
+      rule.category,
+      ...rule.aliases,
+      ...rule.allowedDomains,
+      ...(rule.senderDomains || [])
+    ]
+      .map(normalize)
+      .join(" ")
+  }));
+  let renderFrame = 0;
 
   if (countTarget) {
     countTarget.textContent = `${data.count} rules`;
@@ -119,27 +147,20 @@
     return article;
   }
 
-  function ruleMatches(rule, query, category) {
+  function ruleMatches(record, query, category) {
+    const { rule, searchText } = record;
     if (category && rule.category !== category) return false;
     if (!query) return true;
 
-    const haystack = [
-      rule.name,
-      rule.category,
-      ...rule.aliases,
-      ...rule.allowedDomains,
-      ...(rule.senderDomains || [])
-    ]
-      .map(normalize)
-      .join(" ");
-
-    return haystack.includes(query);
+    return searchText.includes(query);
   }
 
   function renderCatalog() {
     const query = normalize(searchInput ? searchInput.value.trim() : "");
     const category = categoryFilter ? categoryFilter.value : "";
-    const matches = data.rules.filter((rule) => ruleMatches(rule, query, category));
+    const matches = indexedRules
+      .filter((record) => ruleMatches(record, query, category))
+      .map((record) => record.rule);
 
     catalog.replaceChildren();
 
@@ -161,8 +182,18 @@
     catalog.append(fragment);
   }
 
-  searchInput?.addEventListener("input", renderCatalog);
-  categoryFilter?.addEventListener("change", renderCatalog);
+  function scheduleRenderCatalog() {
+    if (renderFrame) {
+      cancelAnimationFrame(renderFrame);
+    }
+    renderFrame = requestAnimationFrame(() => {
+      renderFrame = 0;
+      renderCatalog();
+    });
+  }
+
+  searchInput?.addEventListener("input", scheduleRenderCatalog);
+  categoryFilter?.addEventListener("change", scheduleRenderCatalog);
   renderCatalog();
 
   function initInstallGuide() {

@@ -1,7 +1,7 @@
 window.BYEBYEFISHING_RULES = {
-  "version": "2026-05-07.12",
+  "version": "2026-05-10.3",
   "generatedFrom": "src/default-rules.js",
-  "count": 518,
+  "count": 803,
   "rules": [
     {
       "category": "developer",
@@ -2213,6 +2213,54 @@ window.BYEBYEFISHING_RULES = {
       "senderMatchSubdomains": null
     },
     {
+      "category": "government-fr",
+      "id": "critair",
+      "name": "Crit'Air",
+      "aliases": [
+        "crit'air",
+        "critair",
+        "crit air",
+        "certificat qualite de l'air",
+        "certificat-air"
+      ],
+      "allowedDomains": [
+        "certificat-air.gouv.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-fr",
+      "id": "cheque-energie",
+      "name": "Cheque energie",
+      "aliases": [
+        "cheque energie",
+        "chequeenergie",
+        "cheque-energie"
+      ],
+      "allowedDomains": [
+        "chequeenergie.gouv.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-fr",
+      "id": "maprimerenov",
+      "name": "MaPrimeRenov'",
+      "aliases": [
+        "maprimerenov",
+        "ma prime renov",
+        "maprimerénov",
+        "ma prime renov'"
+      ],
+      "allowedDomains": [
+        "maprimerenov.gouv.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
       "category": "government-global",
       "id": "irs",
       "name": "IRS",
@@ -2337,6 +2385,235 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "europa.eu"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-global",
+      "id": "agenzia-entrate",
+      "name": "Agenzia delle Entrate",
+      "aliases": [
+        "agenzia delle entrate",
+        "agenzia entrate"
+      ],
+      "allowedDomains": [
+        "agenziaentrate.gov.it",
+        "agenziaentrate.it"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-global",
+      "id": "inps",
+      "name": "INPS",
+      "aliases": [
+        "inps"
+      ],
+      "allowedDomains": [
+        "inps.it"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-global",
+      "id": "agencia-tributaria",
+      "name": "Agencia Tributaria",
+      "aliases": [
+        "agencia tributaria",
+        "agenciatributaria"
+      ],
+      "allowedDomains": [
+        "agenciatributaria.gob.es",
+        "agenciatributaria.es"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-global",
+      "id": "digid",
+      "name": "DigiD",
+      "aliases": [
+        "digid"
+      ],
+      "allowedDomains": [
+        "digid.nl"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-global",
+      "id": "belastingdienst",
+      "name": "Belastingdienst",
+      "aliases": [
+        "belastingdienst"
+      ],
+      "allowedDomains": [
+        "belastingdienst.nl"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-global",
+      "id": "elster",
+      "name": "ELSTER",
+      "aliases": [
+        "elster",
+        "elster online"
+      ],
+      "allowedDomains": [
+        "elster.de"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "government-global",
+      "id": "belgium-be",
+      "name": "Belgium.be",
+      "aliases": [
+        "belgium.be",
+        "belgique.be"
+      ],
+      "allowedDomains": [
+        "belgium.be"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "sanef",
+      "name": "Sanef",
+      "aliases": [
+        "sanef",
+        "sanef autoroutes"
+      ],
+      "allowedDomains": [
+        "sanef.com",
+        "sanef.fr",
+        "sapn.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "bipandgo",
+      "name": "Bip&Go",
+      "aliases": [
+        "bip&go",
+        "bip and go",
+        "bipandgo"
+      ],
+      "allowedDomains": [
+        "bipandgo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "vinci-autoroutes",
+      "name": "VINCI Autoroutes",
+      "aliases": [
+        "vinci autoroutes",
+        "vinci-autoroutes"
+      ],
+      "allowedDomains": [
+        "vinci-autoroutes.com",
+        "asf.fr",
+        "cofiroute.fr",
+        "escota.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "ulys",
+      "name": "Ulys",
+      "aliases": [
+        "ulys",
+        "ulys vinci"
+      ],
+      "allowedDomains": [
+        "ulys.vinci-autoroutes.com",
+        "vinci-autoroutes.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "aprr",
+      "name": "APRR / AREA",
+      "aliases": [
+        "aprr",
+        "area autoroutes"
+      ],
+      "allowedDomains": [
+        "aprr.fr",
+        "aprr.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "fulli",
+      "name": "Fulli",
+      "aliases": [
+        "fulli"
+      ],
+      "allowedDomains": [
+        "fulli.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "eurotoll",
+      "name": "Eurotoll",
+      "aliases": [
+        "eurotoll"
+      ],
+      "allowedDomains": [
+        "eurotoll.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "atmb",
+      "name": "ATMB",
+      "aliases": [
+        "atmb",
+        "tunnel du mont blanc"
+      ],
+      "allowedDomains": [
+        "atmb.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "toll-roads-fr",
+      "id": "sftrf",
+      "name": "SFTRF",
+      "aliases": [
+        "sftrf",
+        "tunnel du frejus"
+      ],
+      "allowedDomains": [
+        "sftrf.fr"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null
@@ -2984,6 +3261,118 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "evri.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "poste-italiane",
+      "name": "Poste Italiane",
+      "aliases": [
+        "poste italiane",
+        "posteitaliane"
+      ],
+      "allowedDomains": [
+        "poste.it",
+        "posteitaliane.it"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "deutsche-post",
+      "name": "Deutsche Post",
+      "aliases": [
+        "deutsche post"
+      ],
+      "allowedDomains": [
+        "deutschepost.de"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "postnord",
+      "name": "PostNord",
+      "aliases": [
+        "postnord"
+      ],
+      "allowedDomains": [
+        "postnord.com",
+        "postnord.se",
+        "postnord.dk"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "an-post",
+      "name": "An Post",
+      "aliases": [
+        "an post",
+        "anpost"
+      ],
+      "allowedDomains": [
+        "anpost.ie"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "posti",
+      "name": "Posti",
+      "aliases": [
+        "posti"
+      ],
+      "allowedDomains": [
+        "posti.fi"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "swiss-post",
+      "name": "Swiss Post / Die Post",
+      "aliases": [
+        "swiss post",
+        "die post"
+      ],
+      "allowedDomains": [
+        "post.ch"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "oesterreichische-post",
+      "name": "Osterreichische Post",
+      "aliases": [
+        "österreichische post",
+        "osterreichische post"
+      ],
+      "allowedDomains": [
+        "post.at"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "delivery",
+      "id": "ctt",
+      "name": "CTT (Correios de Portugal)",
+      "aliases": [
+        "ctt correios",
+        "correios ctt"
+      ],
+      "allowedDomains": [
+        "ctt.pt"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null
@@ -5242,6 +5631,184 @@ window.BYEBYEFISHING_RULES = {
       "senderMatchSubdomains": null
     },
     {
+      "category": "hr-finance-ops",
+      "id": "greenhouse",
+      "name": "Greenhouse",
+      "aliases": [
+        "greenhouse recruiting"
+      ],
+      "allowedDomains": [
+        "greenhouse.io"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "lever",
+      "name": "Lever",
+      "aliases": [
+        "lever recruiting"
+      ],
+      "allowedDomains": [
+        "lever.co"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "workable",
+      "name": "Workable",
+      "aliases": [
+        "workable recruiting"
+      ],
+      "allowedDomains": [
+        "workable.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "ashby",
+      "name": "Ashby",
+      "aliases": [
+        "ashby recruiting",
+        "ashbyhq"
+      ],
+      "allowedDomains": [
+        "ashbyhq.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "personio",
+      "name": "Personio",
+      "aliases": [
+        "personio"
+      ],
+      "allowedDomains": [
+        "personio.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "hibob",
+      "name": "HiBob",
+      "aliases": [
+        "hibob",
+        "bob hr"
+      ],
+      "allowedDomains": [
+        "hibob.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "remote",
+      "name": "Remote",
+      "aliases": [
+        "remote.com",
+        "remote payroll"
+      ],
+      "allowedDomains": [
+        "remote.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "ramp",
+      "name": "Ramp",
+      "aliases": [
+        "ramp card",
+        "ramp.com"
+      ],
+      "allowedDomains": [
+        "ramp.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "brex",
+      "name": "Brex",
+      "aliases": [
+        "brex"
+      ],
+      "allowedDomains": [
+        "brex.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "bill-com",
+      "name": "BILL",
+      "aliases": [
+        "bill.com",
+        "bill payments"
+      ],
+      "allowedDomains": [
+        "bill.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "expensify",
+      "name": "Expensify",
+      "aliases": [
+        "expensify"
+      ],
+      "allowedDomains": [
+        "expensify.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "navan",
+      "name": "Navan",
+      "aliases": [
+        "navan",
+        "tripactions"
+      ],
+      "allowedDomains": [
+        "navan.com",
+        "tripactions.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "hr-finance-ops",
+      "id": "sap-concur",
+      "name": "SAP Concur",
+      "aliases": [
+        "sap concur",
+        "concur"
+      ],
+      "allowedDomains": [
+        "concur.com",
+        "concursolutions.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
       "category": "health-fr",
       "id": "doctolib",
       "name": "Doctolib",
@@ -5301,6 +5868,112 @@ window.BYEBYEFISHING_RULES = {
         "airbnb.it",
         "airbnb.ca",
         "airbnb.com.au"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "thefork",
+      "name": "TheFork",
+      "aliases": [
+        "thefork",
+        "la fourchette",
+        "lafourchette"
+      ],
+      "allowedDomains": [
+        "thefork.com",
+        "thefork.fr",
+        "lafourchette.com"
+      ],
+      "senderDomains": [
+        "thefork.com",
+        "thefork.fr",
+        "email.thefork.com"
+      ],
+      "senderMatchSubdomains": false
+    },
+    {
+      "category": "travel",
+      "id": "opentable",
+      "name": "OpenTable",
+      "aliases": [
+        "opentable",
+        "open table"
+      ],
+      "allowedDomains": [
+        "opentable.com",
+        "opentable.co.uk",
+        "opentable.fr",
+        "opentable.de",
+        "opentable.es",
+        "opentable.it",
+        "opentable.nl",
+        "opentable.ca",
+        "opentable.com.au",
+        "opentable.jp",
+        "opentable.ie",
+        "opentable.sg",
+        "opentable.hk",
+        "opentable.com.mx",
+        "opentable.ae",
+        "opentable.co.th",
+        "opentable.com.tw"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "resy",
+      "name": "Resy",
+      "aliases": [
+        "resy"
+      ],
+      "allowedDomains": [
+        "resy.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "tock",
+      "name": "Tock",
+      "aliases": [
+        "tock",
+        "exploretock"
+      ],
+      "allowedDomains": [
+        "exploretock.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "sevenrooms",
+      "name": "SevenRooms",
+      "aliases": [
+        "sevenrooms",
+        "seven rooms"
+      ],
+      "allowedDomains": [
+        "sevenrooms.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "zenchef",
+      "name": "Zenchef",
+      "aliases": [
+        "zenchef",
+        "zenchef app"
+      ],
+      "allowedDomains": [
+        "zenchef.com"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null
@@ -5459,6 +6132,61 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "iledefrance-mobilites.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "telepass",
+      "name": "Telepass",
+      "aliases": [
+        "telepass"
+      ],
+      "allowedDomains": [
+        "telepass.com",
+        "telepass.it"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "asfinag",
+      "name": "ASFINAG",
+      "aliases": [
+        "asfinag"
+      ],
+      "allowedDomains": [
+        "asfinag.at"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "via-verde",
+      "name": "Via Verde",
+      "aliases": [
+        "via verde",
+        "viaverde"
+      ],
+      "allowedDomains": [
+        "viaverde.pt"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "travel",
+      "id": "toll-collect",
+      "name": "Toll Collect",
+      "aliases": [
+        "toll collect",
+        "toll-collect"
+      ],
+      "allowedDomains": [
+        "toll-collect.de"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null
@@ -6148,6 +6876,778 @@ window.BYEBYEFISHING_RULES = {
       "senderMatchSubdomains": null
     },
     {
+      "category": "privacy-security",
+      "id": "expressvpn",
+      "name": "ExpressVPN",
+      "aliases": [
+        "expressvpn",
+        "express vpn"
+      ],
+      "allowedDomains": [
+        "expressvpn.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "nordvpn",
+      "name": "NordVPN",
+      "aliases": [
+        "nordvpn",
+        "nord vpn"
+      ],
+      "allowedDomains": [
+        "nordvpn.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "surfshark",
+      "name": "Surfshark",
+      "aliases": [
+        "surfshark"
+      ],
+      "allowedDomains": [
+        "surfshark.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "proton-vpn",
+      "name": "Proton VPN",
+      "aliases": [
+        "proton vpn",
+        "protonvpn"
+      ],
+      "allowedDomains": [
+        "protonvpn.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "cyberghost-vpn",
+      "name": "CyberGhost VPN",
+      "aliases": [
+        "cyberghost",
+        "cyberghost vpn"
+      ],
+      "allowedDomains": [
+        "cyberghostvpn.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "private-internet-access",
+      "name": "Private Internet Access",
+      "aliases": [
+        "private internet access",
+        "pia vpn"
+      ],
+      "allowedDomains": [
+        "privateinternetaccess.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "mullvad-vpn",
+      "name": "Mullvad VPN",
+      "aliases": [
+        "mullvad",
+        "mullvad vpn"
+      ],
+      "allowedDomains": [
+        "mullvad.net"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "tunnelbear",
+      "name": "TunnelBear",
+      "aliases": [
+        "tunnelbear",
+        "tunnel bear"
+      ],
+      "allowedDomains": [
+        "tunnelbear.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "windscribe",
+      "name": "Windscribe",
+      "aliases": [
+        "windscribe"
+      ],
+      "allowedDomains": [
+        "windscribe.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "hotspot-shield",
+      "name": "Hotspot Shield",
+      "aliases": [
+        "hotspot shield",
+        "hotspotshield"
+      ],
+      "allowedDomains": [
+        "hotspotshield.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "ipvanish",
+      "name": "IPVanish",
+      "aliases": [
+        "ipvanish",
+        "ip vanish"
+      ],
+      "allowedDomains": [
+        "ipvanish.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "hide-me",
+      "name": "hide.me",
+      "aliases": [
+        "hide.me",
+        "hide me"
+      ],
+      "allowedDomains": [
+        "hide.me"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "ivpn",
+      "name": "IVPN",
+      "aliases": [
+        "ivpn"
+      ],
+      "allowedDomains": [
+        "ivpn.net"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "vyprvpn",
+      "name": "VyprVPN",
+      "aliases": [
+        "vyprvpn",
+        "vypr vpn"
+      ],
+      "allowedDomains": [
+        "vyprvpn.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "mozilla-vpn",
+      "name": "Mozilla VPN",
+      "aliases": [
+        "mozilla vpn"
+      ],
+      "allowedDomains": [
+        "mozilla.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "cloudflare-warp",
+      "name": "Cloudflare WARP / 1.1.1.1",
+      "aliases": [
+        "cloudflare warp",
+        "warp vpn",
+        "1.1.1.1"
+      ],
+      "allowedDomains": [
+        "1.1.1.1",
+        "one.one.one.one",
+        "cloudflare.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "tor-project",
+      "name": "Tor Project",
+      "aliases": [
+        "tor project",
+        "tor browser",
+        "tor"
+      ],
+      "allowedDomains": [
+        "torproject.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "webex",
+      "name": "Webex",
+      "aliases": [
+        "webex",
+        "cisco webex"
+      ],
+      "allowedDomains": [
+        "webex.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "ringcentral",
+      "name": "RingCentral",
+      "aliases": [
+        "ringcentral",
+        "ring central"
+      ],
+      "allowedDomains": [
+        "ringcentral.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "goto",
+      "name": "GoTo",
+      "aliases": [
+        "goto meeting",
+        "goto webinar",
+        "gotomeeting"
+      ],
+      "allowedDomains": [
+        "goto.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "grammarly",
+      "name": "Grammarly",
+      "aliases": [
+        "grammarly"
+      ],
+      "allowedDomains": [
+        "grammarly.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "smartsheet",
+      "name": "Smartsheet",
+      "aliases": [
+        "smartsheet"
+      ],
+      "allowedDomains": [
+        "smartsheet.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "wrike",
+      "name": "Wrike",
+      "aliases": [
+        "wrike"
+      ],
+      "allowedDomains": [
+        "wrike.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "productboard",
+      "name": "Productboard",
+      "aliases": [
+        "productboard"
+      ],
+      "allowedDomains": [
+        "productboard.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "workplace-saas",
+      "id": "aha",
+      "name": "Aha!",
+      "aliases": [
+        "aha roadmap",
+        "aha.io"
+      ],
+      "allowedDomains": [
+        "aha.io"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "aliases": [
+        "pipedrive"
+      ],
+      "allowedDomains": [
+        "pipedrive.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "freshworks",
+      "name": "Freshworks / Freshdesk",
+      "aliases": [
+        "freshworks",
+        "freshdesk"
+      ],
+      "allowedDomains": [
+        "freshworks.com",
+        "freshdesk.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "help-scout",
+      "name": "Help Scout",
+      "aliases": [
+        "help scout",
+        "helpscout"
+      ],
+      "allowedDomains": [
+        "helpscout.com",
+        "helpscoutdocs.com",
+        "helpscout.net"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "front",
+      "name": "Front",
+      "aliases": [
+        "front app",
+        "front.com"
+      ],
+      "allowedDomains": [
+        "front.com",
+        "frontapp.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "customer-io",
+      "name": "Customer.io",
+      "aliases": [
+        "customer.io",
+        "customer io"
+      ],
+      "allowedDomains": [
+        "customer.io"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "braze",
+      "name": "Braze",
+      "aliases": [
+        "braze"
+      ],
+      "allowedDomains": [
+        "braze.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "klaviyo",
+      "name": "Klaviyo",
+      "aliases": [
+        "klaviyo"
+      ],
+      "allowedDomains": [
+        "klaviyo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "activecampaign",
+      "name": "ActiveCampaign",
+      "aliases": [
+        "activecampaign",
+        "active campaign"
+      ],
+      "allowedDomains": [
+        "activecampaign.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "constant-contact",
+      "name": "Constant Contact",
+      "aliases": [
+        "constant contact"
+      ],
+      "allowedDomains": [
+        "constantcontact.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "brevo",
+      "name": "Brevo / Sendinblue",
+      "aliases": [
+        "brevo",
+        "sendinblue"
+      ],
+      "allowedDomains": [
+        "brevo.com",
+        "sendinblue.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "mailerlite",
+      "name": "MailerLite",
+      "aliases": [
+        "mailerlite",
+        "mailer lite"
+      ],
+      "allowedDomains": [
+        "mailerlite.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sales-marketing",
+      "id": "marketo",
+      "name": "Adobe Marketo Engage",
+      "aliases": [
+        "marketo"
+      ],
+      "allowedDomains": [
+        "marketo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "tableau",
+      "name": "Tableau",
+      "aliases": [
+        "tableau"
+      ],
+      "allowedDomains": [
+        "tableau.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "power-bi",
+      "name": "Microsoft Power BI",
+      "aliases": [
+        "power bi",
+        "powerbi"
+      ],
+      "allowedDomains": [
+        "powerbi.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "looker",
+      "name": "Looker",
+      "aliases": [
+        "looker"
+      ],
+      "allowedDomains": [
+        "looker.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "snowflake",
+      "name": "Snowflake",
+      "aliases": [
+        "snowflake"
+      ],
+      "allowedDomains": [
+        "snowflake.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "databricks",
+      "name": "Databricks",
+      "aliases": [
+        "databricks"
+      ],
+      "allowedDomains": [
+        "databricks.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "dbt",
+      "name": "dbt Labs",
+      "aliases": [
+        "dbt",
+        "dbt labs",
+        "dbt cloud"
+      ],
+      "allowedDomains": [
+        "getdbt.com",
+        "dbtlabs.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "mixpanel",
+      "name": "Mixpanel",
+      "aliases": [
+        "mixpanel"
+      ],
+      "allowedDomains": [
+        "mixpanel.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "amplitude",
+      "name": "Amplitude",
+      "aliases": [
+        "amplitude analytics"
+      ],
+      "allowedDomains": [
+        "amplitude.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "data-analytics",
+      "id": "hotjar",
+      "name": "Hotjar",
+      "aliases": [
+        "hotjar"
+      ],
+      "allowedDomains": [
+        "hotjar.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "duo",
+      "name": "Duo Security",
+      "aliases": [
+        "duo security",
+        "duo.com"
+      ],
+      "allowedDomains": [
+        "duo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "dashlane",
+      "name": "Dashlane",
+      "aliases": [
+        "dashlane"
+      ],
+      "allowedDomains": [
+        "dashlane.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "keeper",
+      "name": "Keeper",
+      "aliases": [
+        "keeper security",
+        "keeper password"
+      ],
+      "allowedDomains": [
+        "keepersecurity.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "nordpass",
+      "name": "NordPass",
+      "aliases": [
+        "nordpass",
+        "nord pass"
+      ],
+      "allowedDomains": [
+        "nordpass.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "knowbe4",
+      "name": "KnowBe4",
+      "aliases": [
+        "knowbe4",
+        "know be4"
+      ],
+      "allowedDomains": [
+        "knowbe4.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "crowdstrike",
+      "name": "CrowdStrike",
+      "aliases": [
+        "crowdstrike"
+      ],
+      "allowedDomains": [
+        "crowdstrike.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "jamf",
+      "name": "Jamf",
+      "aliases": [
+        "jamf"
+      ],
+      "allowedDomains": [
+        "jamf.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "jumpcloud",
+      "name": "JumpCloud",
+      "aliases": [
+        "jumpcloud",
+        "jump cloud"
+      ],
+      "allowedDomains": [
+        "jumpcloud.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "zscaler",
+      "name": "Zscaler",
+      "aliases": [
+        "zscaler"
+      ],
+      "allowedDomains": [
+        "zscaler.com",
+        "zscaler.net"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "privacy-security",
+      "id": "tenable",
+      "name": "Tenable",
+      "aliases": [
+        "tenable"
+      ],
+      "allowedDomains": [
+        "tenable.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
       "category": "big-tech",
       "id": "microsoft",
       "name": "Microsoft",
@@ -6156,15 +7656,20 @@ window.BYEBYEFISHING_RULES = {
         "outlook",
         "onedrive",
         "bing",
-        "bing maps"
+        "bing maps",
+        "microsoft copilot",
+        "microsoft teams"
       ],
       "allowedDomains": [
         "microsoft.com",
         "accountprotection.microsoft.com",
         "bing.com",
+        "microsoft365.com",
+        "microsoftonline.com",
         "outlook.com",
         "office.com",
         "office365.com",
+        "sharepoint.com",
         "live.com",
         "onedrive.com"
       ],
@@ -6179,7 +7684,10 @@ window.BYEBYEFISHING_RULES = {
         "google",
         "gmail",
         "youtube",
-        "google maps"
+        "google maps",
+        "google gemini",
+        "gemini",
+        "google classroom"
       ],
       "allowedDomains": [
         "google.com",
@@ -6513,7 +8021,8 @@ window.BYEBYEFISHING_RULES = {
       "id": "figma",
       "name": "Figma",
       "aliases": [
-        "figma"
+        "figma",
+        "figjam"
       ],
       "allowedDomains": [
         "figma.com"
@@ -6544,6 +8053,35 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "miro.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "mural",
+      "name": "Mural",
+      "aliases": [
+        "mural board",
+        "mural.co"
+      ],
+      "allowedDomains": [
+        "mural.co"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "lucid",
+      "name": "Lucid",
+      "aliases": [
+        "lucidchart",
+        "lucidspark",
+        "lucid.co"
+      ],
+      "allowedDomains": [
+        "lucid.co"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null
@@ -6598,6 +8136,114 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "monday.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "clickup",
+      "name": "ClickUp",
+      "aliases": [
+        "clickup",
+        "click up"
+      ],
+      "allowedDomains": [
+        "clickup.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "coda",
+      "name": "Coda",
+      "aliases": [
+        "coda.io",
+        "coda docs"
+      ],
+      "allowedDomains": [
+        "coda.io"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "basecamp",
+      "name": "Basecamp",
+      "aliases": [
+        "basecamp"
+      ],
+      "allowedDomains": [
+        "basecamp.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "loom",
+      "name": "Loom",
+      "aliases": [
+        "loom video",
+        "loom.com"
+      ],
+      "allowedDomains": [
+        "loom.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "todoist",
+      "name": "Todoist",
+      "aliases": [
+        "todoist"
+      ],
+      "allowedDomains": [
+        "todoist.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "evernote",
+      "name": "Evernote",
+      "aliases": [
+        "evernote"
+      ],
+      "allowedDomains": [
+        "evernote.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "zapier",
+      "name": "Zapier",
+      "aliases": [
+        "zapier"
+      ],
+      "allowedDomains": [
+        "zapier.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "big-tech",
+      "id": "make",
+      "name": "Make",
+      "aliases": [
+        "make.com",
+        "make automation"
+      ],
+      "allowedDomains": [
+        "make.com"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null
@@ -7095,6 +8741,2280 @@ window.BYEBYEFISHING_RULES = {
       "senderMatchSubdomains": null
     },
     {
+      "category": "ai",
+      "id": "perplexity",
+      "name": "Perplexity",
+      "aliases": [
+        "perplexity",
+        "perplexity ai"
+      ],
+      "allowedDomains": [
+        "perplexity.ai"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "aliases": [
+        "deepseek",
+        "deepseek ai"
+      ],
+      "allowedDomains": [
+        "deepseek.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "character-ai",
+      "name": "Character.AI",
+      "aliases": [
+        "character.ai",
+        "character ai"
+      ],
+      "allowedDomains": [
+        "character.ai"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "quillbot",
+      "name": "QuillBot",
+      "aliases": [
+        "quillbot",
+        "quill bot"
+      ],
+      "allowedDomains": [
+        "quillbot.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "poe",
+      "name": "Poe",
+      "aliases": [
+        "poe.com",
+        "poe ai"
+      ],
+      "allowedDomains": [
+        "poe.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "mistral-ai",
+      "name": "Mistral AI",
+      "aliases": [
+        "mistral ai",
+        "chat mistral"
+      ],
+      "allowedDomains": [
+        "mistral.ai"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "hugging-face",
+      "name": "Hugging Face",
+      "aliases": [
+        "hugging face",
+        "huggingface"
+      ],
+      "allowedDomains": [
+        "huggingface.co"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "midjourney",
+      "name": "Midjourney",
+      "aliases": [
+        "midjourney"
+      ],
+      "allowedDomains": [
+        "midjourney.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "aliases": [
+        "elevenlabs",
+        "eleven labs"
+      ],
+      "allowedDomains": [
+        "elevenlabs.io"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "runway",
+      "name": "Runway",
+      "aliases": [
+        "runwayml",
+        "runway ai"
+      ],
+      "allowedDomains": [
+        "runwayml.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "ai",
+      "id": "replicate",
+      "name": "Replicate",
+      "aliases": [
+        "replicate ai",
+        "replicate.com"
+      ],
+      "allowedDomains": [
+        "replicate.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "coursera",
+      "name": "Coursera",
+      "aliases": [
+        "coursera"
+      ],
+      "allowedDomains": [
+        "coursera.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "udemy",
+      "name": "Udemy",
+      "aliases": [
+        "udemy"
+      ],
+      "allowedDomains": [
+        "udemy.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "khan-academy",
+      "name": "Khan Academy",
+      "aliases": [
+        "khan academy"
+      ],
+      "allowedDomains": [
+        "khanacademy.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "duolingo",
+      "name": "Duolingo",
+      "aliases": [
+        "duolingo"
+      ],
+      "allowedDomains": [
+        "duolingo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "edx",
+      "name": "edX",
+      "aliases": [
+        "edx",
+        "edx.org"
+      ],
+      "allowedDomains": [
+        "edx.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "instructure-canvas",
+      "name": "Canvas / Instructure",
+      "aliases": [
+        "canvas lms",
+        "instructure"
+      ],
+      "allowedDomains": [
+        "instructure.com",
+        "canvaslms.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "moodle",
+      "name": "Moodle",
+      "aliases": [
+        "moodle"
+      ],
+      "allowedDomains": [
+        "moodle.org",
+        "moodlecloud.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "blackboard",
+      "name": "Blackboard",
+      "aliases": [
+        "blackboard"
+      ],
+      "allowedDomains": [
+        "blackboard.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "pearson",
+      "name": "Pearson",
+      "aliases": [
+        "pearson education",
+        "pearsonvue"
+      ],
+      "allowedDomains": [
+        "pearson.com",
+        "pearsonvue.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "chegg",
+      "name": "Chegg",
+      "aliases": [
+        "chegg"
+      ],
+      "allowedDomains": [
+        "chegg.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "quizlet",
+      "name": "Quizlet",
+      "aliases": [
+        "quizlet"
+      ],
+      "allowedDomains": [
+        "quizlet.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "schoology",
+      "name": "Schoology",
+      "aliases": [
+        "schoology"
+      ],
+      "allowedDomains": [
+        "schoology.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "clever",
+      "name": "Clever",
+      "aliases": [
+        "clever.com",
+        "clever school"
+      ],
+      "allowedDomains": [
+        "clever.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "classdojo",
+      "name": "ClassDojo",
+      "aliases": [
+        "classdojo",
+        "class dojo"
+      ],
+      "allowedDomains": [
+        "classdojo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "kahoot",
+      "name": "Kahoot!",
+      "aliases": [
+        "kahoot"
+      ],
+      "allowedDomains": [
+        "kahoot.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "education",
+      "id": "turnitin",
+      "name": "Turnitin",
+      "aliases": [
+        "turnitin"
+      ],
+      "allowedDomains": [
+        "turnitin.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "wikipedia",
+      "name": "Wikipedia / Wikimedia",
+      "aliases": [
+        "wikipedia",
+        "wikimedia"
+      ],
+      "allowedDomains": [
+        "wikipedia.org",
+        "wikimedia.org",
+        "wikimediafoundation.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "reddit",
+      "name": "Reddit",
+      "aliases": [
+        "reddit"
+      ],
+      "allowedDomains": [
+        "reddit.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "quora",
+      "name": "Quora",
+      "aliases": [
+        "quora"
+      ],
+      "allowedDomains": [
+        "quora.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "medium",
+      "name": "Medium",
+      "aliases": [
+        "medium.com",
+        "medium publication"
+      ],
+      "allowedDomains": [
+        "medium.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "substack",
+      "name": "Substack",
+      "aliases": [
+        "substack"
+      ],
+      "allowedDomains": [
+        "substack.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "bbc",
+      "name": "BBC",
+      "aliases": [
+        "bbc",
+        "bbc news"
+      ],
+      "allowedDomains": [
+        "bbc.com",
+        "bbc.co.uk"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "cnn",
+      "name": "CNN",
+      "aliases": [
+        "cnn"
+      ],
+      "allowedDomains": [
+        "cnn.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "nytimes",
+      "name": "The New York Times",
+      "aliases": [
+        "new york times",
+        "nytimes"
+      ],
+      "allowedDomains": [
+        "nytimes.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "washington-post",
+      "name": "The Washington Post",
+      "aliases": [
+        "washington post"
+      ],
+      "allowedDomains": [
+        "washingtonpost.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "the-guardian",
+      "name": "The Guardian",
+      "aliases": [
+        "the guardian"
+      ],
+      "allowedDomains": [
+        "theguardian.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "reuters",
+      "name": "Reuters",
+      "aliases": [
+        "reuters"
+      ],
+      "allowedDomains": [
+        "reuters.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "associated-press",
+      "name": "Associated Press",
+      "aliases": [
+        "associated press",
+        "ap news"
+      ],
+      "allowedDomains": [
+        "apnews.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "le-monde",
+      "name": "Le Monde",
+      "aliases": [
+        "le monde"
+      ],
+      "allowedDomains": [
+        "lemonde.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "le-figaro",
+      "name": "Le Figaro",
+      "aliases": [
+        "le figaro"
+      ],
+      "allowedDomains": [
+        "lefigaro.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "franceinfo",
+      "name": "Franceinfo",
+      "aliases": [
+        "franceinfo"
+      ],
+      "allowedDomains": [
+        "franceinfo.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "npr",
+      "name": "NPR",
+      "aliases": [
+        "npr"
+      ],
+      "allowedDomains": [
+        "npr.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "aliases": [
+        "bloomberg"
+      ],
+      "allowedDomains": [
+        "bloomberg.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "news-reference",
+      "id": "forbes",
+      "name": "Forbes",
+      "aliases": [
+        "forbes"
+      ],
+      "allowedDomains": [
+        "forbes.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "baidu",
+      "name": "Baidu",
+      "aliases": [
+        "baidu"
+      ],
+      "allowedDomains": [
+        "baidu.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "naver",
+      "name": "Naver",
+      "aliases": [
+        "naver"
+      ],
+      "allowedDomains": [
+        "naver.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "yandex",
+      "name": "Yandex",
+      "aliases": [
+        "yandex"
+      ],
+      "allowedDomains": [
+        "yandex.com",
+        "yandex.ru",
+        "ya.ru"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "mail-ru",
+      "name": "Mail.ru",
+      "aliases": [
+        "mail.ru",
+        "mail ru"
+      ],
+      "allowedDomains": [
+        "mail.ru"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "vk",
+      "name": "VK",
+      "aliases": [
+        "vk.com",
+        "vkontakte"
+      ],
+      "allowedDomains": [
+        "vk.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "odnoklassniki",
+      "name": "Odnoklassniki",
+      "aliases": [
+        "ok.ru",
+        "odnoklassniki"
+      ],
+      "allowedDomains": [
+        "ok.ru"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "telegram",
+      "name": "Telegram",
+      "aliases": [
+        "telegram",
+        "telegram.org"
+      ],
+      "allowedDomains": [
+        "telegram.org",
+        "t.me"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "wechat",
+      "name": "WeChat / Weixin",
+      "aliases": [
+        "wechat",
+        "weixin"
+      ],
+      "allowedDomains": [
+        "wechat.com",
+        "weixin.qq.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "qq",
+      "name": "QQ",
+      "aliases": [
+        "qq.com",
+        "tencent qq"
+      ],
+      "allowedDomains": [
+        "qq.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "weibo",
+      "name": "Weibo",
+      "aliases": [
+        "weibo"
+      ],
+      "allowedDomains": [
+        "weibo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "line",
+      "name": "LINE",
+      "aliases": [
+        "line.me",
+        "line messenger"
+      ],
+      "allowedDomains": [
+        "line.me"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "kakao",
+      "name": "KakaoTalk",
+      "aliases": [
+        "kakaotalk",
+        "kakao talk"
+      ],
+      "allowedDomains": [
+        "kakao.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "pinterest",
+      "name": "Pinterest",
+      "aliases": [
+        "pinterest"
+      ],
+      "allowedDomains": [
+        "pinterest.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "threads",
+      "name": "Threads",
+      "aliases": [
+        "threads.net",
+        "meta threads"
+      ],
+      "allowedDomains": [
+        "threads.net"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "regional-social",
+      "id": "bluesky",
+      "name": "Bluesky",
+      "aliases": [
+        "bluesky social",
+        "bsky.app"
+      ],
+      "allowedDomains": [
+        "bsky.app",
+        "bsky.social"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "indeed",
+      "name": "Indeed",
+      "aliases": [
+        "indeed jobs",
+        "indeed.com"
+      ],
+      "allowedDomains": [
+        "indeed.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "glassdoor",
+      "name": "Glassdoor",
+      "aliases": [
+        "glassdoor"
+      ],
+      "allowedDomains": [
+        "glassdoor.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "monster",
+      "name": "Monster",
+      "aliases": [
+        "monster jobs"
+      ],
+      "allowedDomains": [
+        "monster.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "ziprecruiter",
+      "name": "ZipRecruiter",
+      "aliases": [
+        "ziprecruiter"
+      ],
+      "allowedDomains": [
+        "ziprecruiter.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "welcome-to-the-jungle",
+      "name": "Welcome to the Jungle",
+      "aliases": [
+        "welcome to the jungle"
+      ],
+      "allowedDomains": [
+        "welcometothejungle.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "smartrecruiters",
+      "name": "SmartRecruiters",
+      "aliases": [
+        "smartrecruiters"
+      ],
+      "allowedDomains": [
+        "smartrecruiters.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "taleo",
+      "name": "Taleo / Oracle Recruiting",
+      "aliases": [
+        "taleo",
+        "oracle recruiting"
+      ],
+      "allowedDomains": [
+        "taleo.net",
+        "oraclecloud.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "zillow",
+      "name": "Zillow",
+      "aliases": [
+        "zillow"
+      ],
+      "allowedDomains": [
+        "zillow.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "realtor-com",
+      "name": "Realtor.com",
+      "aliases": [
+        "realtor.com",
+        "realtor"
+      ],
+      "allowedDomains": [
+        "realtor.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "redfin",
+      "name": "Redfin",
+      "aliases": [
+        "redfin"
+      ],
+      "allowedDomains": [
+        "redfin.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "seloger",
+      "name": "SeLoger",
+      "aliases": [
+        "seloger",
+        "se loger"
+      ],
+      "allowedDomains": [
+        "seloger.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "bienici",
+      "name": "Bien'ici",
+      "aliases": [
+        "bienici",
+        "bien ici"
+      ],
+      "allowedDomains": [
+        "bienici.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "pap",
+      "name": "PAP.fr",
+      "aliases": [
+        "pap.fr",
+        "particulier a particulier"
+      ],
+      "allowedDomains": [
+        "pap.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "rightmove",
+      "name": "Rightmove",
+      "aliases": [
+        "rightmove"
+      ],
+      "allowedDomains": [
+        "rightmove.co.uk"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "zoopla",
+      "name": "Zoopla",
+      "aliases": [
+        "zoopla"
+      ],
+      "allowedDomains": [
+        "zoopla.co.uk"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "idealista",
+      "name": "Idealista",
+      "aliases": [
+        "idealista"
+      ],
+      "allowedDomains": [
+        "idealista.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "immobiliare-it",
+      "name": "Immobiliare.it",
+      "aliases": [
+        "immobiliare.it"
+      ],
+      "allowedDomains": [
+        "immobiliare.it"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "immoscout24",
+      "name": "ImmoScout24",
+      "aliases": [
+        "immoscout24",
+        "immobilienscout24"
+      ],
+      "allowedDomains": [
+        "immobilienscout24.de",
+        "immoscout24.ch"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "domain-au",
+      "name": "Domain Australia",
+      "aliases": [
+        "domain.com.au",
+        "domain real estate"
+      ],
+      "allowedDomains": [
+        "domain.com.au"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "apartments-com",
+      "name": "Apartments.com",
+      "aliases": [
+        "apartments.com"
+      ],
+      "allowedDomains": [
+        "apartments.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "yelp",
+      "name": "Yelp",
+      "aliases": [
+        "yelp"
+      ],
+      "allowedDomains": [
+        "yelp.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "tripadvisor",
+      "name": "Tripadvisor",
+      "aliases": [
+        "tripadvisor",
+        "trip advisor"
+      ],
+      "allowedDomains": [
+        "tripadvisor.com",
+        "tripadvisor.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "grubhub",
+      "name": "Grubhub",
+      "aliases": [
+        "grubhub",
+        "grub hub"
+      ],
+      "allowedDomains": [
+        "grubhub.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "postmates",
+      "name": "Postmates",
+      "aliases": [
+        "postmates"
+      ],
+      "allowedDomains": [
+        "postmates.com",
+        "uber.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "too-good-to-go",
+      "name": "Too Good To Go",
+      "aliases": [
+        "too good to go"
+      ],
+      "allowedDomains": [
+        "toogoodtogo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "hellofresh",
+      "name": "HelloFresh",
+      "aliases": [
+        "hellofresh",
+        "hello fresh"
+      ],
+      "allowedDomains": [
+        "hellofresh.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "tesco",
+      "name": "Tesco",
+      "aliases": [
+        "tesco"
+      ],
+      "allowedDomains": [
+        "tesco.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "sainsburys",
+      "name": "Sainsbury's",
+      "aliases": [
+        "sainsburys",
+        "sainsbury"
+      ],
+      "allowedDomains": [
+        "sainsburys.co.uk"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "kroger",
+      "name": "Kroger",
+      "aliases": [
+        "kroger"
+      ],
+      "allowedDomains": [
+        "kroger.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "aldi",
+      "name": "ALDI",
+      "aliases": [
+        "aldi"
+      ],
+      "allowedDomains": [
+        "aldi.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "ocado",
+      "name": "Ocado",
+      "aliases": [
+        "ocado"
+      ],
+      "allowedDomains": [
+        "ocado.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "whole-foods",
+      "name": "Whole Foods Market",
+      "aliases": [
+        "whole foods"
+      ],
+      "allowedDomains": [
+        "wholefoodsmarket.com",
+        "amazon.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "waitrose",
+      "name": "Waitrose",
+      "aliases": [
+        "waitrose"
+      ],
+      "allowedDomains": [
+        "waitrose.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "thumbtack",
+      "name": "Thumbtack",
+      "aliases": [
+        "thumbtack"
+      ],
+      "allowedDomains": [
+        "thumbtack.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "angi",
+      "name": "Angi",
+      "aliases": [
+        "angi.com",
+        "angi services"
+      ],
+      "allowedDomains": [
+        "angi.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "taskrabbit",
+      "name": "Taskrabbit",
+      "aliases": [
+        "taskrabbit",
+        "task rabbit"
+      ],
+      "allowedDomains": [
+        "taskrabbit.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "food-local",
+      "id": "nextdoor",
+      "name": "Nextdoor",
+      "aliases": [
+        "nextdoor"
+      ],
+      "allowedDomains": [
+        "nextdoor.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "unitedhealthcare",
+      "name": "UnitedHealthcare",
+      "aliases": [
+        "unitedhealthcare",
+        "united healthcare"
+      ],
+      "allowedDomains": [
+        "uhc.com",
+        "unitedhealthcare.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "optum",
+      "name": "Optum",
+      "aliases": [
+        "optum"
+      ],
+      "allowedDomains": [
+        "optum.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "kaiser-permanente",
+      "name": "Kaiser Permanente",
+      "aliases": [
+        "kaiser permanente"
+      ],
+      "allowedDomains": [
+        "kp.org",
+        "kaiserpermanente.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "aetna",
+      "name": "Aetna",
+      "aliases": [
+        "aetna"
+      ],
+      "allowedDomains": [
+        "aetna.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "cigna",
+      "name": "Cigna",
+      "aliases": [
+        "cigna"
+      ],
+      "allowedDomains": [
+        "cigna.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "blue-cross-blue-shield",
+      "name": "Blue Cross Blue Shield",
+      "aliases": [
+        "blue cross blue shield",
+        "bcbs"
+      ],
+      "allowedDomains": [
+        "bcbs.com",
+        "bluecrossblueshield.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "anthem",
+      "name": "Anthem / Elevance Health",
+      "aliases": [
+        "anthem insurance",
+        "elevance health"
+      ],
+      "allowedDomains": [
+        "anthem.com",
+        "elevancehealth.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "humana",
+      "name": "Humana",
+      "aliases": [
+        "humana"
+      ],
+      "allowedDomains": [
+        "humana.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "bupa",
+      "name": "Bupa",
+      "aliases": [
+        "bupa"
+      ],
+      "allowedDomains": [
+        "bupa.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "nhs",
+      "name": "NHS",
+      "aliases": [
+        "nhs",
+        "nhs uk"
+      ],
+      "allowedDomains": [
+        "nhs.uk"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "cvs-health",
+      "name": "CVS Health",
+      "aliases": [
+        "cvs health",
+        "cvs pharmacy"
+      ],
+      "allowedDomains": [
+        "cvs.com",
+        "cvshealth.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "walgreens",
+      "name": "Walgreens",
+      "aliases": [
+        "walgreens"
+      ],
+      "allowedDomains": [
+        "walgreens.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "goodrx",
+      "name": "GoodRx",
+      "aliases": [
+        "goodrx",
+        "good rx"
+      ],
+      "allowedDomains": [
+        "goodrx.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "zocdoc",
+      "name": "Zocdoc",
+      "aliases": [
+        "zocdoc"
+      ],
+      "allowedDomains": [
+        "zocdoc.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "mychart",
+      "name": "MyChart",
+      "aliases": [
+        "mychart",
+        "epic mychart"
+      ],
+      "allowedDomains": [
+        "mychart.com",
+        "epic.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "mayo-clinic",
+      "name": "Mayo Clinic",
+      "aliases": [
+        "mayo clinic"
+      ],
+      "allowedDomains": [
+        "mayoclinic.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "cleveland-clinic",
+      "name": "Cleveland Clinic",
+      "aliases": [
+        "cleveland clinic"
+      ],
+      "allowedDomains": [
+        "clevelandclinic.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "webmd",
+      "name": "WebMD",
+      "aliases": [
+        "webmd"
+      ],
+      "allowedDomains": [
+        "webmd.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "health-global",
+      "id": "healthline",
+      "name": "Healthline",
+      "aliases": [
+        "healthline"
+      ],
+      "allowedDomains": [
+        "healthline.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "samsung",
+      "name": "Samsung",
+      "aliases": [
+        "samsung"
+      ],
+      "allowedDomains": [
+        "samsung.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "aliases": [
+        "xiaomi"
+      ],
+      "allowedDomains": [
+        "mi.com",
+        "xiaomi.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "huawei",
+      "name": "Huawei",
+      "aliases": [
+        "huawei"
+      ],
+      "allowedDomains": [
+        "huawei.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "sony",
+      "name": "Sony",
+      "aliases": [
+        "sony"
+      ],
+      "allowedDomains": [
+        "sony.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "lg",
+      "name": "LG",
+      "aliases": [
+        "lg.com",
+        "lg electronics"
+      ],
+      "allowedDomains": [
+        "lg.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "hp",
+      "name": "HP",
+      "aliases": [
+        "hp.com",
+        "hewlett packard"
+      ],
+      "allowedDomains": [
+        "hp.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "dell",
+      "name": "Dell",
+      "aliases": [
+        "dell"
+      ],
+      "allowedDomains": [
+        "dell.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "lenovo",
+      "name": "Lenovo",
+      "aliases": [
+        "lenovo"
+      ],
+      "allowedDomains": [
+        "lenovo.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "garmin",
+      "name": "Garmin",
+      "aliases": [
+        "garmin"
+      ],
+      "allowedDomains": [
+        "garmin.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "asus",
+      "name": "ASUS",
+      "aliases": [
+        "asus"
+      ],
+      "allowedDomains": [
+        "asus.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "acer",
+      "name": "Acer",
+      "aliases": [
+        "acer"
+      ],
+      "allowedDomains": [
+        "acer.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "logitech",
+      "name": "Logitech",
+      "aliases": [
+        "logitech"
+      ],
+      "allowedDomains": [
+        "logitech.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "roku",
+      "name": "Roku",
+      "aliases": [
+        "roku"
+      ],
+      "allowedDomains": [
+        "roku.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "sonos",
+      "name": "Sonos",
+      "aliases": [
+        "sonos"
+      ],
+      "allowedDomains": [
+        "sonos.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "fitbit",
+      "name": "Fitbit",
+      "aliases": [
+        "fitbit"
+      ],
+      "allowedDomains": [
+        "fitbit.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "dyson",
+      "name": "Dyson",
+      "aliases": [
+        "dyson"
+      ],
+      "allowedDomains": [
+        "dyson.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "devices",
+      "id": "bose",
+      "name": "Bose",
+      "aliases": [
+        "bose"
+      ],
+      "allowedDomains": [
+        "bose.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "weather-channel",
+      "name": "The Weather Channel",
+      "aliases": [
+        "weather.com",
+        "the weather channel"
+      ],
+      "allowedDomains": [
+        "weather.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "accuweather",
+      "name": "AccuWeather",
+      "aliases": [
+        "accuweather"
+      ],
+      "allowedDomains": [
+        "accuweather.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "weather-gov",
+      "name": "National Weather Service",
+      "aliases": [
+        "weather.gov",
+        "national weather service"
+      ],
+      "allowedDomains": [
+        "weather.gov",
+        "noaa.gov"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "met-office",
+      "name": "Met Office",
+      "aliases": [
+        "met office"
+      ],
+      "allowedDomains": [
+        "metoffice.gov.uk"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "meteo-france",
+      "name": "Meteo-France",
+      "aliases": [
+        "meteo france",
+        "meteofrance"
+      ],
+      "allowedDomains": [
+        "meteofrance.com",
+        "meteofrance.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "windy",
+      "name": "Windy",
+      "aliases": [
+        "windy.com",
+        "windy weather"
+      ],
+      "allowedDomains": [
+        "windy.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "ventusky",
+      "name": "Ventusky",
+      "aliases": [
+        "ventusky"
+      ],
+      "allowedDomains": [
+        "ventusky.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "weather-network",
+      "name": "The Weather Network",
+      "aliases": [
+        "the weather network"
+      ],
+      "allowedDomains": [
+        "theweathernetwork.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "usgs",
+      "name": "USGS",
+      "aliases": [
+        "usgs",
+        "us geological survey"
+      ],
+      "allowedDomains": [
+        "usgs.gov"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "fema",
+      "name": "FEMA",
+      "aliases": [
+        "fema"
+      ],
+      "allowedDomains": [
+        "fema.gov"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "ready-gov",
+      "name": "Ready.gov",
+      "aliases": [
+        "ready.gov"
+      ],
+      "allowedDomains": [
+        "ready.gov"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "red-cross",
+      "name": "Red Cross",
+      "aliases": [
+        "red cross"
+      ],
+      "allowedDomains": [
+        "redcross.org",
+        "ifrc.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "croix-rouge",
+      "name": "Croix-Rouge francaise",
+      "aliases": [
+        "croix rouge",
+        "croix-rouge"
+      ],
+      "allowedDomains": [
+        "croix-rouge.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "alertswiss",
+      "name": "Alertswiss",
+      "aliases": [
+        "alertswiss"
+      ],
+      "allowedDomains": [
+        "alert.swiss"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "weather-emergency",
+      "id": "gdacs",
+      "name": "GDACS",
+      "aliases": [
+        "gdacs",
+        "global disaster alert"
+      ],
+      "allowedDomains": [
+        "gdacs.org"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "espn",
+      "name": "ESPN",
+      "aliases": [
+        "espn"
+      ],
+      "allowedDomains": [
+        "espn.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "fifa",
+      "name": "FIFA",
+      "aliases": [
+        "fifa"
+      ],
+      "allowedDomains": [
+        "fifa.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "uefa",
+      "name": "UEFA",
+      "aliases": [
+        "uefa"
+      ],
+      "allowedDomains": [
+        "uefa.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "olympics",
+      "name": "Olympics",
+      "aliases": [
+        "olympics"
+      ],
+      "allowedDomains": [
+        "olympics.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "nba",
+      "name": "NBA",
+      "aliases": [
+        "nba"
+      ],
+      "allowedDomains": [
+        "nba.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "nfl",
+      "name": "NFL",
+      "aliases": [
+        "nfl"
+      ],
+      "allowedDomains": [
+        "nfl.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "mlb",
+      "name": "MLB",
+      "aliases": [
+        "mlb"
+      ],
+      "allowedDomains": [
+        "mlb.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "nhl",
+      "name": "NHL",
+      "aliases": [
+        "nhl"
+      ],
+      "allowedDomains": [
+        "nhl.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "formula1",
+      "name": "Formula 1",
+      "aliases": [
+        "formula 1",
+        "f1"
+      ],
+      "allowedDomains": [
+        "formula1.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "strava",
+      "name": "Strava",
+      "aliases": [
+        "strava"
+      ],
+      "allowedDomains": [
+        "strava.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "alltrails",
+      "name": "AllTrails",
+      "aliases": [
+        "alltrails"
+      ],
+      "allowedDomains": [
+        "alltrails.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "imdb",
+      "name": "IMDb",
+      "aliases": [
+        "imdb"
+      ],
+      "allowedDomains": [
+        "imdb.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "fandango",
+      "name": "Fandango",
+      "aliases": [
+        "fandango"
+      ],
+      "allowedDomains": [
+        "fandango.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "rotten-tomatoes",
+      "name": "Rotten Tomatoes",
+      "aliases": [
+        "rotten tomatoes"
+      ],
+      "allowedDomains": [
+        "rottentomatoes.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "seatgeek",
+      "name": "SeatGeek",
+      "aliases": [
+        "seatgeek",
+        "seat geek"
+      ],
+      "allowedDomains": [
+        "seatgeek.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "stubhub",
+      "name": "StubHub",
+      "aliases": [
+        "stubhub",
+        "stub hub"
+      ],
+      "allowedDomains": [
+        "stubhub.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "axs",
+      "name": "AXS",
+      "aliases": [
+        "axs tickets",
+        "axs.com"
+      ],
+      "allowedDomains": [
+        "axs.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "vivid-seats",
+      "name": "Vivid Seats",
+      "aliases": [
+        "vivid seats"
+      ],
+      "allowedDomains": [
+        "vividseats.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "bandsintown",
+      "name": "Bandsintown",
+      "aliases": [
+        "bandsintown"
+      ],
+      "allowedDomains": [
+        "bandsintown.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "sports-entertainment",
+      "id": "songkick",
+      "name": "Songkick",
+      "aliases": [
+        "songkick"
+      ],
+      "allowedDomains": [
+        "songkick.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
       "category": "media-gaming",
       "id": "netflix",
       "name": "Netflix",
@@ -7105,6 +11025,45 @@ window.BYEBYEFISHING_RULES = {
         "netflix.com"
       ],
       "senderDomains": null,
+      "senderMatchSubdomains": null
+    },
+    {
+      "category": "media-gaming",
+      "id": "prime-video",
+      "name": "Prime Video",
+      "aliases": [
+        "prime video",
+        "primevideo",
+        "amazon prime video"
+      ],
+      "allowedDomains": [
+        "primevideo.com",
+        "amazon.com",
+        "amazon.fr",
+        "amazon.co.uk",
+        "amazon.de",
+        "amazon.es",
+        "amazon.it",
+        "amazon.nl",
+        "amazon.ca",
+        "amazon.com.be",
+        "amazon.com.au",
+        "amazon.co.jp"
+      ],
+      "senderDomains": [
+        "primevideo.com",
+        "amazon.com",
+        "amazon.fr",
+        "amazon.co.uk",
+        "amazon.de",
+        "amazon.es",
+        "amazon.it",
+        "amazon.nl",
+        "amazon.ca",
+        "amazon.com.be",
+        "amazon.com.au",
+        "amazon.co.jp"
+      ],
       "senderMatchSubdomains": null
     },
     {
