@@ -9,7 +9,7 @@ Modern static website for presenting the Bye Bye Fishing browser extension.
 - `rules.html`: practical safety rules plus a searchable catalog generated from the extension defaults.
 - `privacy.html`: plain-language privacy page.
 - `assets/rules-data.js`: generated from the extension's `src/default-rules.js`.
-- `downloads/`: current extension ZIP packages for manual or store upload paths.
+- `downloads/`: current extension ZIP packages for developer testing or store upload. They are not one-click Android installers.
 
 ## Run locally
 

@@ -1,7 +1,7 @@
 window.BYEBYEFISHING_RULES = {
-  "version": "2026-05-10.3",
+  "version": "2026-07-31.0",
   "generatedFrom": "src/default-rules.js",
-  "count": 803,
+  "count": 811,
   "rules": [
     {
       "category": "developer",
@@ -18,7 +18,11 @@ window.BYEBYEFISHING_RULES = {
         "link.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -32,7 +36,11 @@ window.BYEBYEFISHING_RULES = {
         "githubstatus.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -45,7 +53,11 @@ window.BYEBYEFISHING_RULES = {
         "gitlab.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -55,11 +67,14 @@ window.BYEBYEFISHING_RULES = {
         "bitbucket"
       ],
       "allowedDomains": [
-        "bitbucket.org",
-        "atlassian.com"
+        "bitbucket.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -73,11 +88,14 @@ window.BYEBYEFISHING_RULES = {
       "allowedDomains": [
         "atlassian.com",
         "jira.com",
-        "statuspage.io",
-        "trello.com"
+        "statuspage.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -91,7 +109,11 @@ window.BYEBYEFISHING_RULES = {
         "npmjs.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -106,7 +128,11 @@ window.BYEBYEFISHING_RULES = {
         "python.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -121,7 +147,11 @@ window.BYEBYEFISHING_RULES = {
         "docker.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -135,7 +165,11 @@ window.BYEBYEFISHING_RULES = {
         "cloudflarestatus.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -148,7 +182,11 @@ window.BYEBYEFISHING_RULES = {
         "vercel.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -161,7 +199,11 @@ window.BYEBYEFISHING_RULES = {
         "netlify.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -173,11 +215,14 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "aws.amazon.com",
-        "amazonaws.com",
-        "amazon.com"
+        "amazonaws.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -197,7 +242,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "google.com"
       ],
-      "senderMatchSubdomains": false
+      "senderMatchSubdomains": false,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -208,11 +257,14 @@ window.BYEBYEFISHING_RULES = {
         "microsoft azure"
       ],
       "allowedDomains": [
-        "microsoft.com",
         "azure.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -225,7 +277,11 @@ window.BYEBYEFISHING_RULES = {
         "digitalocean.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -235,11 +291,14 @@ window.BYEBYEFISHING_RULES = {
         "heroku"
       ],
       "allowedDomains": [
-        "heroku.com",
-        "salesforce.com"
+        "heroku.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -252,7 +311,11 @@ window.BYEBYEFISHING_RULES = {
         "supabase.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -266,7 +329,11 @@ window.BYEBYEFISHING_RULES = {
         "mongodb.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -279,7 +346,11 @@ window.BYEBYEFISHING_RULES = {
         "planetscale.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -291,10 +362,16 @@ window.BYEBYEFISHING_RULES = {
         "neon.tech"
       ],
       "allowedDomains": [
-        "neon.tech"
+        "neon.com",
+        "neon.tech",
+        "neonstatus.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -305,10 +382,15 @@ window.BYEBYEFISHING_RULES = {
         "railway hosting"
       ],
       "allowedDomains": [
+        "railway.com",
         "railway.app"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -322,7 +404,11 @@ window.BYEBYEFISHING_RULES = {
         "render.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -336,7 +422,11 @@ window.BYEBYEFISHING_RULES = {
         "fly.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -350,7 +440,11 @@ window.BYEBYEFISHING_RULES = {
         "segment.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -364,7 +458,11 @@ window.BYEBYEFISHING_RULES = {
         "twilio.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -377,7 +475,11 @@ window.BYEBYEFISHING_RULES = {
         "mailgun.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -390,7 +492,11 @@ window.BYEBYEFISHING_RULES = {
         "postmarkapp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -404,7 +510,11 @@ window.BYEBYEFISHING_RULES = {
         "resend.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -414,11 +524,14 @@ window.BYEBYEFISHING_RULES = {
         "mailchimp"
       ],
       "allowedDomains": [
-        "mailchimp.com",
-        "intuit.com"
+        "mailchimp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -432,7 +545,11 @@ window.BYEBYEFISHING_RULES = {
         "linear.app"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -445,7 +562,11 @@ window.BYEBYEFISHING_RULES = {
         "sentry.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -459,7 +580,11 @@ window.BYEBYEFISHING_RULES = {
         "datadog.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -473,7 +598,11 @@ window.BYEBYEFISHING_RULES = {
         "newrelic.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -487,7 +616,11 @@ window.BYEBYEFISHING_RULES = {
         "circleci.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -501,7 +634,11 @@ window.BYEBYEFISHING_RULES = {
         "travis-ci.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -514,7 +651,11 @@ window.BYEBYEFISHING_RULES = {
         "buildkite.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -527,7 +668,11 @@ window.BYEBYEFISHING_RULES = {
         "jetbrains.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -541,7 +686,11 @@ window.BYEBYEFISHING_RULES = {
         "hashicorp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -556,7 +705,11 @@ window.BYEBYEFISHING_RULES = {
         "chatgpt.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "developer",
@@ -571,7 +724,11 @@ window.BYEBYEFISHING_RULES = {
         "claude.ai"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -585,7 +742,11 @@ window.BYEBYEFISHING_RULES = {
         "paypal.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -598,7 +759,11 @@ window.BYEBYEFISHING_RULES = {
         "adyen.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -611,7 +776,11 @@ window.BYEBYEFISHING_RULES = {
         "mollie.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -625,7 +794,11 @@ window.BYEBYEFISHING_RULES = {
         "checkout.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -636,10 +809,16 @@ window.BYEBYEFISHING_RULES = {
         "paddle.com"
       ],
       "allowedDomains": [
-        "paddle.com"
+        "paddle.com",
+        "paddle.net",
+        "paddle.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -653,7 +832,11 @@ window.BYEBYEFISHING_RULES = {
         "lemonsqueezy.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -664,11 +847,16 @@ window.BYEBYEFISHING_RULES = {
         "squareup"
       ],
       "allowedDomains": [
+        "square.com",
         "squareup.com",
         "block.xyz"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -682,7 +870,11 @@ window.BYEBYEFISHING_RULES = {
         "cash.app"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -695,7 +887,11 @@ window.BYEBYEFISHING_RULES = {
         "venmo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -711,7 +907,11 @@ window.BYEBYEFISHING_RULES = {
         "transferwise.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -724,7 +924,11 @@ window.BYEBYEFISHING_RULES = {
         "revolut.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -745,7 +949,11 @@ window.BYEBYEFISHING_RULES = {
         "sumeria.eu",
         "isbs.eu"
       ],
-      "senderMatchSubdomains": true
+      "senderMatchSubdomains": true,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -758,7 +966,6 @@ window.BYEBYEFISHING_RULES = {
         "klarna.com",
         "klarna.fr",
         "app.klarna.com",
-        "checkout.klarna.com",
         "portal.klarna.com",
         "merchants.klarna.com",
         "investors.klarna.com"
@@ -767,7 +974,11 @@ window.BYEBYEFISHING_RULES = {
         "klarna.com",
         "klarna.fr"
       ],
-      "senderMatchSubdomains": true
+      "senderMatchSubdomains": true,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -780,7 +991,11 @@ window.BYEBYEFISHING_RULES = {
         "afterpay.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -793,7 +1008,11 @@ window.BYEBYEFISHING_RULES = {
         "affirm.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -806,21 +1025,31 @@ window.BYEBYEFISHING_RULES = {
         "worldline.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
       "id": "visa",
       "name": "Visa",
       "aliases": [
+        "visa",
         "visa card",
         "visa.com"
       ],
       "allowedDomains": [
-        "visa.com"
+        "visa.com",
+        "visa.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -830,10 +1059,15 @@ window.BYEBYEFISHING_RULES = {
         "mastercard"
       ],
       "allowedDomains": [
-        "mastercard.com"
+        "mastercard.com",
+        "mastercard.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -846,7 +1080,11 @@ window.BYEBYEFISHING_RULES = {
         "westernunion.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -859,7 +1097,11 @@ window.BYEBYEFISHING_RULES = {
         "moneygram.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -869,23 +1111,34 @@ window.BYEBYEFISHING_RULES = {
         "zelle"
       ],
       "allowedDomains": [
+        "zelle.com",
         "zellepay.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
       "id": "braintree",
-      "name": "Braintree",
+      "name": "PayPal Braintree",
       "aliases": [
+        "braintree",
         "braintree payments"
       ],
       "allowedDomains": [
-        "braintreepayments.com"
+        "braintreepayments.com",
+        "braintreegateway.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -898,7 +1151,11 @@ window.BYEBYEFISHING_RULES = {
         "sumup.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -911,7 +1168,11 @@ window.BYEBYEFISHING_RULES = {
         "payoneer.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -924,7 +1185,11 @@ window.BYEBYEFISHING_RULES = {
         "airwallex.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -937,7 +1202,11 @@ window.BYEBYEFISHING_RULES = {
         "lemonway.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "payments",
@@ -951,7 +1220,32 @@ window.BYEBYEFISHING_RULES = {
         "ideal.nl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "payments",
+      "id": "wero",
+      "name": "Wero",
+      "aliases": [
+        "wero",
+        "wero wallet",
+        "ideal wero"
+      ],
+      "allowedDomains": [
+        "wero-wallet.eu",
+        "epicompany.eu",
+        "weropay.eu"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -965,7 +1259,11 @@ window.BYEBYEFISHING_RULES = {
         "labanquepostale.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -982,7 +1280,11 @@ window.BYEBYEFISHING_RULES = {
         "sg.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -998,7 +1300,11 @@ window.BYEBYEFISHING_RULES = {
         "bnpparibas.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1011,7 +1317,11 @@ window.BYEBYEFISHING_RULES = {
         "credit-agricole.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1024,7 +1334,11 @@ window.BYEBYEFISHING_RULES = {
         "lcl.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1038,7 +1352,11 @@ window.BYEBYEFISHING_RULES = {
         "creditmutuel.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1053,7 +1371,11 @@ window.BYEBYEFISHING_RULES = {
         "cic.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1067,7 +1389,11 @@ window.BYEBYEFISHING_RULES = {
         "caisse-epargne.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1080,7 +1406,11 @@ window.BYEBYEFISHING_RULES = {
         "banquepopulaire.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1094,7 +1424,11 @@ window.BYEBYEFISHING_RULES = {
         "bred.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1111,7 +1445,11 @@ window.BYEBYEFISHING_RULES = {
         "boursorama-banque.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1124,7 +1462,11 @@ window.BYEBYEFISHING_RULES = {
         "fortuneo.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1138,7 +1480,11 @@ window.BYEBYEFISHING_RULES = {
         "hellobank.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1151,7 +1497,11 @@ window.BYEBYEFISHING_RULES = {
         "bforbank.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1164,7 +1514,11 @@ window.BYEBYEFISHING_RULES = {
         "monabanq.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1180,7 +1534,11 @@ window.BYEBYEFISHING_RULES = {
         "axabanque.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1195,7 +1553,11 @@ window.BYEBYEFISHING_RULES = {
         "nickel.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1208,7 +1570,11 @@ window.BYEBYEFISHING_RULES = {
         "qonto.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1222,7 +1588,11 @@ window.BYEBYEFISHING_RULES = {
         "shine.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1236,7 +1606,11 @@ window.BYEBYEFISHING_RULES = {
         "blank.app"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1250,7 +1624,11 @@ window.BYEBYEFISHING_RULES = {
         "memo.bank"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-fr",
@@ -1264,7 +1642,11 @@ window.BYEBYEFISHING_RULES = {
         "manager.one"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
@@ -1277,7 +1659,11 @@ window.BYEBYEFISHING_RULES = {
         "cetelem.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
@@ -1290,22 +1676,33 @@ window.BYEBYEFISHING_RULES = {
         "cofidis.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
       "id": "floa-bank",
-      "name": "FLOA Bank",
+      "name": "Floa (FLOA Bank)",
       "aliases": [
         "floa",
         "floa bank",
         "floabank"
       ],
       "allowedDomains": [
-        "floabank.fr"
+        "floabank.fr",
+        "floa.com",
+        "floapay.fr",
+        "moncoupdepouce.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
@@ -1319,7 +1716,11 @@ window.BYEBYEFISHING_RULES = {
         "oney.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
@@ -1332,7 +1733,11 @@ window.BYEBYEFISHING_RULES = {
         "sofinco.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
@@ -1347,7 +1752,11 @@ window.BYEBYEFISHING_RULES = {
         "younited.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
@@ -1360,7 +1769,11 @@ window.BYEBYEFISHING_RULES = {
         "franfinance.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "consumer-credit-fr",
@@ -1373,7 +1786,11 @@ window.BYEBYEFISHING_RULES = {
         "carrefour-banque.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1388,7 +1805,11 @@ window.BYEBYEFISHING_RULES = {
         "aexp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1405,7 +1826,11 @@ window.BYEBYEFISHING_RULES = {
         "chase.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1420,7 +1845,11 @@ window.BYEBYEFISHING_RULES = {
         "bofa.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1435,7 +1864,11 @@ window.BYEBYEFISHING_RULES = {
         "citibank.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1448,7 +1881,11 @@ window.BYEBYEFISHING_RULES = {
         "wellsfargo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1461,7 +1898,11 @@ window.BYEBYEFISHING_RULES = {
         "capitalone.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1475,7 +1916,11 @@ window.BYEBYEFISHING_RULES = {
         "discover.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1489,7 +1934,11 @@ window.BYEBYEFISHING_RULES = {
         "usbank.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1502,7 +1951,11 @@ window.BYEBYEFISHING_RULES = {
         "pnc.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1516,7 +1969,11 @@ window.BYEBYEFISHING_RULES = {
         "tdbank.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1531,7 +1988,11 @@ window.BYEBYEFISHING_RULES = {
         "hsbc.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1542,10 +2003,15 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "barclays.com",
-        "barclays.co.uk"
+        "barclays.co.uk",
+        "home.barclays"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1559,7 +2025,11 @@ window.BYEBYEFISHING_RULES = {
         "santander.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1572,10 +2042,15 @@ window.BYEBYEFISHING_RULES = {
       "allowedDomains": [
         "ing.com",
         "ing.fr",
-        "ing.nl"
+        "ing.nl",
+        "ingwb.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1590,7 +2065,11 @@ window.BYEBYEFISHING_RULES = {
         "deutschebank.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1604,7 +2083,11 @@ window.BYEBYEFISHING_RULES = {
         "ubs.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1617,7 +2100,11 @@ window.BYEBYEFISHING_RULES = {
         "natwest.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1630,7 +2117,11 @@ window.BYEBYEFISHING_RULES = {
         "lloydsbank.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1643,7 +2134,11 @@ window.BYEBYEFISHING_RULES = {
         "halifax.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1656,7 +2151,11 @@ window.BYEBYEFISHING_RULES = {
         "monzo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1669,7 +2168,11 @@ window.BYEBYEFISHING_RULES = {
         "starlingbank.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1682,7 +2185,11 @@ window.BYEBYEFISHING_RULES = {
         "n26.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1695,7 +2202,11 @@ window.BYEBYEFISHING_RULES = {
         "bunq.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1708,7 +2219,11 @@ window.BYEBYEFISHING_RULES = {
         "traderepublic.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1721,7 +2236,11 @@ window.BYEBYEFISHING_RULES = {
         "robinhood.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1734,7 +2253,11 @@ window.BYEBYEFISHING_RULES = {
         "vanguard.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1747,7 +2270,11 @@ window.BYEBYEFISHING_RULES = {
         "fidelity.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1761,7 +2288,11 @@ window.BYEBYEFISHING_RULES = {
         "schwab.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "banks-global",
@@ -1775,7 +2306,11 @@ window.BYEBYEFISHING_RULES = {
         "etrade.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1788,7 +2323,11 @@ window.BYEBYEFISHING_RULES = {
         "coinbase.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1801,7 +2340,11 @@ window.BYEBYEFISHING_RULES = {
         "binance.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1814,7 +2357,11 @@ window.BYEBYEFISHING_RULES = {
         "kraken.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1828,7 +2375,11 @@ window.BYEBYEFISHING_RULES = {
         "crypto.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1842,7 +2393,11 @@ window.BYEBYEFISHING_RULES = {
         "ledger.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1855,7 +2410,11 @@ window.BYEBYEFISHING_RULES = {
         "metamask.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1865,10 +2424,15 @@ window.BYEBYEFISHING_RULES = {
         "phantom wallet"
       ],
       "allowedDomains": [
+        "phantom.com",
         "phantom.app"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1881,7 +2445,11 @@ window.BYEBYEFISHING_RULES = {
         "trustwallet.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1894,7 +2462,11 @@ window.BYEBYEFISHING_RULES = {
         "exodus.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1907,7 +2479,11 @@ window.BYEBYEFISHING_RULES = {
         "trezor.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1920,7 +2496,11 @@ window.BYEBYEFISHING_RULES = {
         "okx.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1933,7 +2513,11 @@ window.BYEBYEFISHING_RULES = {
         "bybit.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1946,7 +2530,11 @@ window.BYEBYEFISHING_RULES = {
         "kucoin.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1960,7 +2548,11 @@ window.BYEBYEFISHING_RULES = {
         "opensea.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "crypto",
@@ -1973,7 +2565,11 @@ window.BYEBYEFISHING_RULES = {
         "uniswap.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -1990,7 +2586,11 @@ window.BYEBYEFISHING_RULES = {
         "dgfip.finances.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2003,20 +2603,49 @@ window.BYEBYEFISHING_RULES = {
         "franceconnect.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
       "id": "service-public",
-      "name": "Service-Public.fr",
+      "name": "Service Public",
       "aliases": [
         "service public"
       ],
       "allowedDomains": [
+        "service-public.gouv.fr",
         "service-public.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "government-fr",
+      "id": "france-identite",
+      "name": "France Identité",
+      "aliases": [
+        "france identité",
+        "france identite",
+        "identité numérique",
+        "identite numerique"
+      ],
+      "allowedDomains": [
+        "france-identite.gouv.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2031,7 +2660,11 @@ window.BYEBYEFISHING_RULES = {
         "assurance-maladie.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2045,21 +2678,30 @@ window.BYEBYEFISHING_RULES = {
         "caf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
       "id": "ants",
-      "name": "ANTS",
+      "name": "France Titres (ANTS)",
       "aliases": [
         "ants",
+        "france titres",
         "agence nationale des titres"
       ],
       "allowedDomains": [
         "ants.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2074,7 +2716,11 @@ window.BYEBYEFISHING_RULES = {
         "pole-emploi.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2087,7 +2733,11 @@ window.BYEBYEFISHING_RULES = {
         "urssaf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2101,7 +2751,11 @@ window.BYEBYEFISHING_RULES = {
         "msa.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2114,7 +2768,11 @@ window.BYEBYEFISHING_RULES = {
         "cesu.urssaf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2127,7 +2785,11 @@ window.BYEBYEFISHING_RULES = {
         "pajemploi.urssaf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2140,7 +2802,11 @@ window.BYEBYEFISHING_RULES = {
         "moncompteformation.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2156,7 +2822,11 @@ window.BYEBYEFISHING_RULES = {
         "amendes.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2171,7 +2841,11 @@ window.BYEBYEFISHING_RULES = {
         "agirc-arrco.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2184,7 +2858,11 @@ window.BYEBYEFISHING_RULES = {
         "demarches-simplifiees.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2197,20 +2875,29 @@ window.BYEBYEFISHING_RULES = {
         "diplomatie.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
       "id": "gouvernement",
-      "name": "Gouvernement.fr",
+      "name": "Gouvernement / info.gouv.fr",
       "aliases": [
         "gouvernement"
       ],
       "allowedDomains": [
-        "gouvernement.fr"
+        "gouvernement.fr",
+        "info.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2227,7 +2914,11 @@ window.BYEBYEFISHING_RULES = {
         "certificat-air.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2242,7 +2933,11 @@ window.BYEBYEFISHING_RULES = {
         "chequeenergie.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-fr",
@@ -2258,7 +2953,11 @@ window.BYEBYEFISHING_RULES = {
         "maprimerenov.gouv.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2272,7 +2971,11 @@ window.BYEBYEFISHING_RULES = {
         "irs.gov"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2286,21 +2989,11 @@ window.BYEBYEFISHING_RULES = {
         "ssa.gov"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
-    },
-    {
-      "category": "government-global",
-      "id": "usps-government",
-      "name": "USPS Government Services",
-      "aliases": [
-        "usps government",
-        "usps.com"
-      ],
-      "allowedDomains": [
-        "usps.com"
-      ],
-      "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2314,7 +3007,11 @@ window.BYEBYEFISHING_RULES = {
         "gov.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2329,7 +3026,11 @@ window.BYEBYEFISHING_RULES = {
         "gov.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2344,7 +3045,11 @@ window.BYEBYEFISHING_RULES = {
         "gc.ca"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2358,7 +3063,11 @@ window.BYEBYEFISHING_RULES = {
         "ato.gov.au"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2369,11 +3078,14 @@ window.BYEBYEFISHING_RULES = {
         "mygov"
       ],
       "allowedDomains": [
-        "my.gov.au",
-        "mygov.gov.au"
+        "my.gov.au"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2387,7 +3099,11 @@ window.BYEBYEFISHING_RULES = {
         "europa.eu"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2402,7 +3118,11 @@ window.BYEBYEFISHING_RULES = {
         "agenziaentrate.it"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2415,7 +3135,11 @@ window.BYEBYEFISHING_RULES = {
         "inps.it"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2430,7 +3154,11 @@ window.BYEBYEFISHING_RULES = {
         "agenciatributaria.es"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2443,7 +3171,11 @@ window.BYEBYEFISHING_RULES = {
         "digid.nl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2456,7 +3188,11 @@ window.BYEBYEFISHING_RULES = {
         "belastingdienst.nl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2470,7 +3206,11 @@ window.BYEBYEFISHING_RULES = {
         "elster.de"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "government-global",
@@ -2484,7 +3224,11 @@ window.BYEBYEFISHING_RULES = {
         "belgium.be"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2500,7 +3244,11 @@ window.BYEBYEFISHING_RULES = {
         "sapn.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2515,7 +3263,11 @@ window.BYEBYEFISHING_RULES = {
         "bipandgo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2532,7 +3284,11 @@ window.BYEBYEFISHING_RULES = {
         "escota.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2543,11 +3299,16 @@ window.BYEBYEFISHING_RULES = {
         "ulys vinci"
       ],
       "allowedDomains": [
+        "ulys.com",
         "ulys.vinci-autoroutes.com",
         "vinci-autoroutes.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2562,7 +3323,11 @@ window.BYEBYEFISHING_RULES = {
         "aprr.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2575,20 +3340,29 @@ window.BYEBYEFISHING_RULES = {
         "fulli.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
       "id": "eurotoll",
-      "name": "Eurotoll",
+      "name": "Eurotoll / Lumesia",
       "aliases": [
-        "eurotoll"
+        "eurotoll",
+        "lumesia"
       ],
       "allowedDomains": [
-        "eurotoll.com"
+        "eurotoll.eu"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2602,7 +3376,11 @@ window.BYEBYEFISHING_RULES = {
         "atmb.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "toll-roads-fr",
@@ -2616,7 +3394,11 @@ window.BYEBYEFISHING_RULES = {
         "sftrf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2630,7 +3412,11 @@ window.BYEBYEFISHING_RULES = {
         "orange.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2642,7 +3428,15 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "free.fr",
-        "freebox.fr"
+        "www.free.fr",
+        "mobile.free.fr",
+        "subscribe.free.fr",
+        "assistance.free.fr",
+        "zimbra.free.fr",
+        "webmail.free.fr",
+        "imp.free.fr",
+        "freebox.fr",
+        "www.freebox.fr"
       ],
       "senderDomains": [
         "free-mobile.fr",
@@ -2650,7 +3444,11 @@ window.BYEBYEFISHING_RULES = {
         "assistance.free.fr",
         "proxad.net"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2665,7 +3463,11 @@ window.BYEBYEFISHING_RULES = {
         "red-by-sfr.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2679,7 +3481,11 @@ window.BYEBYEFISHING_RULES = {
         "bouyguestelecom.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2692,7 +3498,11 @@ window.BYEBYEFISHING_RULES = {
         "edf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2706,7 +3516,11 @@ window.BYEBYEFISHING_RULES = {
         "engie.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2720,7 +3534,11 @@ window.BYEBYEFISHING_RULES = {
         "totalenergies.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2733,7 +3551,11 @@ window.BYEBYEFISHING_RULES = {
         "enedis.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2746,7 +3568,11 @@ window.BYEBYEFISHING_RULES = {
         "grdf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2760,7 +3586,11 @@ window.BYEBYEFISHING_RULES = {
         "veolia.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-fr",
@@ -2770,10 +3600,17 @@ window.BYEBYEFISHING_RULES = {
         "suez"
       ],
       "allowedDomains": [
-        "suez.com"
+        "suez.com",
+        "suez.fr",
+        "toutsurmoneau.fr",
+        "monservicedechets.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2786,7 +3623,11 @@ window.BYEBYEFISHING_RULES = {
         "verizon.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2800,7 +3641,11 @@ window.BYEBYEFISHING_RULES = {
         "att.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2814,7 +3659,11 @@ window.BYEBYEFISHING_RULES = {
         "t-mobile.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2827,7 +3676,11 @@ window.BYEBYEFISHING_RULES = {
         "vodafone.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2841,7 +3694,11 @@ window.BYEBYEFISHING_RULES = {
         "ee.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2855,7 +3712,11 @@ window.BYEBYEFISHING_RULES = {
         "o2.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2869,7 +3730,11 @@ window.BYEBYEFISHING_RULES = {
         "comcast.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2882,7 +3747,11 @@ window.BYEBYEFISHING_RULES = {
         "comcast.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2895,7 +3764,11 @@ window.BYEBYEFISHING_RULES = {
         "britishgas.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "telecom-utilities-global",
@@ -2910,7 +3783,11 @@ window.BYEBYEFISHING_RULES = {
         "eonenergy.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -2925,7 +3802,11 @@ window.BYEBYEFISHING_RULES = {
         "axa.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -2938,7 +3819,11 @@ window.BYEBYEFISHING_RULES = {
         "maif.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -2951,7 +3836,11 @@ window.BYEBYEFISHING_RULES = {
         "macif.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -2964,7 +3853,11 @@ window.BYEBYEFISHING_RULES = {
         "maaf.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -2977,7 +3870,11 @@ window.BYEBYEFISHING_RULES = {
         "matmut.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -2991,7 +3888,11 @@ window.BYEBYEFISHING_RULES = {
         "allianz.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -3005,7 +3906,11 @@ window.BYEBYEFISHING_RULES = {
         "april.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "insurance-fr",
@@ -3018,7 +3923,11 @@ window.BYEBYEFISHING_RULES = {
         "harmonie-mutuelle.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3034,7 +3943,11 @@ window.BYEBYEFISHING_RULES = {
         "labanquepostale.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3048,7 +3961,11 @@ window.BYEBYEFISHING_RULES = {
         "colissimo.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3061,7 +3978,11 @@ window.BYEBYEFISHING_RULES = {
         "chronopost.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3072,10 +3993,17 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "dhl.com",
-        "dhl.fr"
+        "dhl.com.mx",
+        "dhl.fr",
+        "dhl.de",
+        "dhl.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3088,7 +4016,11 @@ window.BYEBYEFISHING_RULES = {
         "ups.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3101,7 +4033,11 @@ window.BYEBYEFISHING_RULES = {
         "fedex.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3114,7 +4050,11 @@ window.BYEBYEFISHING_RULES = {
         "mondialrelay.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3127,7 +4067,11 @@ window.BYEBYEFISHING_RULES = {
         "relaiscolis.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3138,10 +4082,25 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "dpd.com",
-        "dpd.fr"
+        "dpdgroup.com",
+        "geopost.com",
+        "dpd.fr",
+        "dpd.co.uk",
+        "dpd.de",
+        "dpd.ie",
+        "dpd.nl",
+        "dpd.be",
+        "dpd.pl",
+        "dpd.pt",
+        "dpd.at",
+        "dpd.ch"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3153,37 +4112,56 @@ window.BYEBYEFISHING_RULES = {
         "gls france"
       ],
       "allowedDomains": [
+        "gls-group.com",
         "gls-group.eu",
         "gls-france.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
       "id": "colis-prive",
-      "name": "Colis Prive",
+      "name": "Colis Privé",
       "aliases": [
-        "colis prive"
+        "colis prive",
+        "colis privé"
       ],
       "allowedDomains": [
-        "colisprive.com"
+        "colisprive.com",
+        "colisprive.fr",
+        "colisprive-store.com",
+        "colisprive.be",
+        "colisprive.nl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
       "id": "usps",
       "name": "USPS",
       "aliases": [
-        "usps"
+        "usps",
+        "usps government"
       ],
       "allowedDomains": [
         "usps.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3196,7 +4174,11 @@ window.BYEBYEFISHING_RULES = {
         "royalmail.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3210,7 +4192,11 @@ window.BYEBYEFISHING_RULES = {
         "canadapost-postescanada.ca"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3223,7 +4209,11 @@ window.BYEBYEFISHING_RULES = {
         "correos.es"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3236,7 +4226,11 @@ window.BYEBYEFISHING_RULES = {
         "bpost.be"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3250,7 +4244,11 @@ window.BYEBYEFISHING_RULES = {
         "postnl.nl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3263,7 +4261,11 @@ window.BYEBYEFISHING_RULES = {
         "evri.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3278,7 +4280,11 @@ window.BYEBYEFISHING_RULES = {
         "posteitaliane.it"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3291,7 +4297,11 @@ window.BYEBYEFISHING_RULES = {
         "deutschepost.de"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3306,7 +4316,11 @@ window.BYEBYEFISHING_RULES = {
         "postnord.dk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3317,10 +4331,15 @@ window.BYEBYEFISHING_RULES = {
         "anpost"
       ],
       "allowedDomains": [
+        "anpost.com",
         "anpost.ie"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3333,7 +4352,11 @@ window.BYEBYEFISHING_RULES = {
         "posti.fi"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3347,7 +4370,11 @@ window.BYEBYEFISHING_RULES = {
         "post.ch"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3361,7 +4388,11 @@ window.BYEBYEFISHING_RULES = {
         "post.at"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3375,7 +4406,11 @@ window.BYEBYEFISHING_RULES = {
         "ctt.pt"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3386,10 +4421,21 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "deliveroo.com",
-        "deliveroo.fr"
+        "deliveroo.co.uk",
+        "deliveroo.ie",
+        "deliveroo.fr",
+        "deliveroo.be",
+        "deliveroo.it",
+        "deliveroo.ae",
+        "deliveroo.com.kw",
+        "deliveroo.com.sg"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3401,10 +4447,18 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "just-eat.fr",
-        "justeat.com"
+        "justeat.com",
+        "just-eat.co.uk",
+        "just-eat.ie",
+        "justeattakeaway.com",
+        "takeaway.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3419,7 +4473,11 @@ window.BYEBYEFISHING_RULES = {
         "uber.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3430,10 +4488,16 @@ window.BYEBYEFISHING_RULES = {
         "door dash"
       ],
       "allowedDomains": [
-        "doordash.com"
+        "doordash.com",
+        "doordash.ca",
+        "doordash.com.au"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3446,7 +4510,11 @@ window.BYEBYEFISHING_RULES = {
         "instacart.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3459,7 +4527,11 @@ window.BYEBYEFISHING_RULES = {
         "glovoapp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "delivery",
@@ -3473,7 +4545,11 @@ window.BYEBYEFISHING_RULES = {
         "wolt.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3492,13 +4568,20 @@ window.BYEBYEFISHING_RULES = {
         "amazon.it",
         "amazon.nl",
         "amazon.ca",
+        "amazon.com.mx",
         "amazon.com.be",
         "amazon.com.au",
         "amazon.co.jp",
         "amazonpay.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [
+        "media-amazon.com"
+      ],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3509,10 +4592,30 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "ebay.com",
-        "ebay.fr"
+        "ebay.fr",
+        "ebay.co.uk",
+        "ebay.de",
+        "ebay.it",
+        "ebay.es",
+        "ebay.nl",
+        "ebay.be",
+        "ebay.at",
+        "ebay.ch",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.ca",
+        "ebay.com.au",
+        "ebay.in",
+        "ebay.ph",
+        "ebay.com.hk",
+        "ebay.com.sg"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3526,7 +4629,11 @@ window.BYEBYEFISHING_RULES = {
         "leboncoin.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3537,10 +4644,35 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "vinted.com",
-        "vinted.fr"
+        "vinted.fr",
+        "vinted.co.uk",
+        "vinted.de",
+        "vinted.it",
+        "vinted.es",
+        "vinted.nl",
+        "vinted.be",
+        "vinted.at",
+        "vinted.pl",
+        "vinted.cz",
+        "vinted.sk",
+        "vinted.lt",
+        "vinted.lu",
+        "vinted.pt",
+        "vinted.se",
+        "vinted.dk",
+        "vinted.fi",
+        "vinted.ie",
+        "vinted.gr",
+        "vinted.hu",
+        "vinted.ro",
+        "vinted.hr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3553,7 +4685,11 @@ window.BYEBYEFISHING_RULES = {
         "cdiscount.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3566,7 +4702,11 @@ window.BYEBYEFISHING_RULES = {
         "fnac.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3579,7 +4719,11 @@ window.BYEBYEFISHING_RULES = {
         "darty.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3590,10 +4734,15 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "rakuten.com",
-        "rakuten.fr"
+        "rakuten.fr",
+        "rakuten.co.jp"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3607,7 +4756,11 @@ window.BYEBYEFISHING_RULES = {
         "aliexpress.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3620,7 +4773,11 @@ window.BYEBYEFISHING_RULES = {
         "alibaba.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3633,7 +4790,11 @@ window.BYEBYEFISHING_RULES = {
         "temu.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3646,7 +4807,13 @@ window.BYEBYEFISHING_RULES = {
         "shein.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [
+        "ltwebstatic.com"
+      ],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3659,7 +4826,11 @@ window.BYEBYEFISHING_RULES = {
         "etsy.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3672,7 +4843,11 @@ window.BYEBYEFISHING_RULES = {
         "shopify.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3688,15 +4863,18 @@ window.BYEBYEFISHING_RULES = {
         "account.squarespace.com",
         "login.squarespace.com",
         "domains.squarespace.com",
-        "squarespace.info",
         "squarespace-security.com"
       ],
       "senderDomains": [
         "squarespace.com",
-        "squarespace.info",
+        "mail.squarespace.com",
         "squarespace-security.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": false,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3733,7 +4911,11 @@ window.BYEBYEFISHING_RULES = {
         "wixforms.com",
         "wixemails.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": true,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3753,7 +4935,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "webflow.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3776,7 +4962,11 @@ window.BYEBYEFISHING_RULES = {
         "wordpress.com",
         "automattic.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3788,16 +4978,16 @@ window.BYEBYEFISHING_RULES = {
       "allowedDomains": [
         "weebly.com",
         "www.weebly.com",
-        "editor.weebly.com",
-        "squareup.com",
-        "square.com"
+        "editor.weebly.com"
       ],
       "senderDomains": [
-        "weebly.com",
-        "squareup.com",
-        "square.com"
+        "weebly.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3816,7 +5006,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "framer.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3832,7 +5026,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "carrd.co"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3849,7 +5047,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "tilda.cc"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3866,7 +5068,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "strikingly.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3884,7 +5090,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "jimdo.com"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "site-builders",
@@ -3903,7 +5113,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "duda.co"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3914,10 +5128,32 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "zalando.fr",
-        "zalando.com"
+        "zalando.com",
+        "zalando.co.uk",
+        "zalando.de",
+        "zalando.it",
+        "zalando.es",
+        "zalando.nl",
+        "zalando.be",
+        "zalando.at",
+        "zalando.pl",
+        "zalando.ch",
+        "zalando.se",
+        "zalando.dk",
+        "zalando.fi",
+        "zalando.ie",
+        "zalando.cz",
+        "zalando.sk",
+        "zalando.hu",
+        "zalando.ro",
+        "zalando.pt"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3930,7 +5166,11 @@ window.BYEBYEFISHING_RULES = {
         "carrefour.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3943,7 +5183,11 @@ window.BYEBYEFISHING_RULES = {
         "auchan.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3959,7 +5203,11 @@ window.BYEBYEFISHING_RULES = {
         "leclercdrive.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3972,7 +5220,11 @@ window.BYEBYEFISHING_RULES = {
         "intermarche.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -3986,7 +5238,11 @@ window.BYEBYEFISHING_RULES = {
         "lidl.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4000,7 +5256,11 @@ window.BYEBYEFISHING_RULES = {
         "decathlon.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4013,7 +5273,11 @@ window.BYEBYEFISHING_RULES = {
         "ikea.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4026,7 +5290,11 @@ window.BYEBYEFISHING_RULES = {
         "leroymerlin.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4039,7 +5307,11 @@ window.BYEBYEFISHING_RULES = {
         "castorama.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4052,7 +5324,11 @@ window.BYEBYEFISHING_RULES = {
         "boulanger.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4062,10 +5338,15 @@ window.BYEBYEFISHING_RULES = {
         "walmart"
       ],
       "allowedDomains": [
-        "walmart.com"
+        "walmart.com",
+        "walmart.com.mx"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4079,7 +5360,11 @@ window.BYEBYEFISHING_RULES = {
         "target.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4096,7 +5381,11 @@ window.BYEBYEFISHING_RULES = {
         "geeksquad.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4106,10 +5395,15 @@ window.BYEBYEFISHING_RULES = {
         "costco"
       ],
       "allowedDomains": [
-        "costco.com"
+        "costco.com",
+        "costco.com.mx"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4122,7 +5416,11 @@ window.BYEBYEFISHING_RULES = {
         "homedepot.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4136,7 +5434,11 @@ window.BYEBYEFISHING_RULES = {
         "lowes.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4149,7 +5451,11 @@ window.BYEBYEFISHING_RULES = {
         "wayfair.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4163,7 +5469,11 @@ window.BYEBYEFISHING_RULES = {
         "macys.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4176,7 +5486,11 @@ window.BYEBYEFISHING_RULES = {
         "nordstrom.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4190,7 +5504,11 @@ window.BYEBYEFISHING_RULES = {
         "kohls.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4204,7 +5522,11 @@ window.BYEBYEFISHING_RULES = {
         "chewy.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4218,7 +5540,11 @@ window.BYEBYEFISHING_RULES = {
         "backmarket.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4233,7 +5559,11 @@ window.BYEBYEFISHING_RULES = {
         "manomano.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4246,7 +5576,11 @@ window.BYEBYEFISHING_RULES = {
         "laredoute.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4261,7 +5595,11 @@ window.BYEBYEFISHING_RULES = {
         "veepee.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4274,7 +5612,11 @@ window.BYEBYEFISHING_RULES = {
         "showroomprive.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4288,7 +5630,11 @@ window.BYEBYEFISHING_RULES = {
         "sephora.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4301,7 +5647,11 @@ window.BYEBYEFISHING_RULES = {
         "nocibe.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4316,7 +5666,11 @@ window.BYEBYEFISHING_RULES = {
         "hm.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4329,7 +5683,11 @@ window.BYEBYEFISHING_RULES = {
         "zara.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4342,7 +5700,11 @@ window.BYEBYEFISHING_RULES = {
         "nike.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4355,7 +5717,11 @@ window.BYEBYEFISHING_RULES = {
         "adidas.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4368,7 +5734,11 @@ window.BYEBYEFISHING_RULES = {
         "asos.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4381,7 +5751,11 @@ window.BYEBYEFISHING_RULES = {
         "uniqlo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4394,7 +5768,11 @@ window.BYEBYEFISHING_RULES = {
         "ldlc.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4408,7 +5786,11 @@ window.BYEBYEFISHING_RULES = {
         "materiel.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4421,7 +5803,11 @@ window.BYEBYEFISHING_RULES = {
         "rueducommerce.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4435,7 +5821,11 @@ window.BYEBYEFISHING_RULES = {
         "topachat.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4448,7 +5838,11 @@ window.BYEBYEFISHING_RULES = {
         "monoprix.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4461,7 +5855,11 @@ window.BYEBYEFISHING_RULES = {
         "franprix.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4475,7 +5873,11 @@ window.BYEBYEFISHING_RULES = {
         "picard.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4488,7 +5890,11 @@ window.BYEBYEFISHING_RULES = {
         "mercari.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4501,7 +5907,11 @@ window.BYEBYEFISHING_RULES = {
         "poshmark.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4514,7 +5924,11 @@ window.BYEBYEFISHING_RULES = {
         "depop.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4527,7 +5941,11 @@ window.BYEBYEFISHING_RULES = {
         "wallapop.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4540,7 +5958,11 @@ window.BYEBYEFISHING_RULES = {
         "olx.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4553,7 +5975,11 @@ window.BYEBYEFISHING_RULES = {
         "allegro.pl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4564,10 +5990,15 @@ window.BYEBYEFISHING_RULES = {
         "mercadolibre"
       ],
       "allowedDomains": [
-        "mercadolibre.com"
+        "mercadolibre.com",
+        "mercadolibre.com.mx"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4580,7 +6011,11 @@ window.BYEBYEFISHING_RULES = {
         "shopee.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4593,7 +6028,11 @@ window.BYEBYEFISHING_RULES = {
         "lazada.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4606,7 +6045,11 @@ window.BYEBYEFISHING_RULES = {
         "flipkart.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4619,7 +6062,11 @@ window.BYEBYEFISHING_RULES = {
         "myntra.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4632,7 +6079,11 @@ window.BYEBYEFISHING_RULES = {
         "newegg.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4645,7 +6096,11 @@ window.BYEBYEFISHING_RULES = {
         "groupon.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4658,7 +6113,11 @@ window.BYEBYEFISHING_RULES = {
         "groupon.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4671,7 +6130,11 @@ window.BYEBYEFISHING_RULES = {
         "qvc.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4686,7 +6149,11 @@ window.BYEBYEFISHING_RULES = {
         "pch.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "commerce",
@@ -4700,7 +6167,11 @@ window.BYEBYEFISHING_RULES = {
         "wish.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4711,10 +6182,15 @@ window.BYEBYEFISHING_RULES = {
         "event brite"
       ],
       "allowedDomains": [
-        "eventbrite.com"
+        "eventbrite.com",
+        "eventbrite.com.mx"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4728,7 +6204,11 @@ window.BYEBYEFISHING_RULES = {
         "ticketmaster.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4740,10 +6220,15 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "livenation.com",
-        "livenation.fr"
+        "livenation.fr",
+        "livenationhip.co.jp"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4756,7 +6241,11 @@ window.BYEBYEFISHING_RULES = {
         "weezevent.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4769,7 +6258,11 @@ window.BYEBYEFISHING_RULES = {
         "billetweb.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4783,7 +6276,11 @@ window.BYEBYEFISHING_RULES = {
         "helloasso.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4797,7 +6294,11 @@ window.BYEBYEFISHING_RULES = {
         "shotgun.live"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4811,7 +6312,11 @@ window.BYEBYEFISHING_RULES = {
         "dice.fm"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4822,11 +6327,14 @@ window.BYEBYEFISHING_RULES = {
         "fever tickets"
       ],
       "allowedDomains": [
-        "feverup.com",
-        "feverup.co"
+        "feverup.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4839,7 +6347,11 @@ window.BYEBYEFISHING_RULES = {
         "meetup.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4847,13 +6359,25 @@ window.BYEBYEFISHING_RULES = {
       "name": "Luma",
       "aliases": [
         "lu.ma",
+        "luma",
         "luma event"
       ],
       "allowedDomains": [
+        "luma.com",
         "lu.ma"
       ],
-      "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderDomains": [
+        "luma.com",
+        "luma-mail.com"
+      ],
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [
+        "luma.link",
+        "o.lu.ma"
+      ],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "events",
@@ -4865,10 +6389,16 @@ window.BYEBYEFISHING_RULES = {
       "allowedDomains": [
         "eventim.com",
         "eventim.fr",
-        "eventim.de"
+        "eventim.de",
+        "eventim.us",
+        "seetickets.us"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4880,11 +6410,14 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "seetickets.com",
-        "seetickets.fr",
-        "seetickets.us"
+        "seetickets.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4899,7 +6432,11 @@ window.BYEBYEFISHING_RULES = {
         "francebillet.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4912,7 +6449,11 @@ window.BYEBYEFISHING_RULES = {
         "ticketac.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4925,7 +6466,11 @@ window.BYEBYEFISHING_RULES = {
         "yurplan.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4939,7 +6484,11 @@ window.BYEBYEFISHING_RULES = {
         "placeminute.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4953,7 +6502,11 @@ window.BYEBYEFISHING_RULES = {
         "assoconnect.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4967,7 +6520,11 @@ window.BYEBYEFISHING_RULES = {
         "ra.co"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4980,7 +6537,11 @@ window.BYEBYEFISHING_RULES = {
         "eventzilla.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -4994,7 +6555,11 @@ window.BYEBYEFISHING_RULES = {
         "universe.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -5008,7 +6573,11 @@ window.BYEBYEFISHING_RULES = {
         "splashthat.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -5021,7 +6590,11 @@ window.BYEBYEFISHING_RULES = {
         "partiful.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "events",
@@ -5034,7 +6607,11 @@ window.BYEBYEFISHING_RULES = {
         "pretix.eu"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "forms",
@@ -5047,7 +6624,11 @@ window.BYEBYEFISHING_RULES = {
         "typeform.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5060,7 +6641,11 @@ window.BYEBYEFISHING_RULES = {
         "jotform.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5074,7 +6659,11 @@ window.BYEBYEFISHING_RULES = {
         "surveymonkey.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5088,7 +6677,13 @@ window.BYEBYEFISHING_RULES = {
         "qualtrics.eu"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [
+        "google.qualtrics.com"
+      ],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5101,7 +6696,11 @@ window.BYEBYEFISHING_RULES = {
         "calendly.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5115,7 +6714,11 @@ window.BYEBYEFISHING_RULES = {
         "doodle.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5129,7 +6732,11 @@ window.BYEBYEFISHING_RULES = {
         "youcanbook.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5143,7 +6750,11 @@ window.BYEBYEFISHING_RULES = {
         "tally.so"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5157,7 +6768,11 @@ window.BYEBYEFISHING_RULES = {
         "fillout.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5170,7 +6785,11 @@ window.BYEBYEFISHING_RULES = {
         "paperform.co"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5183,7 +6802,11 @@ window.BYEBYEFISHING_RULES = {
         "formstack.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5196,7 +6819,11 @@ window.BYEBYEFISHING_RULES = {
         "wufoo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5209,7 +6836,11 @@ window.BYEBYEFISHING_RULES = {
         "cognitoforms.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5219,10 +6850,15 @@ window.BYEBYEFISHING_RULES = {
         "slido"
       ],
       "allowedDomains": [
-        "slido.com"
+        "slido.com",
+        "sli.do"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5237,7 +6873,11 @@ window.BYEBYEFISHING_RULES = {
         "menti.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5251,7 +6891,11 @@ window.BYEBYEFISHING_RULES = {
         "gofundme.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5264,7 +6908,11 @@ window.BYEBYEFISHING_RULES = {
         "donorbox.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5277,7 +6925,11 @@ window.BYEBYEFISHING_RULES = {
         "kickstarter.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5290,7 +6942,11 @@ window.BYEBYEFISHING_RULES = {
         "indiegogo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "forms",
@@ -5303,7 +6959,11 @@ window.BYEBYEFISHING_RULES = {
         "patreon.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": true
     },
     {
       "category": "accounting",
@@ -5318,7 +6978,11 @@ window.BYEBYEFISHING_RULES = {
         "indy.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5332,7 +6996,11 @@ window.BYEBYEFISHING_RULES = {
         "pennylane.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5346,7 +7014,11 @@ window.BYEBYEFISHING_RULES = {
         "dougs.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5360,7 +7032,11 @@ window.BYEBYEFISHING_RULES = {
         "tiime.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5374,7 +7050,11 @@ window.BYEBYEFISHING_RULES = {
         "abby.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5388,7 +7068,11 @@ window.BYEBYEFISHING_RULES = {
         "freebe.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5402,7 +7086,11 @@ window.BYEBYEFISHING_RULES = {
         "sinao.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5417,21 +7105,33 @@ window.BYEBYEFISHING_RULES = {
         "dext.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
       "id": "myunisoft",
-      "name": "MyUnisoft",
+      "name": "MyUnisoft / MyU",
       "aliases": [
         "myunisoft",
-        "my unisoft"
+        "my unisoft",
+        "myu"
       ],
       "allowedDomains": [
-        "myunisoft.fr"
+        "myunisoft.fr",
+        "myu.fr",
+        "dayboard.fr",
+        "limpyd.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5445,7 +7145,11 @@ window.BYEBYEFISHING_RULES = {
         "fulll.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5459,7 +7163,11 @@ window.BYEBYEFISHING_RULES = {
         "kanta.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5473,11 +7181,14 @@ window.BYEBYEFISHING_RULES = {
         "regate.io",
         "web.regate.io",
         "qonto.com",
-        "support-regate-fr.qonto.com",
-        "changelog.regate.io"
+        "support-regate-fr.qonto.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5491,7 +7202,11 @@ window.BYEBYEFISHING_RULES = {
         "xero.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "accounting",
@@ -5502,11 +7217,31 @@ window.BYEBYEFISHING_RULES = {
         "intuit quickbooks"
       ],
       "allowedDomains": [
-        "quickbooks.intuit.com",
+        "quickbooks.intuit.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "accounting",
+      "id": "intuit",
+      "name": "Intuit",
+      "aliases": [
+        "intuit"
+      ],
+      "allowedDomains": [
         "intuit.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5520,7 +7255,11 @@ window.BYEBYEFISHING_RULES = {
         "payfit.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5533,7 +7272,11 @@ window.BYEBYEFISHING_RULES = {
         "spendesk.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5546,7 +7289,11 @@ window.BYEBYEFISHING_RULES = {
         "libeo.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5557,10 +7304,15 @@ window.BYEBYEFISHING_RULES = {
         "lucca sirh"
       ],
       "allowedDomains": [
-        "lucca.fr"
+        "lucca.fr",
+        "ilucca.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5573,7 +7325,11 @@ window.BYEBYEFISHING_RULES = {
         "swile.co"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5587,7 +7343,11 @@ window.BYEBYEFISHING_RULES = {
         "adp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5600,7 +7360,11 @@ window.BYEBYEFISHING_RULES = {
         "paychex.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5614,7 +7378,11 @@ window.BYEBYEFISHING_RULES = {
         "ukg.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5628,7 +7396,11 @@ window.BYEBYEFISHING_RULES = {
         "bamboohr.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5641,7 +7413,11 @@ window.BYEBYEFISHING_RULES = {
         "greenhouse.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5654,7 +7430,11 @@ window.BYEBYEFISHING_RULES = {
         "lever.co"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5667,7 +7447,11 @@ window.BYEBYEFISHING_RULES = {
         "workable.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5681,7 +7465,11 @@ window.BYEBYEFISHING_RULES = {
         "ashbyhq.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5694,7 +7482,11 @@ window.BYEBYEFISHING_RULES = {
         "personio.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5708,7 +7500,11 @@ window.BYEBYEFISHING_RULES = {
         "hibob.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5722,7 +7518,11 @@ window.BYEBYEFISHING_RULES = {
         "remote.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5736,7 +7536,11 @@ window.BYEBYEFISHING_RULES = {
         "ramp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5749,7 +7553,11 @@ window.BYEBYEFISHING_RULES = {
         "brex.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5763,7 +7571,11 @@ window.BYEBYEFISHING_RULES = {
         "bill.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5776,7 +7588,11 @@ window.BYEBYEFISHING_RULES = {
         "expensify.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5791,7 +7607,11 @@ window.BYEBYEFISHING_RULES = {
         "tripactions.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "hr-finance-ops",
@@ -5806,7 +7626,11 @@ window.BYEBYEFISHING_RULES = {
         "concursolutions.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-fr",
@@ -5821,7 +7645,11 @@ window.BYEBYEFISHING_RULES = {
         "doctolib.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-fr",
@@ -5836,7 +7664,29 @@ window.BYEBYEFISHING_RULES = {
         "alan.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "health-fr",
+      "id": "mon-espace-sante",
+      "name": "Mon espace santé",
+      "aliases": [
+        "mon espace santé",
+        "mon espace sante"
+      ],
+      "allowedDomains": [
+        "monespacesante.fr"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5850,7 +7700,11 @@ window.BYEBYEFISHING_RULES = {
         "booking.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5867,10 +7721,24 @@ window.BYEBYEFISHING_RULES = {
         "airbnb.es",
         "airbnb.it",
         "airbnb.ca",
+        "airbnb.mx",
         "airbnb.com.au"
       ],
-      "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderDomains": [
+        "airbnb.com",
+        "airbnb.co.uk",
+        "airbnb.fr",
+        "airbnb.de",
+        "airbnb.es",
+        "airbnb.it",
+        "airbnb.ca",
+        "airbnb.com.au"
+      ],
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5891,7 +7759,11 @@ window.BYEBYEFISHING_RULES = {
         "thefork.fr",
         "email.thefork.com"
       ],
-      "senderMatchSubdomains": false
+      "senderMatchSubdomains": false,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5921,7 +7793,11 @@ window.BYEBYEFISHING_RULES = {
         "opentable.com.tw"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5934,7 +7810,11 @@ window.BYEBYEFISHING_RULES = {
         "resy.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5948,7 +7828,11 @@ window.BYEBYEFISHING_RULES = {
         "exploretock.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5962,7 +7846,11 @@ window.BYEBYEFISHING_RULES = {
         "sevenrooms.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5976,7 +7864,11 @@ window.BYEBYEFISHING_RULES = {
         "zenchef.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -5989,7 +7881,11 @@ window.BYEBYEFISHING_RULES = {
         "uber.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6003,7 +7899,11 @@ window.BYEBYEFISHING_RULES = {
         "bolt.eu"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6020,24 +7920,20 @@ window.BYEBYEFISHING_RULES = {
         "sncf.fr",
         "sncf-connect.com",
         "sncfconnect.com",
-        "mail.sncfconnect.com",
-        "mail.sncf-connect.com",
-        "info.sncf.com",
-        "connect.sncf",
         "tgvinoui.sncf",
-        "sncf-voyageurs.com",
-        "info.sncf-voyageurs.com"
+        "sncf-voyageurs.com"
       ],
       "senderDomains": [
-        "sncf.com",
-        "sncf-connect.com",
         "mail.sncfconnect.com",
         "mail.sncf-connect.com",
         "info.sncf.com",
-        "connect.sncf",
-        "info.sncf-voyageurs.com"
+        "connect.sncf"
       ],
-      "senderMatchSubdomains": false
+      "senderMatchSubdomains": false,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6050,7 +7946,11 @@ window.BYEBYEFISHING_RULES = {
         "thetrainline.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6064,11 +7964,15 @@ window.BYEBYEFISHING_RULES = {
         "airfrance.com",
         "airfrance-klm.com",
         "airfranceklm.com",
+        "flyingblue.com"
+      ],
+      "senderDomains": [
+        "airfrance.com",
+        "airfrance.fr",
         "account-airfrance.com",
         "connect-passengers.com",
         "email.airfrance.fr",
         "enews-airfrance.com",
-        "flyingblue.com",
         "info-airfrance.com",
         "info-flyingblue.com",
         "infos-airfrance.com",
@@ -6078,8 +7982,11 @@ window.BYEBYEFISHING_RULES = {
         "websupportairfrance.com",
         "xmedia.airfrance.fr"
       ],
-      "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": false,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6092,7 +7999,11 @@ window.BYEBYEFISHING_RULES = {
         "transavia.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6107,7 +8018,11 @@ window.BYEBYEFISHING_RULES = {
         "all.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6120,7 +8035,11 @@ window.BYEBYEFISHING_RULES = {
         "ratp.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6134,7 +8053,11 @@ window.BYEBYEFISHING_RULES = {
         "iledefrance-mobilites.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6148,7 +8071,11 @@ window.BYEBYEFISHING_RULES = {
         "telepass.it"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6161,7 +8088,11 @@ window.BYEBYEFISHING_RULES = {
         "asfinag.at"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6175,7 +8106,11 @@ window.BYEBYEFISHING_RULES = {
         "viaverde.pt"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6189,7 +8124,11 @@ window.BYEBYEFISHING_RULES = {
         "toll-collect.de"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6203,7 +8142,11 @@ window.BYEBYEFISHING_RULES = {
         "expedia.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6216,7 +8159,11 @@ window.BYEBYEFISHING_RULES = {
         "hotels.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6229,7 +8176,11 @@ window.BYEBYEFISHING_RULES = {
         "agoda.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6243,7 +8194,11 @@ window.BYEBYEFISHING_RULES = {
         "trip.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6257,7 +8212,11 @@ window.BYEBYEFISHING_RULES = {
         "kayak.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6270,7 +8229,11 @@ window.BYEBYEFISHING_RULES = {
         "skyscanner.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6283,7 +8246,11 @@ window.BYEBYEFISHING_RULES = {
         "vrbo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6297,7 +8264,11 @@ window.BYEBYEFISHING_RULES = {
         "hertz.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6311,7 +8282,11 @@ window.BYEBYEFISHING_RULES = {
         "avis.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6325,7 +8300,11 @@ window.BYEBYEFISHING_RULES = {
         "enterprise.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6338,7 +8317,11 @@ window.BYEBYEFISHING_RULES = {
         "ryanair.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6352,7 +8335,11 @@ window.BYEBYEFISHING_RULES = {
         "easyjet.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6365,7 +8352,11 @@ window.BYEBYEFISHING_RULES = {
         "lufthansa.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6378,7 +8369,11 @@ window.BYEBYEFISHING_RULES = {
         "klm.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6391,7 +8386,11 @@ window.BYEBYEFISHING_RULES = {
         "britishairways.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6405,7 +8404,11 @@ window.BYEBYEFISHING_RULES = {
         "delta.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6418,7 +8421,11 @@ window.BYEBYEFISHING_RULES = {
         "united.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6432,7 +8439,11 @@ window.BYEBYEFISHING_RULES = {
         "americanairlines.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6445,7 +8456,11 @@ window.BYEBYEFISHING_RULES = {
         "southwest.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6459,7 +8474,11 @@ window.BYEBYEFISHING_RULES = {
         "ceair.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6473,7 +8492,11 @@ window.BYEBYEFISHING_RULES = {
         "goindigo.in"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6488,7 +8511,11 @@ window.BYEBYEFISHING_RULES = {
         "csair.cn"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6501,7 +8528,11 @@ window.BYEBYEFISHING_RULES = {
         "airchina.com.cn"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6514,7 +8545,11 @@ window.BYEBYEFISHING_RULES = {
         "alaskaair.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6528,7 +8563,11 @@ window.BYEBYEFISHING_RULES = {
         "ana.co.jp"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6543,7 +8582,11 @@ window.BYEBYEFISHING_RULES = {
         "latamairlines.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6557,7 +8600,11 @@ window.BYEBYEFISHING_RULES = {
         "turkishairlines.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6572,7 +8619,11 @@ window.BYEBYEFISHING_RULES = {
         "jal.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6585,7 +8636,11 @@ window.BYEBYEFISHING_RULES = {
         "aircanada.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6598,7 +8653,11 @@ window.BYEBYEFISHING_RULES = {
         "hainanairlines.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6612,7 +8671,11 @@ window.BYEBYEFISHING_RULES = {
         "qantas.com.au"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6625,7 +8688,11 @@ window.BYEBYEFISHING_RULES = {
         "shenzhenair.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6638,7 +8705,11 @@ window.BYEBYEFISHING_RULES = {
         "avianca.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6651,7 +8722,11 @@ window.BYEBYEFISHING_RULES = {
         "aeroflot.ru"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6665,7 +8740,11 @@ window.BYEBYEFISHING_RULES = {
         "airindia.in"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6679,7 +8758,11 @@ window.BYEBYEFISHING_RULES = {
         "jetblue.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6694,7 +8777,11 @@ window.BYEBYEFISHING_RULES = {
         "xiamenair.com.cn"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6704,11 +8791,14 @@ window.BYEBYEFISHING_RULES = {
         "sichuan airlines"
       ],
       "allowedDomains": [
-        "scal.com.cn",
         "sichuanair.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6724,7 +8814,11 @@ window.BYEBYEFISHING_RULES = {
         "voeazul.com.br"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6734,11 +8828,14 @@ window.BYEBYEFISHING_RULES = {
         "shandong airlines"
       ],
       "allowedDomains": [
-        "sda.cn",
-        "shandongair.com"
+        "sda.cn"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6751,7 +8848,11 @@ window.BYEBYEFISHING_RULES = {
         "emirates.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6764,7 +8865,11 @@ window.BYEBYEFISHING_RULES = {
         "qatarairways.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "travel",
@@ -6777,7 +8882,11 @@ window.BYEBYEFISHING_RULES = {
         "flyasiana.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "maps",
@@ -6790,7 +8899,11 @@ window.BYEBYEFISHING_RULES = {
         "waze.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "maps",
@@ -6806,7 +8919,11 @@ window.BYEBYEFISHING_RULES = {
         "osm.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "maps",
@@ -6820,7 +8937,11 @@ window.BYEBYEFISHING_RULES = {
         "here.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "maps",
@@ -6833,7 +8954,11 @@ window.BYEBYEFISHING_RULES = {
         "mapquest.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "maps",
@@ -6847,7 +8972,11 @@ window.BYEBYEFISHING_RULES = {
         "tomtom.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "maps",
@@ -6860,7 +8989,11 @@ window.BYEBYEFISHING_RULES = {
         "mapbox.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "maps",
@@ -6873,7 +9006,11 @@ window.BYEBYEFISHING_RULES = {
         "citymapper.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6887,7 +9024,11 @@ window.BYEBYEFISHING_RULES = {
         "expressvpn.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6901,7 +9042,11 @@ window.BYEBYEFISHING_RULES = {
         "nordvpn.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6914,7 +9059,11 @@ window.BYEBYEFISHING_RULES = {
         "surfshark.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6928,7 +9077,11 @@ window.BYEBYEFISHING_RULES = {
         "protonvpn.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6942,7 +9095,11 @@ window.BYEBYEFISHING_RULES = {
         "cyberghostvpn.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6956,7 +9113,11 @@ window.BYEBYEFISHING_RULES = {
         "privateinternetaccess.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6970,7 +9131,11 @@ window.BYEBYEFISHING_RULES = {
         "mullvad.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6984,7 +9149,11 @@ window.BYEBYEFISHING_RULES = {
         "tunnelbear.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -6997,7 +9166,11 @@ window.BYEBYEFISHING_RULES = {
         "windscribe.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7011,7 +9184,11 @@ window.BYEBYEFISHING_RULES = {
         "hotspotshield.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7025,7 +9202,11 @@ window.BYEBYEFISHING_RULES = {
         "ipvanish.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7039,7 +9220,11 @@ window.BYEBYEFISHING_RULES = {
         "hide.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7052,7 +9237,11 @@ window.BYEBYEFISHING_RULES = {
         "ivpn.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7066,7 +9255,11 @@ window.BYEBYEFISHING_RULES = {
         "vyprvpn.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7079,7 +9272,11 @@ window.BYEBYEFISHING_RULES = {
         "mozilla.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7096,7 +9293,11 @@ window.BYEBYEFISHING_RULES = {
         "cloudflare.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7111,7 +9312,11 @@ window.BYEBYEFISHING_RULES = {
         "torproject.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
@@ -7122,10 +9327,18 @@ window.BYEBYEFISHING_RULES = {
         "cisco webex"
       ],
       "allowedDomains": [
-        "webex.com"
+        "webex.com",
+        "cisco.com",
+        "wbx2.com",
+        "ciscospark.com",
+        "webexapis.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
@@ -7139,7 +9352,11 @@ window.BYEBYEFISHING_RULES = {
         "ringcentral.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
@@ -7151,23 +9368,39 @@ window.BYEBYEFISHING_RULES = {
         "gotomeeting"
       ],
       "allowedDomains": [
-        "goto.com"
+        "goto.com",
+        "gotomeeting.com",
+        "gotowebinar.com",
+        "gototraining.com",
+        "gotoresolve.com",
+        "join.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
       "id": "grammarly",
-      "name": "Grammarly",
+      "name": "Grammarly / Superhuman",
       "aliases": [
-        "grammarly"
+        "grammarly",
+        "superhuman",
+        "superhuman go"
       ],
       "allowedDomains": [
-        "grammarly.com"
+        "grammarly.com",
+        "superhuman.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
@@ -7180,7 +9413,11 @@ window.BYEBYEFISHING_RULES = {
         "smartsheet.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
@@ -7193,7 +9430,11 @@ window.BYEBYEFISHING_RULES = {
         "wrike.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
@@ -7206,7 +9447,11 @@ window.BYEBYEFISHING_RULES = {
         "productboard.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "workplace-saas",
@@ -7220,7 +9465,11 @@ window.BYEBYEFISHING_RULES = {
         "aha.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7233,7 +9482,11 @@ window.BYEBYEFISHING_RULES = {
         "pipedrive.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7248,7 +9501,11 @@ window.BYEBYEFISHING_RULES = {
         "freshdesk.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7264,7 +9521,11 @@ window.BYEBYEFISHING_RULES = {
         "helpscout.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7279,7 +9540,11 @@ window.BYEBYEFISHING_RULES = {
         "frontapp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7293,7 +9558,11 @@ window.BYEBYEFISHING_RULES = {
         "customer.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7306,7 +9575,11 @@ window.BYEBYEFISHING_RULES = {
         "braze.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7319,7 +9592,11 @@ window.BYEBYEFISHING_RULES = {
         "klaviyo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7333,7 +9610,11 @@ window.BYEBYEFISHING_RULES = {
         "activecampaign.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7346,7 +9627,11 @@ window.BYEBYEFISHING_RULES = {
         "constantcontact.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7361,7 +9646,11 @@ window.BYEBYEFISHING_RULES = {
         "sendinblue.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7375,7 +9664,11 @@ window.BYEBYEFISHING_RULES = {
         "mailerlite.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sales-marketing",
@@ -7388,7 +9681,11 @@ window.BYEBYEFISHING_RULES = {
         "marketo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7401,7 +9698,11 @@ window.BYEBYEFISHING_RULES = {
         "tableau.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7415,7 +9716,11 @@ window.BYEBYEFISHING_RULES = {
         "powerbi.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7428,7 +9733,11 @@ window.BYEBYEFISHING_RULES = {
         "looker.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7441,7 +9750,11 @@ window.BYEBYEFISHING_RULES = {
         "snowflake.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7454,7 +9767,11 @@ window.BYEBYEFISHING_RULES = {
         "databricks.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7470,7 +9787,28 @@ window.BYEBYEFISHING_RULES = {
         "dbtlabs.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "data-analytics",
+      "id": "fivetran",
+      "name": "Fivetran",
+      "aliases": [
+        "fivetran"
+      ],
+      "allowedDomains": [
+        "fivetran.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7483,7 +9821,11 @@ window.BYEBYEFISHING_RULES = {
         "mixpanel.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
@@ -7496,20 +9838,30 @@ window.BYEBYEFISHING_RULES = {
         "amplitude.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "data-analytics",
       "id": "hotjar",
-      "name": "Hotjar",
+      "name": "Contentsquare / Hotjar",
       "aliases": [
-        "hotjar"
+        "hotjar",
+        "contentsquare"
       ],
       "allowedDomains": [
-        "hotjar.com"
+        "hotjar.com",
+        "contentsquare.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7520,10 +9872,16 @@ window.BYEBYEFISHING_RULES = {
         "duo.com"
       ],
       "allowedDomains": [
-        "duo.com"
+        "duo.com",
+        "duosecurity.com",
+        "duofederal.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7536,7 +9894,11 @@ window.BYEBYEFISHING_RULES = {
         "dashlane.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7550,7 +9912,11 @@ window.BYEBYEFISHING_RULES = {
         "keepersecurity.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7564,7 +9930,11 @@ window.BYEBYEFISHING_RULES = {
         "nordpass.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7578,7 +9948,11 @@ window.BYEBYEFISHING_RULES = {
         "knowbe4.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7591,7 +9965,11 @@ window.BYEBYEFISHING_RULES = {
         "crowdstrike.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7601,10 +9979,15 @@ window.BYEBYEFISHING_RULES = {
         "jamf"
       ],
       "allowedDomains": [
-        "jamf.com"
+        "jamf.com",
+        "jamfcloud.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7618,7 +10001,11 @@ window.BYEBYEFISHING_RULES = {
         "jumpcloud.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7629,10 +10016,21 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "zscaler.com",
-        "zscaler.net"
+        "zscaler.net",
+        "zscalerone.net",
+        "zscalertwo.net",
+        "zscalerthree.net",
+        "zscloud.net",
+        "zpatwo.net",
+        "zdxcloud.net",
+        "zslogin.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "privacy-security",
@@ -7645,7 +10043,11 @@ window.BYEBYEFISHING_RULES = {
         "tenable.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7662,6 +10064,7 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "microsoft.com",
+        "cloud.microsoft",
         "accountprotection.microsoft.com",
         "bing.com",
         "microsoft365.com",
@@ -7674,7 +10077,11 @@ window.BYEBYEFISHING_RULES = {
         "onedrive.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7707,6 +10114,7 @@ window.BYEBYEFISHING_RULES = {
         "google.ch",
         "google.at",
         "google.pl",
+        "calendar.app.google",
         "maps.app.goo.gl",
         "g.co",
         "goo.gle",
@@ -7717,7 +10125,13 @@ window.BYEBYEFISHING_RULES = {
         "accounts.google.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [
+        "google-analytics.com"
+      ],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7737,7 +10151,11 @@ window.BYEBYEFISHING_RULES = {
         "itunes.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7745,14 +10163,20 @@ window.BYEBYEFISHING_RULES = {
       "name": "Meta",
       "aliases": [
         "meta platforms",
-        "meta business"
+        "meta business",
+        "meta ai"
       ],
       "allowedDomains": [
         "meta.com",
+        "meta.ai",
         "metamail.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7769,7 +10193,11 @@ window.BYEBYEFISHING_RULES = {
         "m.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7782,7 +10210,11 @@ window.BYEBYEFISHING_RULES = {
         "instagram.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7795,7 +10227,11 @@ window.BYEBYEFISHING_RULES = {
         "whatsapp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7808,8 +10244,16 @@ window.BYEBYEFISHING_RULES = {
       "allowedDomains": [
         "linkedin.com"
       ],
-      "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderDomains": [
+        "linkedin.com"
+      ],
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [
+        "lnkd.in"
+      ],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7828,7 +10272,11 @@ window.BYEBYEFISHING_RULES = {
         "x.com",
         "e.x.com"
       ],
-      "senderMatchSubdomains": false
+      "senderMatchSubdomains": false,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7838,7 +10286,8 @@ window.BYEBYEFISHING_RULES = {
         "x.ai",
         "xai",
         "x ai",
-        "grok"
+        "grok",
+        "grokipedia"
       ],
       "allowedDomains": [
         "x.ai",
@@ -7848,7 +10297,11 @@ window.BYEBYEFISHING_RULES = {
       "senderDomains": [
         "x.ai"
       ],
-      "senderMatchSubdomains": false
+      "senderMatchSubdomains": false,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7862,7 +10315,11 @@ window.BYEBYEFISHING_RULES = {
         "tiktok.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7875,7 +10332,11 @@ window.BYEBYEFISHING_RULES = {
         "snapchat.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7888,7 +10349,11 @@ window.BYEBYEFISHING_RULES = {
         "discord.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7901,7 +10366,11 @@ window.BYEBYEFISHING_RULES = {
         "slack.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7911,10 +10380,15 @@ window.BYEBYEFISHING_RULES = {
         "zoom"
       ],
       "allowedDomains": [
+        "zoom.com",
         "zoom.us"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7927,7 +10401,11 @@ window.BYEBYEFISHING_RULES = {
         "dropbox.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7941,7 +10419,11 @@ window.BYEBYEFISHING_RULES = {
         "box.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7955,7 +10437,11 @@ window.BYEBYEFISHING_RULES = {
         "adobe.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7970,7 +10456,11 @@ window.BYEBYEFISHING_RULES = {
         "docusign.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -7986,21 +10476,31 @@ window.BYEBYEFISHING_RULES = {
         "dropbox.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
       "id": "yousign",
-      "name": "Yousign",
+      "name": "Yousign / Youtrust",
       "aliases": [
-        "yousign"
+        "yousign",
+        "youtrust"
       ],
       "allowedDomains": [
         "yousign.com",
-        "yousign.fr"
+        "yousign.fr",
+        "youtrust.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8010,11 +10510,17 @@ window.BYEBYEFISHING_RULES = {
         "notion"
       ],
       "allowedDomains": [
+        "notion.com",
+        "www.notion.com",
         "notion.so",
         "notion.site"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": true,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8028,7 +10534,11 @@ window.BYEBYEFISHING_RULES = {
         "figma.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8041,7 +10551,11 @@ window.BYEBYEFISHING_RULES = {
         "canva.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8055,7 +10569,11 @@ window.BYEBYEFISHING_RULES = {
         "miro.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8069,7 +10587,11 @@ window.BYEBYEFISHING_RULES = {
         "mural.co"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8084,7 +10606,11 @@ window.BYEBYEFISHING_RULES = {
         "lucid.co"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8097,7 +10623,11 @@ window.BYEBYEFISHING_RULES = {
         "airtable.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8110,7 +10640,11 @@ window.BYEBYEFISHING_RULES = {
         "asana.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8120,11 +10654,14 @@ window.BYEBYEFISHING_RULES = {
         "trello"
       ],
       "allowedDomains": [
-        "trello.com",
-        "atlassian.com"
+        "trello.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8138,7 +10675,11 @@ window.BYEBYEFISHING_RULES = {
         "monday.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8152,7 +10693,11 @@ window.BYEBYEFISHING_RULES = {
         "clickup.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8166,7 +10711,11 @@ window.BYEBYEFISHING_RULES = {
         "coda.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8179,7 +10728,11 @@ window.BYEBYEFISHING_RULES = {
         "basecamp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8193,7 +10746,11 @@ window.BYEBYEFISHING_RULES = {
         "loom.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8206,7 +10763,11 @@ window.BYEBYEFISHING_RULES = {
         "todoist.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8219,7 +10780,11 @@ window.BYEBYEFISHING_RULES = {
         "evernote.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8232,7 +10797,11 @@ window.BYEBYEFISHING_RULES = {
         "zapier.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8246,7 +10815,11 @@ window.BYEBYEFISHING_RULES = {
         "make.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8260,7 +10833,11 @@ window.BYEBYEFISHING_RULES = {
         "1password.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8274,7 +10851,11 @@ window.BYEBYEFISHING_RULES = {
         "lastpass.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8287,7 +10868,11 @@ window.BYEBYEFISHING_RULES = {
         "bitwarden.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8300,7 +10885,11 @@ window.BYEBYEFISHING_RULES = {
         "okta.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8314,7 +10903,11 @@ window.BYEBYEFISHING_RULES = {
         "okta.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8334,7 +10927,11 @@ window.BYEBYEFISHING_RULES = {
         "rocketmail.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8351,7 +10948,11 @@ window.BYEBYEFISHING_RULES = {
         "pm.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8365,7 +10966,11 @@ window.BYEBYEFISHING_RULES = {
         "fastmail.fm"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8381,7 +10986,47 @@ window.BYEBYEFISHING_RULES = {
         "zohomail.eu"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "mail-providers",
+      "id": "aol",
+      "name": "AOL Mail",
+      "aliases": [
+        "aol",
+        "aol mail"
+      ],
+      "allowedDomains": [
+        "aol.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "mail-providers",
+      "id": "mail-com",
+      "name": "mail.com",
+      "aliases": [
+        "mail.com",
+        "mail com"
+      ],
+      "allowedDomains": [
+        "mail.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8400,7 +11045,11 @@ window.BYEBYEFISHING_RULES = {
         "gmx.ch"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8414,7 +11063,11 @@ window.BYEBYEFISHING_RULES = {
         "web.de"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8429,7 +11082,11 @@ window.BYEBYEFISHING_RULES = {
         "t-online.de"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8443,7 +11100,11 @@ window.BYEBYEFISHING_RULES = {
         "freenet.de"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8460,7 +11121,11 @@ window.BYEBYEFISHING_RULES = {
         "netcourrier.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8478,7 +11143,11 @@ window.BYEBYEFISHING_RULES = {
         "tutamail.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8492,7 +11161,11 @@ window.BYEBYEFISHING_RULES = {
         "mailbox.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8505,7 +11178,11 @@ window.BYEBYEFISHING_RULES = {
         "posteo.de"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8519,7 +11196,11 @@ window.BYEBYEFISHING_RULES = {
         "seznam.cz"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8534,7 +11215,11 @@ window.BYEBYEFISHING_RULES = {
         "wp.pl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8548,7 +11233,11 @@ window.BYEBYEFISHING_RULES = {
         "onet.pl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8562,7 +11251,11 @@ window.BYEBYEFISHING_RULES = {
         "o2.pl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8576,7 +11269,11 @@ window.BYEBYEFISHING_RULES = {
         "interia.pl"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8590,7 +11287,11 @@ window.BYEBYEFISHING_RULES = {
         "libero.it"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "mail-providers",
@@ -8604,7 +11305,11 @@ window.BYEBYEFISHING_RULES = {
         "virgilio.it"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8617,7 +11322,11 @@ window.BYEBYEFISHING_RULES = {
         "salesforce.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8630,7 +11339,11 @@ window.BYEBYEFISHING_RULES = {
         "hubspot.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8640,10 +11353,15 @@ window.BYEBYEFISHING_RULES = {
         "zendesk"
       ],
       "allowedDomains": [
-        "zendesk.com"
+        "zendesk.com",
+        "zendesk.co.jp"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8657,7 +11375,11 @@ window.BYEBYEFISHING_RULES = {
         "intercom.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8670,7 +11392,11 @@ window.BYEBYEFISHING_RULES = {
         "workday.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8684,7 +11410,11 @@ window.BYEBYEFISHING_RULES = {
         "servicenow.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8697,7 +11427,11 @@ window.BYEBYEFISHING_RULES = {
         "rippling.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8711,7 +11445,11 @@ window.BYEBYEFISHING_RULES = {
         "deel.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8725,7 +11463,11 @@ window.BYEBYEFISHING_RULES = {
         "gusto.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "big-tech",
@@ -8738,7 +11480,11 @@ window.BYEBYEFISHING_RULES = {
         "dropbox.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8752,7 +11498,11 @@ window.BYEBYEFISHING_RULES = {
         "perplexity.ai"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8766,7 +11516,11 @@ window.BYEBYEFISHING_RULES = {
         "deepseek.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8780,7 +11534,11 @@ window.BYEBYEFISHING_RULES = {
         "character.ai"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8794,7 +11552,11 @@ window.BYEBYEFISHING_RULES = {
         "quillbot.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8808,7 +11570,11 @@ window.BYEBYEFISHING_RULES = {
         "poe.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8822,7 +11588,11 @@ window.BYEBYEFISHING_RULES = {
         "mistral.ai"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8836,7 +11606,11 @@ window.BYEBYEFISHING_RULES = {
         "huggingface.co"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8849,7 +11623,11 @@ window.BYEBYEFISHING_RULES = {
         "midjourney.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8863,7 +11641,11 @@ window.BYEBYEFISHING_RULES = {
         "elevenlabs.io"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8877,7 +11659,11 @@ window.BYEBYEFISHING_RULES = {
         "runwayml.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "ai",
@@ -8891,7 +11677,11 @@ window.BYEBYEFISHING_RULES = {
         "replicate.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -8904,7 +11694,11 @@ window.BYEBYEFISHING_RULES = {
         "coursera.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -8917,7 +11711,11 @@ window.BYEBYEFISHING_RULES = {
         "udemy.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -8930,7 +11728,11 @@ window.BYEBYEFISHING_RULES = {
         "khanacademy.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -8943,7 +11745,11 @@ window.BYEBYEFISHING_RULES = {
         "duolingo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -8957,7 +11763,11 @@ window.BYEBYEFISHING_RULES = {
         "edx.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -8972,7 +11782,11 @@ window.BYEBYEFISHING_RULES = {
         "canvaslms.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -8986,20 +11800,51 @@ window.BYEBYEFISHING_RULES = {
         "moodlecloud.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [
+        "moodle.huauchinango.tecnm.mx"
+      ],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
       "id": "blackboard",
       "name": "Blackboard",
       "aliases": [
-        "blackboard"
+        "blackboard",
+        "anthology"
       ],
       "allowedDomains": [
-        "blackboard.com"
+        "blackboard.com",
+        "anthology.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "education",
+      "id": "wayground",
+      "name": "Wayground (formerly Quizizz)",
+      "aliases": [
+        "wayground",
+        "quizizz"
+      ],
+      "allowedDomains": [
+        "wayground.com",
+        "quizizz.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9014,7 +11859,11 @@ window.BYEBYEFISHING_RULES = {
         "pearsonvue.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9027,7 +11876,11 @@ window.BYEBYEFISHING_RULES = {
         "chegg.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9040,7 +11893,11 @@ window.BYEBYEFISHING_RULES = {
         "quizlet.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9053,7 +11910,11 @@ window.BYEBYEFISHING_RULES = {
         "schoology.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9067,7 +11928,11 @@ window.BYEBYEFISHING_RULES = {
         "clever.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9081,7 +11946,11 @@ window.BYEBYEFISHING_RULES = {
         "classdojo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9094,7 +11963,11 @@ window.BYEBYEFISHING_RULES = {
         "kahoot.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "education",
@@ -9107,7 +11980,11 @@ window.BYEBYEFISHING_RULES = {
         "turnitin.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9123,7 +12000,11 @@ window.BYEBYEFISHING_RULES = {
         "wikimediafoundation.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9136,7 +12017,11 @@ window.BYEBYEFISHING_RULES = {
         "reddit.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9149,7 +12034,11 @@ window.BYEBYEFISHING_RULES = {
         "quora.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9163,7 +12052,11 @@ window.BYEBYEFISHING_RULES = {
         "medium.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9176,7 +12069,11 @@ window.BYEBYEFISHING_RULES = {
         "substack.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9191,7 +12088,11 @@ window.BYEBYEFISHING_RULES = {
         "bbc.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9204,7 +12105,11 @@ window.BYEBYEFISHING_RULES = {
         "cnn.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9218,7 +12123,11 @@ window.BYEBYEFISHING_RULES = {
         "nytimes.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9231,7 +12140,11 @@ window.BYEBYEFISHING_RULES = {
         "washingtonpost.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9244,7 +12157,11 @@ window.BYEBYEFISHING_RULES = {
         "theguardian.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9257,7 +12174,11 @@ window.BYEBYEFISHING_RULES = {
         "reuters.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9271,7 +12192,11 @@ window.BYEBYEFISHING_RULES = {
         "apnews.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9284,7 +12209,11 @@ window.BYEBYEFISHING_RULES = {
         "lemonde.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9297,7 +12226,11 @@ window.BYEBYEFISHING_RULES = {
         "lefigaro.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9310,7 +12243,11 @@ window.BYEBYEFISHING_RULES = {
         "franceinfo.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9323,7 +12260,11 @@ window.BYEBYEFISHING_RULES = {
         "npr.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9336,7 +12277,11 @@ window.BYEBYEFISHING_RULES = {
         "bloomberg.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "news-reference",
@@ -9349,7 +12294,11 @@ window.BYEBYEFISHING_RULES = {
         "forbes.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9362,7 +12311,11 @@ window.BYEBYEFISHING_RULES = {
         "baidu.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9375,7 +12328,11 @@ window.BYEBYEFISHING_RULES = {
         "naver.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9390,7 +12347,11 @@ window.BYEBYEFISHING_RULES = {
         "ya.ru"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9404,7 +12365,11 @@ window.BYEBYEFISHING_RULES = {
         "mail.ru"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9418,7 +12383,11 @@ window.BYEBYEFISHING_RULES = {
         "vk.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9432,7 +12401,11 @@ window.BYEBYEFISHING_RULES = {
         "ok.ru"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9447,7 +12420,11 @@ window.BYEBYEFISHING_RULES = {
         "t.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9462,7 +12439,11 @@ window.BYEBYEFISHING_RULES = {
         "weixin.qq.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9476,7 +12457,11 @@ window.BYEBYEFISHING_RULES = {
         "qq.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9489,7 +12474,11 @@ window.BYEBYEFISHING_RULES = {
         "weibo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9503,7 +12492,11 @@ window.BYEBYEFISHING_RULES = {
         "line.me"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9514,10 +12507,15 @@ window.BYEBYEFISHING_RULES = {
         "kakao talk"
       ],
       "allowedDomains": [
-        "kakao.com"
+        "kakao.com",
+        "kakaocorp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9530,21 +12528,32 @@ window.BYEBYEFISHING_RULES = {
         "pinterest.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
       "id": "threads",
       "name": "Threads",
       "aliases": [
+        "threads",
+        "threads.com",
         "threads.net",
         "meta threads"
       ],
       "allowedDomains": [
+        "threads.com",
         "threads.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "regional-social",
@@ -9559,7 +12568,11 @@ window.BYEBYEFISHING_RULES = {
         "bsky.social"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9573,7 +12586,11 @@ window.BYEBYEFISHING_RULES = {
         "indeed.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9586,7 +12603,11 @@ window.BYEBYEFISHING_RULES = {
         "glassdoor.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9599,7 +12620,29 @@ window.BYEBYEFISHING_RULES = {
         "monster.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
+    },
+    {
+      "category": "jobs-real-estate",
+      "id": "careerbuilder",
+      "name": "CareerBuilder",
+      "aliases": [
+        "careerbuilder",
+        "career builder"
+      ],
+      "allowedDomains": [
+        "careerbuilder.com"
+      ],
+      "senderDomains": null,
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9609,10 +12652,15 @@ window.BYEBYEFISHING_RULES = {
         "ziprecruiter"
       ],
       "allowedDomains": [
-        "ziprecruiter.com"
+        "ziprecruiter.com",
+        "ziprecruiter.ie"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9625,7 +12673,11 @@ window.BYEBYEFISHING_RULES = {
         "welcometothejungle.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9638,7 +12690,11 @@ window.BYEBYEFISHING_RULES = {
         "smartrecruiters.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9649,11 +12705,14 @@ window.BYEBYEFISHING_RULES = {
         "oracle recruiting"
       ],
       "allowedDomains": [
-        "taleo.net",
-        "oraclecloud.com"
+        "taleo.net"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9666,7 +12725,11 @@ window.BYEBYEFISHING_RULES = {
         "zillow.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9680,7 +12743,11 @@ window.BYEBYEFISHING_RULES = {
         "realtor.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9693,7 +12760,11 @@ window.BYEBYEFISHING_RULES = {
         "redfin.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9707,7 +12778,11 @@ window.BYEBYEFISHING_RULES = {
         "seloger.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9721,7 +12796,11 @@ window.BYEBYEFISHING_RULES = {
         "bienici.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9735,7 +12814,11 @@ window.BYEBYEFISHING_RULES = {
         "pap.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9748,7 +12831,11 @@ window.BYEBYEFISHING_RULES = {
         "rightmove.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9761,7 +12848,11 @@ window.BYEBYEFISHING_RULES = {
         "zoopla.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9774,7 +12865,11 @@ window.BYEBYEFISHING_RULES = {
         "idealista.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9787,7 +12882,11 @@ window.BYEBYEFISHING_RULES = {
         "immobiliare.it"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9802,7 +12901,11 @@ window.BYEBYEFISHING_RULES = {
         "immoscout24.ch"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9816,7 +12919,11 @@ window.BYEBYEFISHING_RULES = {
         "domain.com.au"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "jobs-real-estate",
@@ -9829,7 +12936,11 @@ window.BYEBYEFISHING_RULES = {
         "apartments.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9842,7 +12953,11 @@ window.BYEBYEFISHING_RULES = {
         "yelp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9857,7 +12972,11 @@ window.BYEBYEFISHING_RULES = {
         "tripadvisor.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9871,7 +12990,11 @@ window.BYEBYEFISHING_RULES = {
         "grubhub.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9885,7 +13008,11 @@ window.BYEBYEFISHING_RULES = {
         "uber.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9898,7 +13025,11 @@ window.BYEBYEFISHING_RULES = {
         "toogoodtogo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9912,7 +13043,11 @@ window.BYEBYEFISHING_RULES = {
         "hellofresh.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9925,7 +13060,11 @@ window.BYEBYEFISHING_RULES = {
         "tesco.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9939,7 +13078,11 @@ window.BYEBYEFISHING_RULES = {
         "sainsburys.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9952,7 +13095,11 @@ window.BYEBYEFISHING_RULES = {
         "kroger.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9965,7 +13112,11 @@ window.BYEBYEFISHING_RULES = {
         "aldi.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9978,7 +13129,11 @@ window.BYEBYEFISHING_RULES = {
         "ocado.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -9989,10 +13144,14 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "wholefoodsmarket.com",
-        "amazon.com"
+        "wholefoodsmarket.co.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -10005,7 +13164,11 @@ window.BYEBYEFISHING_RULES = {
         "waitrose.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -10018,7 +13181,11 @@ window.BYEBYEFISHING_RULES = {
         "thumbtack.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -10032,7 +13199,11 @@ window.BYEBYEFISHING_RULES = {
         "angi.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -10046,7 +13217,11 @@ window.BYEBYEFISHING_RULES = {
         "taskrabbit.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "food-local",
@@ -10059,7 +13234,11 @@ window.BYEBYEFISHING_RULES = {
         "nextdoor.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10074,7 +13253,11 @@ window.BYEBYEFISHING_RULES = {
         "unitedhealthcare.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10087,7 +13270,11 @@ window.BYEBYEFISHING_RULES = {
         "optum.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10101,7 +13288,11 @@ window.BYEBYEFISHING_RULES = {
         "kaiserpermanente.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10114,7 +13305,11 @@ window.BYEBYEFISHING_RULES = {
         "aetna.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10127,7 +13322,11 @@ window.BYEBYEFISHING_RULES = {
         "cigna.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10142,7 +13341,11 @@ window.BYEBYEFISHING_RULES = {
         "bluecrossblueshield.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10157,7 +13360,11 @@ window.BYEBYEFISHING_RULES = {
         "elevancehealth.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10170,7 +13377,11 @@ window.BYEBYEFISHING_RULES = {
         "humana.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10183,7 +13394,11 @@ window.BYEBYEFISHING_RULES = {
         "bupa.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10197,7 +13412,11 @@ window.BYEBYEFISHING_RULES = {
         "nhs.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10212,7 +13431,11 @@ window.BYEBYEFISHING_RULES = {
         "cvshealth.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10225,7 +13448,11 @@ window.BYEBYEFISHING_RULES = {
         "walgreens.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10239,7 +13466,11 @@ window.BYEBYEFISHING_RULES = {
         "goodrx.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10252,7 +13483,11 @@ window.BYEBYEFISHING_RULES = {
         "zocdoc.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10264,10 +13499,15 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "mychart.com",
+        "mychart.org",
         "epic.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10280,7 +13520,11 @@ window.BYEBYEFISHING_RULES = {
         "mayoclinic.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10293,7 +13537,11 @@ window.BYEBYEFISHING_RULES = {
         "clevelandclinic.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10306,7 +13554,11 @@ window.BYEBYEFISHING_RULES = {
         "webmd.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "health-global",
@@ -10319,7 +13571,11 @@ window.BYEBYEFISHING_RULES = {
         "healthline.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10332,7 +13588,11 @@ window.BYEBYEFISHING_RULES = {
         "samsung.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10346,7 +13606,11 @@ window.BYEBYEFISHING_RULES = {
         "xiaomi.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10359,7 +13623,11 @@ window.BYEBYEFISHING_RULES = {
         "huawei.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10372,7 +13640,11 @@ window.BYEBYEFISHING_RULES = {
         "sony.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10386,7 +13658,11 @@ window.BYEBYEFISHING_RULES = {
         "lg.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10400,7 +13676,11 @@ window.BYEBYEFISHING_RULES = {
         "hp.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10413,7 +13693,11 @@ window.BYEBYEFISHING_RULES = {
         "dell.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10426,7 +13710,11 @@ window.BYEBYEFISHING_RULES = {
         "lenovo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10439,7 +13727,11 @@ window.BYEBYEFISHING_RULES = {
         "garmin.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10452,7 +13744,11 @@ window.BYEBYEFISHING_RULES = {
         "asus.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10465,7 +13761,11 @@ window.BYEBYEFISHING_RULES = {
         "acer.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10478,7 +13778,11 @@ window.BYEBYEFISHING_RULES = {
         "logitech.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10491,7 +13795,11 @@ window.BYEBYEFISHING_RULES = {
         "roku.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10504,7 +13812,11 @@ window.BYEBYEFISHING_RULES = {
         "sonos.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10517,7 +13829,11 @@ window.BYEBYEFISHING_RULES = {
         "fitbit.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10530,7 +13846,11 @@ window.BYEBYEFISHING_RULES = {
         "dyson.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "devices",
@@ -10543,7 +13863,11 @@ window.BYEBYEFISHING_RULES = {
         "bose.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10557,7 +13881,11 @@ window.BYEBYEFISHING_RULES = {
         "weather.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10570,7 +13898,11 @@ window.BYEBYEFISHING_RULES = {
         "accuweather.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10585,7 +13917,11 @@ window.BYEBYEFISHING_RULES = {
         "noaa.gov"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10598,7 +13934,11 @@ window.BYEBYEFISHING_RULES = {
         "metoffice.gov.uk"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10613,7 +13953,11 @@ window.BYEBYEFISHING_RULES = {
         "meteofrance.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10627,7 +13971,11 @@ window.BYEBYEFISHING_RULES = {
         "windy.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10640,7 +13988,11 @@ window.BYEBYEFISHING_RULES = {
         "ventusky.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10653,7 +14005,11 @@ window.BYEBYEFISHING_RULES = {
         "theweathernetwork.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10667,7 +14023,11 @@ window.BYEBYEFISHING_RULES = {
         "usgs.gov"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10680,7 +14040,11 @@ window.BYEBYEFISHING_RULES = {
         "fema.gov"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10693,7 +14057,11 @@ window.BYEBYEFISHING_RULES = {
         "ready.gov"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10707,7 +14075,11 @@ window.BYEBYEFISHING_RULES = {
         "ifrc.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10721,7 +14093,11 @@ window.BYEBYEFISHING_RULES = {
         "croix-rouge.fr"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10734,7 +14110,11 @@ window.BYEBYEFISHING_RULES = {
         "alert.swiss"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "weather-emergency",
@@ -10748,7 +14128,11 @@ window.BYEBYEFISHING_RULES = {
         "gdacs.org"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10761,7 +14145,11 @@ window.BYEBYEFISHING_RULES = {
         "espn.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10774,7 +14162,11 @@ window.BYEBYEFISHING_RULES = {
         "fifa.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10787,7 +14179,11 @@ window.BYEBYEFISHING_RULES = {
         "uefa.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10800,7 +14196,11 @@ window.BYEBYEFISHING_RULES = {
         "olympics.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10813,7 +14213,11 @@ window.BYEBYEFISHING_RULES = {
         "nba.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10826,7 +14230,11 @@ window.BYEBYEFISHING_RULES = {
         "nfl.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10839,7 +14247,11 @@ window.BYEBYEFISHING_RULES = {
         "mlb.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10852,7 +14264,11 @@ window.BYEBYEFISHING_RULES = {
         "nhl.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10866,7 +14282,11 @@ window.BYEBYEFISHING_RULES = {
         "formula1.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10879,7 +14299,11 @@ window.BYEBYEFISHING_RULES = {
         "strava.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10892,7 +14316,11 @@ window.BYEBYEFISHING_RULES = {
         "alltrails.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10905,7 +14333,11 @@ window.BYEBYEFISHING_RULES = {
         "imdb.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10918,7 +14350,11 @@ window.BYEBYEFISHING_RULES = {
         "fandango.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10931,7 +14367,11 @@ window.BYEBYEFISHING_RULES = {
         "rottentomatoes.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10945,7 +14385,11 @@ window.BYEBYEFISHING_RULES = {
         "seatgeek.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10959,7 +14403,11 @@ window.BYEBYEFISHING_RULES = {
         "stubhub.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10973,7 +14421,11 @@ window.BYEBYEFISHING_RULES = {
         "axs.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10986,7 +14438,11 @@ window.BYEBYEFISHING_RULES = {
         "vividseats.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -10999,7 +14455,11 @@ window.BYEBYEFISHING_RULES = {
         "bandsintown.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "sports-entertainment",
@@ -11012,7 +14472,11 @@ window.BYEBYEFISHING_RULES = {
         "songkick.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11025,7 +14489,11 @@ window.BYEBYEFISHING_RULES = {
         "netflix.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11046,6 +14514,7 @@ window.BYEBYEFISHING_RULES = {
         "amazon.it",
         "amazon.nl",
         "amazon.ca",
+        "amazon.com.mx",
         "amazon.com.be",
         "amazon.com.au",
         "amazon.co.jp"
@@ -11060,11 +14529,16 @@ window.BYEBYEFISHING_RULES = {
         "amazon.it",
         "amazon.nl",
         "amazon.ca",
+        "amazon.com.mx",
         "amazon.com.be",
         "amazon.com.au",
         "amazon.co.jp"
       ],
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11077,7 +14551,11 @@ window.BYEBYEFISHING_RULES = {
         "spotify.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11092,7 +14570,11 @@ window.BYEBYEFISHING_RULES = {
         "disney.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11105,7 +14587,11 @@ window.BYEBYEFISHING_RULES = {
         "twitch.tv"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11120,7 +14606,11 @@ window.BYEBYEFISHING_RULES = {
         "steamcommunity.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11133,7 +14623,11 @@ window.BYEBYEFISHING_RULES = {
         "epicgames.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11147,7 +14641,11 @@ window.BYEBYEFISHING_RULES = {
         "sony.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11161,7 +14659,11 @@ window.BYEBYEFISHING_RULES = {
         "microsoft.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11174,7 +14676,11 @@ window.BYEBYEFISHING_RULES = {
         "nintendo.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11187,13 +14693,18 @@ window.BYEBYEFISHING_RULES = {
         "hulu.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
       "id": "max",
-      "name": "Max",
+      "name": "HBO Max",
       "aliases": [
+        "max",
         "max.com",
         "hbo max"
       ],
@@ -11202,7 +14713,11 @@ window.BYEBYEFISHING_RULES = {
         "hbomax.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11215,7 +14730,11 @@ window.BYEBYEFISHING_RULES = {
         "paramountplus.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11229,7 +14748,11 @@ window.BYEBYEFISHING_RULES = {
         "peacocktv.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11242,7 +14765,11 @@ window.BYEBYEFISHING_RULES = {
         "crunchyroll.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11255,7 +14782,11 @@ window.BYEBYEFISHING_RULES = {
         "roblox.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11269,7 +14800,11 @@ window.BYEBYEFISHING_RULES = {
         "ea.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11282,7 +14817,11 @@ window.BYEBYEFISHING_RULES = {
         "ubisoft.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11295,7 +14834,11 @@ window.BYEBYEFISHING_RULES = {
         "riotgames.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11310,7 +14853,11 @@ window.BYEBYEFISHING_RULES = {
         "blizzard.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     },
     {
       "category": "media-gaming",
@@ -11324,7 +14871,11 @@ window.BYEBYEFISHING_RULES = {
         "microsoft.com"
       ],
       "senderDomains": null,
-      "senderMatchSubdomains": null
+      "senderMatchSubdomains": null,
+      "brandLinkDomains": [],
+      "controlPlaneDomains": [],
+      "hostedPlatform": false,
+      "userContentPlatform": false
     }
   ]
 };

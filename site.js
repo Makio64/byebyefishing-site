@@ -68,7 +68,9 @@
       rule.category,
       ...rule.aliases,
       ...rule.allowedDomains,
-      ...(rule.senderDomains || [])
+      ...(rule.senderDomains || []),
+      ...(rule.brandLinkDomains || []),
+      ...(rule.controlPlaneDomains || [])
     ]
       .map(normalize)
       .join(" ")
@@ -139,9 +141,39 @@
       const sender = createTextElement(
         "p",
         `Known sender domains: ${rule.senderDomains.join(", ")}`,
-        "sender-domains"
+        "catalog-domain-note"
       );
       article.append(sender);
+    }
+
+    if (rule.brandLinkDomains && rule.brandLinkDomains.length) {
+      article.append(
+        createTextElement(
+          "p",
+          `Additional known link domains: ${rule.brandLinkDomains.join(", ")}`,
+          "catalog-domain-note"
+        )
+      );
+    }
+
+    if (rule.controlPlaneDomains && rule.controlPlaneDomains.length) {
+      article.append(
+        createTextElement(
+          "p",
+          `Exact trusted control domains: ${rule.controlPlaneDomains.join(", ")}`,
+          "catalog-domain-note"
+        )
+      );
+    }
+
+    if (rule.hostedPlatform || rule.userContentPlatform) {
+      article.append(
+        createTextElement(
+          "p",
+          "Customer-created pages are checked as shared content, not treated as proof of the publisher.",
+          "catalog-domain-note"
+        )
+      );
     }
 
     return article;
@@ -235,13 +267,13 @@
       },
       "firefox-android": {
         kicker: "Firefox Android detected",
-        title: "Use Firefox webmail on Android.",
+        title: "Install from Mozilla Add-ons when approved.",
         copy:
-          "Install Firefox for Android, add the extension from Mozilla Add-ons once approved, then open webmail in Firefox.",
-        primaryText: "Download Firefox ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip",
-        secondaryText: "Open Android steps",
-        secondaryHref: "#platform-firefox-android"
+          "The ZIP is for source review and developer testing, not normal Android installation. Use the Mozilla Add-ons listing once it is approved.",
+        primaryText: "Open Android steps",
+        primaryHref: "#platform-firefox-android",
+        secondaryText: "Developer testing ZIP",
+        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
       },
       safari: {
         kicker: "Safari detected",
@@ -250,7 +282,7 @@
           "Safari Web Extensions ship inside an app. Use the Safari steps below while the App Store release is prepared.",
         primaryText: "Open Safari steps",
         primaryHref: "#platform-safari",
-        secondaryText: "Download Firefox ZIP",
+        secondaryText: "Firefox testing ZIP",
         secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
       }
     };
@@ -262,7 +294,7 @@
         "Chrome, Edge, Firefox, Firefox Android, Safari, and source-build instructions are all available below.",
       primaryText: "Download Chrome/Edge ZIP",
       primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip",
-      secondaryText: "Download Firefox ZIP",
+      secondaryText: "Firefox testing ZIP",
       secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
     };
 
