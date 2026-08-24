@@ -1,13 +1,51 @@
 (function initSite() {
+  document.documentElement.classList.add("js");
+
   const menuButton = document.querySelector(".menu-button");
   const siteNav = document.querySelector("#site-nav");
 
   if (menuButton && siteNav) {
+    const closeMenu = () => {
+      menuButton.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("nav-open");
+    };
+
     menuButton.addEventListener("click", () => {
       const isOpen = menuButton.getAttribute("aria-expanded") === "true";
       menuButton.setAttribute("aria-expanded", String(!isOpen));
       document.body.classList.toggle("nav-open", !isOpen);
     });
+
+    siteNav.addEventListener("click", (event) => {
+      if (event.target.closest("a")) closeMenu();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && document.body.classList.contains("nav-open")) {
+        closeMenu();
+        menuButton.focus();
+      }
+    });
+
+    document.addEventListener("click", (event) => {
+      if (
+        document.body.classList.contains("nav-open") &&
+        !siteNav.contains(event.target) &&
+        !menuButton.contains(event.target)
+      ) {
+        closeMenu();
+      }
+    });
+
+    const desktopNav = globalThis.matchMedia("(min-width: 761px)");
+    const handleDesktopNav = (event) => {
+      if (event.matches) closeMenu();
+    };
+    if (desktopNav.addEventListener) {
+      desktopNav.addEventListener("change", handleDesktopNav);
+    } else {
+      desktopNav.addListener?.(handleDesktopNav);
+    }
   }
 
   initInstallGuide();
@@ -37,6 +75,7 @@
     "insurance-fr": "French insurance",
     "jobs-real-estate": "Jobs and real estate",
     "mail-providers": "Mail providers",
+    maps: "Maps",
     "media-gaming": "Media and gaming",
     "news-reference": "News and reference",
     payments: "Payments",
@@ -56,11 +95,15 @@
   const data = window.BYEBYEFISHING_RULES;
   const catalog = document.querySelector("[data-rules-catalog]");
   if (!data || !catalog) return;
+  document.documentElement.classList.add("catalog-ready");
 
   const searchInput = document.querySelector("[data-rule-search]");
   const categoryFilter = document.querySelector("[data-category-filter]");
   const countTarget = document.querySelector("[data-rule-count]");
   const versionTarget = document.querySelector("[data-rule-version]");
+  const resultsSummary = document.querySelector("[data-rule-results-summary]");
+  const loadMoreButton = document.querySelector("[data-rule-load-more]");
+  const RESULTS_PER_PAGE = 24;
   const indexedRules = data.rules.map((rule) => ({
     rule,
     searchText: [
@@ -76,6 +119,7 @@
       .join(" ")
   }));
   let renderFrame = 0;
+  let visibleRuleLimit = RESULTS_PER_PAGE;
 
   if (countTarget) {
     countTarget.textContent = `${data.count} rules`;
@@ -197,6 +241,8 @@
     catalog.replaceChildren();
 
     if (!matches.length) {
+      if (resultsSummary) resultsSummary.textContent = "No matching rules";
+      if (loadMoreButton) loadMoreButton.hidden = true;
       catalog.append(
         createTextElement(
           "p",
@@ -207,8 +253,18 @@
       return;
     }
 
+    const visibleRules = matches.slice(0, visibleRuleLimit);
+    if (resultsSummary) {
+      resultsSummary.textContent = visibleRules.length < matches.length
+        ? `Showing ${visibleRules.length} of ${matches.length} matching rules`
+        : `Showing ${matches.length} ${matches.length === 1 ? "rule" : "rules"}`;
+    }
+    if (loadMoreButton) {
+      loadMoreButton.hidden = visibleRules.length >= matches.length;
+    }
+
     const fragment = document.createDocumentFragment();
-    for (const rule of matches) {
+    for (const rule of visibleRules) {
       fragment.append(createRuleCard(rule));
     }
     catalog.append(fragment);
@@ -224,8 +280,17 @@
     });
   }
 
-  searchInput?.addEventListener("input", scheduleRenderCatalog);
-  categoryFilter?.addEventListener("change", scheduleRenderCatalog);
+  function resetCatalogView() {
+    visibleRuleLimit = RESULTS_PER_PAGE;
+    scheduleRenderCatalog();
+  }
+
+  searchInput?.addEventListener("input", resetCatalogView);
+  categoryFilter?.addEventListener("change", resetCatalogView);
+  loadMoreButton?.addEventListener("click", () => {
+    visibleRuleLimit += RESULTS_PER_PAGE;
+    renderCatalog();
+  });
   renderCatalog();
 
   function initInstallGuide() {
@@ -237,31 +302,31 @@
     const platforms = {
       chrome: {
         kicker: "Chrome detected",
-        title: "Install the Chrome package first.",
+        title: "Test the Chrome build locally.",
         copy:
           "Download the Chrome/Edge ZIP, unzip it, then load it from chrome://extensions with Developer mode enabled.",
         primaryText: "Download Chrome/Edge ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2",
         secondaryText: "Open Chrome steps",
         secondaryHref: "#platform-chrome"
       },
       edge: {
         kicker: "Edge detected",
-        title: "Use the Chrome-compatible package for Edge.",
+        title: "Test the Chrome-compatible Edge build.",
         copy:
           "Download the Chrome/Edge ZIP, unzip it, then load it from edge://extensions with Developer mode enabled.",
         primaryText: "Download Chrome/Edge ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2",
         secondaryText: "Open Edge steps",
         secondaryHref: "#platform-edge"
       },
       firefox: {
         kicker: "Firefox detected",
-        title: "Install with the Firefox package.",
+        title: "Test the Firefox build locally.",
         copy:
           "Download the Firefox ZIP, unzip it, then load manifest.json from about:debugging while the store listing is pending.",
         primaryText: "Download Firefox ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip",
+        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c",
         secondaryText: "Open Firefox steps",
         secondaryHref: "#platform-firefox"
       },
@@ -273,34 +338,57 @@
         primaryText: "Open Android steps",
         primaryHref: "#platform-firefox-android",
         secondaryText: "Developer testing ZIP",
-        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
+        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c"
       },
       safari: {
         kicker: "Safari detected",
-        title: "Safari support uses an App Store wrapper.",
+        title: "Safari support is not released yet.",
         copy:
           "Safari Web Extensions ship inside an app. Use the Safari steps below while the App Store release is prepared.",
         primaryText: "Open Safari steps",
         primaryHref: "#platform-safari",
-        secondaryText: "Firefox testing ZIP",
-        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
+        secondaryText: "See supported webmail",
+        secondaryHref: "#supported-webmail"
+      },
+      ios: {
+        kicker: "iPhone or iPad detected",
+        title: "The iOS release is not available yet.",
+        copy:
+          "Every iOS browser uses the same App Store extension path. Review the Safari steps while that release is prepared.",
+        primaryText: "Open iPhone and iPad steps",
+        primaryHref: "#platform-safari",
+        secondaryText: "See supported webmail",
+        secondaryHref: "#supported-webmail"
+      },
+      mobile: {
+        kicker: "Android browser detected",
+        title: "The Android store release is still pending.",
+        copy:
+          "Chrome and Edge on Android cannot load the desktop ZIP. Review the Firefox Android path instead.",
+        primaryText: "Open Firefox Android steps",
+        primaryHref: "#platform-firefox-android",
+        secondaryText: "See supported webmail",
+        secondaryHref: "#supported-webmail"
       }
     };
 
     const fallback = {
-      kicker: "Choose your browser",
-      title: "Pick the browser you use for webmail.",
+      kicker: "Desktop developer preview",
+      title: "Choose the browser you use for webmail.",
       copy:
         "Chrome, Edge, Firefox, Firefox Android, Safari, and source-build instructions are all available below.",
       primaryText: "Download Chrome/Edge ZIP",
-      primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip",
+      primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2",
       secondaryText: "Firefox testing ZIP",
-      secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip"
+      secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c"
     };
 
     const detectedKey = detectBrowser();
     const config = platforms[detectedKey] || fallback;
-    const detectedCard = detectedKey ? cards.find((card) => card.dataset.platform === detectedKey) : null;
+    const detectedPlatform = detectedKey === "ios" ? "safari" : detectedKey;
+    const detectedCard = detectedPlatform
+      ? cards.find((card) => card.dataset.platform === detectedPlatform)
+      : null;
 
     setText("[data-install-kicker]", config.kicker);
     setText("[data-install-title]", config.title);
@@ -317,6 +405,21 @@
     if (detectedCard && platformOptions.firstElementChild !== detectedCard) {
       platformOptions.prepend(detectedCard);
     }
+
+    function revealPlatform(hash = globalThis.location.hash) {
+      if (!hash.startsWith("#platform-")) return;
+      const target = document.getElementById(hash.slice(1));
+      if (!(target instanceof HTMLDetailsElement)) return;
+      target.open = true;
+      requestAnimationFrame(() => target.querySelector("summary")?.focus({ preventScroll: true }));
+    }
+
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest?.('a[href^="#platform-"]');
+      if (link) setTimeout(() => revealPlatform(link.hash), 0);
+    });
+    globalThis.addEventListener("hashchange", () => revealPlatform());
+    revealPlatform();
 
     function setText(selector, text) {
       const element = guide.querySelector(selector);
@@ -335,8 +438,13 @@
       const brands = navigator.userAgentData?.brands || [];
       const brandNames = brands.map((brand) => brand.brand).join(" ");
       const source = `${ua} ${brandNames}`;
+      const isAndroid = /Android/i.test(ua);
+      const isIOS = /iPhone|iPad|iPod/i.test(ua) ||
+        (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
-      if (/Firefox\/\d+/i.test(ua) && /Android/i.test(ua)) return "firefox-android";
+      if (isIOS) return "ios";
+      if (/Firefox\/\d+/i.test(ua) && isAndroid) return "firefox-android";
+      if (isAndroid) return "mobile";
       if (/FxiOS|Firefox\/\d+/i.test(ua)) return "firefox";
       if (/EdgA|EdgiOS|Edg\//i.test(ua) || /Microsoft Edge/i.test(brandNames)) return "edge";
       if (/CriOS|Chrome\/\d+|Chromium/i.test(source) && !/OPR\/|Opera|SamsungBrowser|Edg\//i.test(source)) {

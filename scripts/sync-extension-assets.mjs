@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import crypto from "node:crypto";
 
 const extensionRoot = path.resolve(process.argv[2] || "..");
 const siteRoot = path.resolve(new URL("..", import.meta.url).pathname);
@@ -21,6 +22,19 @@ function copyIfPresent(from, to) {
 function copyRequired(from, to) {
   if (!copyIfPresent(from, to)) {
     throw new Error(`Missing required release artifact: ${path.join(extensionRoot, from)}`);
+  }
+}
+
+function shortHash(filePath) {
+  return crypto.createHash("sha256").update(fs.readFileSync(filePath)).digest("hex").slice(0, 10);
+}
+
+function updateSiteFile(relativePath, update) {
+  const filePath = path.join(siteRoot, relativePath);
+  const before = fs.readFileSync(filePath, "utf8");
+  const after = update(before);
+  if (after !== before) {
+    fs.writeFileSync(filePath, after);
   }
 }
 
@@ -76,5 +90,58 @@ copyRequired(
 const catalog = loadDefaultRules();
 const output = `window.BYEBYEFISHING_RULES = ${JSON.stringify(catalog, null, 2)};\n`;
 fs.writeFileSync(path.join(siteRoot, "assets/rules-data.js"), output);
+
+const chromeDownload = `downloads/${releaseBasename}-chrome.zip`;
+const firefoxDownload = `downloads/${releaseBasename}-firefox-android.zip`;
+const chromeHash = shortHash(path.join(siteRoot, chromeDownload));
+const firefoxHash = shortHash(path.join(siteRoot, firefoxDownload));
+
+updateSiteFile("site.js", (source) =>
+  source
+    .replace(
+      /downloads\/byebyefishing-[^"'?]+-chrome\.zip(?:\?v=[^"']*)?/g,
+      `${chromeDownload}?v=${chromeHash}`
+    )
+    .replace(
+      /downloads\/byebyefishing-[^"'?]+-firefox-android\.zip(?:\?v=[^"']*)?/g,
+      `${firefoxDownload}?v=${firefoxHash}`
+    )
+);
+
+const styleHash = shortHash(path.join(siteRoot, "styles.css"));
+const scriptHash = shortHash(path.join(siteRoot, "site.js"));
+const rulesHash = shortHash(path.join(siteRoot, "assets/rules-data.js"));
+
+for (const htmlFile of ["index.html", "install.html", "rules.html", "privacy.html"]) {
+  updateSiteFile(htmlFile, (source) => {
+    let next = source
+      .replace(/styles\.css(?:\?v=[^"]*)?/g, `styles.css?v=${styleHash}`)
+      .replace(/site\.js(?:\?v=[^"]*)?/g, `site.js?v=${scriptHash}`)
+      .replace(
+        /downloads\/byebyefishing-[^"'?]+-chrome\.zip(?:\?v=[^"']*)?/g,
+        `${chromeDownload}?v=${chromeHash}`
+      )
+      .replace(
+        /downloads\/byebyefishing-[^"'?]+-firefox-android\.zip(?:\?v=[^"']*)?/g,
+        `${firefoxDownload}?v=${firefoxHash}`
+      );
+
+    if (htmlFile === "rules.html") {
+      next = next.replace(
+        /assets\/rules-data\.js(?:\?v=[^"]*)?/g,
+        `assets/rules-data.js?v=${rulesHash}`
+      );
+    }
+
+    if (htmlFile === "index.html") {
+      next = next.replace(
+        /<strong>\d+<\/strong>\s*<span>protected brand rules<\/span>/,
+        `<strong>${catalog.count}</strong>\n          <span>protected brand rules</span>`
+      );
+    }
+
+    return next;
+  });
+}
 
 console.log(`Synced ${catalog.count} protected-brand rules from ${extensionRoot}`);

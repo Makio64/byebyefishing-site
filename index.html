@@ -9,9 +9,10 @@
     >
     <title>Bye Bye Fishing | Friendly phishing protection for families</title>
     <link rel="icon" href="assets/byebyefishing.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=cc6a1c45ec">
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <a class="brand-link" href="index.html" aria-label="Bye Bye Fishing home">
         <img src="assets/byebyefishing.svg" alt="" width="40" height="40">
@@ -23,31 +24,30 @@
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="index.html" aria-current="page">Home</a>
         <a href="install.html">Install</a>
-        <a href="rules.html">Protection rules</a>
+        <a href="rules.html">Rules</a>
         <a href="privacy.html">Privacy</a>
       </nav>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="hero-section">
         <div class="hero-copy">
-          <p class="eyebrow">Friendly webmail safety nudges</p>
-          <h1>Bye Bye Fishing</h1>
+          <p class="eyebrow">Phishing protection, without the panic</p>
+          <h1>Spot suspicious email before the click.</h1>
           <p class="hero-lede">
-            A calm browser extension that helps families spot suspicious senders, lookalike links,
-            and pressure tactics before anyone clicks.
+            Bye Bye Fishing checks visible senders and links in supported webmail, then gives one
+            clear next step when something looks wrong.
           </p>
           <p class="origin-note">
-            It started after my mum was targeted by attackers. The goal is simple: put one clear,
-            kind pause between a scary email and a costly mistake.
+            Built after my mum was targeted by attackers—so the warning feels helpful, never blaming.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="install.html">Install the extension</a>
-            <a class="button secondary" href="rules.html">Read the protection rules</a>
+            <a class="button primary" href="install.html">Try the developer preview</a>
+            <a class="text-link" href="rules.html">See how protection works</a>
           </div>
         </div>
 
-        <div class="product-preview" aria-label="Example Bye Bye Fishing warning in webmail">
+        <figure class="product-preview">
           <div class="mail-toolbar">
             <span></span>
             <span></span>
@@ -87,7 +87,8 @@
               </div>
             </article>
           </div>
-        </div>
+          <figcaption>Example warning shown inside webmail</figcaption>
+        </figure>
       </section>
 
       <section class="stats-band" aria-label="Product facts">
@@ -96,114 +97,92 @@
           <span>protected brand rules</span>
         </div>
         <div>
-          <strong>0</strong>
-          <span>servers, trackers, or analytics</span>
-        </div>
-        <div>
-          <strong>1</strong>
-          <span>browser permission: storage</span>
-        </div>
-        <div>
           <strong>Local</strong>
-          <span>email checks stay in the browser</span>
+          <span>checks stay on your device</span>
+        </div>
+        <div>
+          <strong>Private</strong>
+          <span>no extension backend or analytics</span>
+        </div>
+        <div>
+          <strong>Clear</strong>
+          <span>one reason and one safer next step</span>
         </div>
       </section>
 
-      <section class="section-grid">
-        <div class="section-copy">
-          <p class="eyebrow">Why it exists</p>
-          <h2>Protection should feel like help, not panic.</h2>
-          <p>
-            Phishing works because it creates pressure: pay now, verify now, rescue the parcel now,
-            avoid suspension now. Bye Bye Fishing does not try to become an email security command
-            center. It gives non-technical people a readable warning at the moment they need it.
-          </p>
-          <p>
-            The extension is intentionally strict around money, passwords, delivery messages, and
-            brand impersonation. A false pause is annoying. A missed fraud attempt can be devastating.
-          </p>
+      <section class="steps-section" id="how-it-works">
+        <div class="section-copy centered-copy">
+          <p class="eyebrow">How it helps</p>
+          <h2>A simple pause at the right moment.</h2>
         </div>
-        <div class="principle-list">
-          <article>
-            <h3>Calm language</h3>
-            <p>No shame, no scary theatre, no blaming the person reading the email.</p>
-          </article>
-          <article>
-            <h3>Local by design</h3>
-            <p>No email upload, no backend, no analytics events, no remote scripts.</p>
-          </article>
-          <article>
-            <h3>Transparent rules</h3>
-            <p>Brand and domain rules are plain text so they can be inspected and improved.</p>
-          </article>
-          <article>
-            <h3>Family editable</h3>
-            <p>Trusted senders can be green-flagged locally after a real-world check.</p>
-          </article>
-        </div>
+        <ol class="steps-grid">
+          <li>
+            <span>1</span>
+            <h3>Checks the clues</h3>
+            <p>Compares the visible sender, destination links, claimed brand, and pressure language.</p>
+          </li>
+          <li>
+            <span>2</span>
+            <h3>Explains the concern</h3>
+            <p>Shows the specific mismatch in plain language, without technical noise or shame.</p>
+          </li>
+          <li>
+            <span>3</span>
+            <h3>Offers a safer route</h3>
+            <p>Suggests opening the official site yourself or checking with someone you trust.</p>
+          </li>
+        </ol>
       </section>
 
-      <section class="feature-band">
+      <section class="privacy-section">
         <div class="section-copy">
-          <p class="eyebrow">What it watches</p>
-          <h2>Suspicious claims, domains, links, and pressure.</h2>
+          <p class="eyebrow">Private by default</p>
+          <h2>Your inbox stays in your browser.</h2>
+          <p>
+            Visible sender information, links, and message text are checked locally. Nothing is sent to
+            an extension backend, and there are no analytics or remote scripts.
+          </p>
+          <div class="inline-links">
+            <a class="text-link" href="privacy.html">Read the privacy details</a>
+            <a class="text-link" href="rules.html#brand-catalog">Browse the rule catalog</a>
+          </div>
         </div>
-        <div class="feature-grid">
-          <article>
-            <h3>Brand impersonation</h3>
-            <p>Warns when a message claims a known brand but uses an email address outside the safety list.</p>
-          </article>
-          <article>
-            <h3>Lookalike links</h3>
-            <p>Flags domains with typos, odd shapes, risky endings, shorteners, or public-hosting detours.</p>
-          </article>
-          <article>
-            <h3>Mismatch checks</h3>
-            <p>Compares visible link text with the real destination before trust is assumed.</p>
-          </article>
-          <article>
-            <h3>Pressure language</h3>
-            <p>Looks for urgent payment, delivery, account suspension, credential, and secrecy patterns.</p>
-          </article>
-        </div>
+        <ul class="privacy-points">
+          <li><strong>Reads only what it checks</strong><span>Visible content in supported webmail.</span></li>
+          <li><strong>Stores only your choices</strong><span>Settings and familiar domains stay in browser storage.</span></li>
+          <li><strong>Never sells or tracks</strong><span>No accounts, ads, tracking pixels, or analytics.</span></li>
+        </ul>
       </section>
 
-      <section class="section-grid reverse">
-        <div class="open-source-panel">
-          <img src="assets/byebyefishing.svg" alt="" width="72" height="72">
-          <h2>Open source, because trust needs daylight.</h2>
-          <p>
-            The rules should be readable. The extension should be inspectable. Improvements should be
-            reviewable. Bye Bye Fishing is built for a community-maintained safety list, not a black box.
-          </p>
-          <a class="text-link" href="rules.html#brand-catalog">Explore the current rule catalog</a>
+      <section class="supported-strip">
+        <div>
+          <p class="eyebrow">Supported inboxes</p>
+          <h2>Works where your family reads webmail.</h2>
+          <p>Gmail, Outlook, Yahoo, iCloud Mail, Proton Mail, and many more supported browser inboxes.</p>
         </div>
-        <div class="section-copy">
-          <p class="eyebrow">Privacy posture</p>
-          <h2>Boring on purpose.</h2>
-          <p>
-            Bye Bye Fishing reads visible sender information, visible links, and visible message text on
-            supported webmail pages so it can apply local checks. It does not collect or transmit that
-            content. Settings and green-flagged domains stay in browser extension storage.
-          </p>
-          <a class="button secondary" href="privacy.html">View privacy details</a>
-        </div>
+        <a class="text-link" href="install.html#supported-webmail">See the full list</a>
       </section>
 
       <section class="install-strip">
         <div>
-          <p class="eyebrow">Ready when you are</p>
-          <h2>Install it for the inbox your family actually uses.</h2>
+          <p class="eyebrow">Developer preview</p>
+          <h2>Store releases are still pending.</h2>
+          <p>Test the current build locally, with clear instructions for each browser.</p>
         </div>
-        <a class="button primary" href="install.html">See platform instructions</a>
+        <a class="button primary" href="install.html">View install options</a>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>Bye Bye Fishing</span>
-      <span>Friendly phishing protection, built in the open.</span>
+      <span>Calm, local phishing protection.</span>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="rules.html">Rules</a>
+        <a href="install.html">Install</a>
+      </nav>
     </footer>
 
-    <script src="site.js"></script>
+    <script src="site.js?v=bbf3554853"></script>
   </body>
 </html>

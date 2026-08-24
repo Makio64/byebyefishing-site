@@ -9,9 +9,10 @@
     >
     <title>Bye Bye Fishing Protection Rules</title>
     <link rel="icon" href="assets/byebyefishing.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=cc6a1c45ec">
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <a class="brand-link" href="index.html" aria-label="Bye Bye Fishing home">
         <img src="assets/byebyefishing.svg" alt="" width="40" height="40">
@@ -23,12 +24,12 @@
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="install.html">Install</a>
-        <a href="rules.html" aria-current="page">Protection rules</a>
+        <a href="rules.html" aria-current="page">Rules</a>
         <a href="privacy.html">Privacy</a>
       </nav>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="page-hero">
         <p class="eyebrow">Protection rules</p>
         <h1>Simple rules for not getting rushed into a bad click.</h1>
@@ -38,68 +39,68 @@
         </p>
       </section>
 
-      <section class="rule-guide">
-        <article>
+      <ol class="rule-guide">
+        <li>
           <span>01</span>
           <h2>Do not obey urgency.</h2>
           <p>If an email says act now, pay now, or respond within 24 hours, stop and open the real website yourself.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>02</span>
           <h2>Read the domain, not the display name.</h2>
           <p>"Amazon Support" is just text. The part after <code>@</code> matters more.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>03</span>
           <h2>Never share codes or secrets.</h2>
           <p>No real support team should ask for your password, 2FA code, seed phrase, private key, or API key.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>04</span>
           <h2>Do money checks twice.</h2>
           <p>For invoices, refunds, bank details, fines, tolls, or delivery fees, verify in the official app or by a known phone number.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>05</span>
           <h2>Be careful with delivery messages.</h2>
           <p>Parcel scams often ask for tiny fees or address confirmation. Open the courier site yourself.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>06</span>
           <h2>Short links are a pause signal.</h2>
           <p>Links like <code>bit.ly</code>, <code>t.co</code>, or <code>lnkd.in</code> hide where they really go.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>07</span>
           <h2>Visible text must match the destination.</h2>
           <p>If a link says one domain but opens another, treat it as suspicious until proven safe.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>08</span>
           <h2>Personal inboxes are not official billing teams.</h2>
           <p>A bank, tax office, payment app, or large brand should not send security requests from a free personal mailbox.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>09</span>
           <h2>Typos and odd shapes matter.</h2>
           <p>Extra hyphens, random digits, strange endings, very long URLs, and lookalike words are all warning signs.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>10</span>
           <h2>Public hosting is not proof of trust.</h2>
           <p>Pages on storage buckets or free hosting can be legitimate, but they should not be trusted automatically.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>11</span>
           <h2>Ask before embarrassment wins.</h2>
           <p>Attackers rely on shame and secrecy. Asking one trusted person is a protection step.</p>
-        </article>
-        <article>
+        </li>
+        <li>
           <span>12</span>
           <h2>Green-flag only after checking.</h2>
           <p>Only trust a sender domain locally after you have verified it through a known, official channel.</p>
-        </article>
-      </section>
+        </li>
+      </ol>
 
       <section class="detector-section">
         <div class="section-copy">
@@ -132,17 +133,17 @@
             <p class="eyebrow">Transparent catalog</p>
             <h2>Protected brands and trusted domains</h2>
             <p>
-              This list is generated from the extension defaults. It is meant to be audited, improved,
-              and updated in the open.
+              This list is generated from the extension defaults so it can be reviewed and updated
+              with each rules release.
             </p>
           </div>
-          <div class="catalog-meta">
+          <div class="catalog-meta js-only">
             <strong data-rule-count>Loading</strong>
             <span data-rule-version></span>
           </div>
         </div>
 
-        <div class="catalog-controls">
+        <div class="catalog-controls js-only">
           <label>
             Search
             <input
@@ -160,16 +161,29 @@
           </label>
         </div>
 
-        <div class="catalog-results" data-rules-catalog aria-live="polite"></div>
+        <div class="catalog-status-row js-only">
+          <p data-rule-results-summary role="status" aria-live="polite">Loading rules…</p>
+          <button class="button secondary compact" type="button" data-rule-load-more hidden>Show more</button>
+        </div>
+
+        <div class="catalog-results js-only" data-rules-catalog></div>
+        <p class="catalog-fallback empty-state">
+          The searchable catalog is unavailable. Enable JavaScript or reload the page to try again.
+        </p>
       </section>
     </main>
 
     <footer class="site-footer">
       <span>Bye Bye Fishing</span>
       <span>Rules should be readable by the people they protect.</span>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="install.html">Install</a>
+        <a href="index.html">Home</a>
+      </nav>
     </footer>
 
-    <script src="assets/rules-data.js"></script>
-    <script src="site.js"></script>
+    <script src="assets/rules-data.js?v=6b841b5e38"></script>
+    <script src="site.js?v=bbf3554853"></script>
   </body>
 </html>

@@ -9,9 +9,10 @@
     >
     <title>Install Bye Bye Fishing</title>
     <link rel="icon" href="assets/byebyefishing.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=cc6a1c45ec">
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
       <a class="brand-link" href="index.html" aria-label="Bye Bye Fishing home">
         <img src="assets/byebyefishing.svg" alt="" width="40" height="40">
@@ -23,18 +24,18 @@
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
         <a href="index.html">Home</a>
         <a href="install.html" aria-current="page">Install</a>
-        <a href="rules.html">Protection rules</a>
+        <a href="rules.html">Rules</a>
         <a href="privacy.html">Privacy</a>
       </nav>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="page-hero install-hero">
-        <p class="eyebrow">Install</p>
-        <h1>Use Bye Bye Fishing where webmail lives.</h1>
+        <p class="eyebrow">Developer preview</p>
+        <h1>Test it in the browser you use for webmail.</h1>
         <p>
-          The extension protects supported webmail pages in browsers. It does not automatically scan
-          native Gmail, Outlook, Apple Mail, or Android mail apps.
+          Store releases are still pending. The packages below are for local testing and source review;
+          native Gmail, Outlook, Apple Mail, and Android mail apps are not scanned.
         </p>
         <div class="detected-install" data-install-guide aria-live="polite">
           <div>
@@ -47,7 +48,7 @@
           </div>
           <div class="detected-actions">
             <a class="button primary" data-install-primary href="#platform-options">See install steps</a>
-            <a class="button secondary" data-install-secondary href="downloads/byebyefishing-0.1.0-firefox-android.zip">Firefox testing ZIP</a>
+            <a class="button secondary" data-install-secondary href="downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c">Firefox testing ZIP</a>
           </div>
         </div>
       </section>
@@ -64,6 +65,7 @@
             <li>For local testing, unzip it, open <code>chrome://extensions</code>, enable Developer mode, and choose Load unpacked.</li>
             <li>Open Gmail, Outlook, Yahoo, iCloud Mail, Proton Mail, or another supported webmail page.</li>
           </ol>
+          <a class="platform-download" href="downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2">Download Chrome/Edge ZIP</a>
         </details>
 
         <details id="platform-edge" class="platform-card platform-detail" data-platform="edge">
@@ -77,6 +79,7 @@
             <li>For local testing, unzip it, open <code>edge://extensions</code>, enable Developer mode, and choose Load unpacked.</li>
             <li>Open a supported webmail site and read a message.</li>
           </ol>
+          <a class="platform-download" href="downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2">Download Chrome/Edge ZIP</a>
         </details>
 
         <details id="platform-firefox" class="platform-card platform-detail" data-platform="firefox">
@@ -90,6 +93,7 @@
             <li>For temporary testing, open <code>about:debugging#/runtime/this-firefox</code>.</li>
             <li>Choose Load Temporary Add-on and select <code>manifest.json</code> from the unzipped package.</li>
           </ol>
+          <a class="platform-download" href="downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c">Download Firefox testing ZIP</a>
         </details>
 
         <details id="platform-firefox-android" class="platform-card platform-detail" data-platform="firefox-android">
@@ -104,6 +108,7 @@
             <li>Open <code>mail.google.com</code>, Outlook webmail, or another supported webmail site in Firefox.</li>
             <li>Remember that the native Gmail and Outlook apps are separate apps and are not scanned automatically.</li>
           </ol>
+          <a class="platform-download" href="downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c">Developer testing ZIP</a>
         </details>
 
         <details id="platform-safari" class="platform-card platform-detail" data-platform="safari">
@@ -133,7 +138,7 @@
         </details>
       </section>
 
-      <section class="supported-band">
+      <section id="supported-webmail" class="supported-band">
         <div>
           <p class="eyebrow">Supported webmail</p>
           <h2>Built for everyday inboxes.</h2>
@@ -149,8 +154,13 @@
     <footer class="site-footer">
       <span>Bye Bye Fishing</span>
       <span>Install carefully. Verify calmly.</span>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="rules.html">Rules</a>
+        <a href="index.html">Home</a>
+      </nav>
     </footer>
 
-    <script src="site.js"></script>
+    <script src="site.js?v=bbf3554853"></script>
   </body>
 </html>
