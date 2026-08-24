@@ -306,7 +306,7 @@
         copy:
           "Download the Chrome/Edge ZIP, unzip it, then load it from chrome://extensions with Developer mode enabled.",
         primaryText: "Download Chrome/Edge ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=48385128fb",
         secondaryText: "Open Chrome steps",
         secondaryHref: "#platform-chrome"
       },
@@ -316,7 +316,7 @@
         copy:
           "Download the Chrome/Edge ZIP, unzip it, then load it from edge://extensions with Developer mode enabled.",
         primaryText: "Download Chrome/Edge ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=48385128fb",
         secondaryText: "Open Edge steps",
         secondaryHref: "#platform-edge"
       },
@@ -326,7 +326,7 @@
         copy:
           "Download the Firefox ZIP, unzip it, then load manifest.json from about:debugging while the store listing is pending.",
         primaryText: "Download Firefox ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c",
+        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=dbbe46077f",
         secondaryText: "Open Firefox steps",
         secondaryHref: "#platform-firefox"
       },
@@ -338,7 +338,7 @@
         primaryText: "Open Android steps",
         primaryHref: "#platform-firefox-android",
         secondaryText: "Developer testing ZIP",
-        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c"
+        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=dbbe46077f"
       },
       safari: {
         kicker: "Safari detected",
@@ -378,9 +378,9 @@
       copy:
         "Chrome, Edge, Firefox, Firefox Android, Safari, and source-build instructions are all available below.",
       primaryText: "Download Chrome/Edge ZIP",
-      primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=838a1c0ae2",
+      primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=48385128fb",
       secondaryText: "Firefox testing ZIP",
-      secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=77697a747c"
+      secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=dbbe46077f"
     };
 
     const detectedKey = detectBrowser();

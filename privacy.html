@@ -34,38 +34,77 @@
         <p class="eyebrow">Privacy</p>
         <h1>No inbox upload. No tracking. No backend.</h1>
         <p>
-          Bye Bye Fishing is designed to run locally inside the browser. The boring architecture is
-          the privacy feature.
+          Bye Bye Fishing handles the visible message details needed for phishing checks on your
+          device. The boring architecture is the privacy feature.
         </p>
+        <p class="muted">Effective August 24, 2026 · Publisher: Makio64</p>
       </section>
 
       <section class="privacy-list">
         <article>
-          <h2>What the extension reads</h2>
+          <h2>Information it handles</h2>
           <p>
-            On supported webmail pages, it reads visible sender information, visible link destinations,
-            and visible mail body text so it can compare claimed brands and URLs with the local rule list.
+            On supported webmail pages, it temporarily processes the visible sender name, sender address
+            and domain, email subject, visible message text, link text, and link destinations. Email can
+            contain personal communications and personal, financial, health, or authentication details.
           </p>
         </article>
         <article>
-          <h2>What it stores</h2>
+          <h2>Why it handles that information</h2>
           <p>
-            Settings, edited rules, and locally green-flagged sender domains are stored with the browser
-            extension storage API.
+            Those details are used only to compare the visible message with the packaged safety rules,
+            identify phishing or scam signals, and show an explanation and safer next step. Subjects,
+            bodies, sender addresses, and links are not persisted after the page is processed.
           </p>
         </article>
         <article>
-          <h2>What it does not do</h2>
+          <h2>Information stored on this device</h2>
           <p>
-            It does not collect, transmit, sell, or share email content, sender addresses, browsing
-            history, analytics events, or personal data.
+            Display preferences, edited safety rules, remembered sender domains, sender-and-site
+            exceptions, and the privacy-setup choice stay in device-local browser extension storage.
+            They remain until you clear or reset them, or remove the extension. They are not placed in
+            browser Sync.
           </p>
         </article>
         <article>
-          <h2>What it does not use</h2>
+          <h2>No sharing or human access</h2>
           <p>
-            It does not use remote code, third-party scripts, tracking pixels, cookies, ads, analytics,
-            or a backend service.
+            Bye Bye Fishing does not send message content or stored choices to the publisher or any third
+            party. It has no developer-operated backend, accounts, analytics, ads, tracking pixels,
+            third-party scripts, or remote code. The publisher cannot read your messages or stored choices.
+          </p>
+        </article>
+        <article>
+          <h2>Permissions and site access</h2>
+          <p>
+            The <code>storage</code> permission retains only the device-local choices described above.
+            Site access is limited to the supported webmail domains listed in the extension manifest and
+            is used only to read the visible signals needed for phishing checks and render warning UI.
+          </p>
+        </article>
+        <article>
+          <h2>Your controls</h2>
+          <p>
+            The Options page lets you remove remembered senders and pages, clear those lists, and restore
+            the default safety rules. Removing the extension deletes its device-local extension storage
+            through the browser.
+          </p>
+        </article>
+        <article>
+          <h2>Limited Use commitment</h2>
+          <p>
+            Bye Bye Fishing's handling of user information complies with the Chrome Web Store User Data
+            Policy, including the Limited Use requirements. Information is handled only to provide the
+            disclosed phishing-protection feature. It is not sold, used for advertising or credit
+            decisions, transferred for unrelated purposes, or made available for human review.
+          </p>
+        </article>
+        <article>
+          <h2>Changes and contact</h2>
+          <p>
+            If data handling changes, the extension will disclose the new practice before it begins and
+            this page will receive a new effective date. Questions and privacy requests can be opened in
+            the <a href="https://github.com/Makio64/byebyefishing-site/issues">public support tracker</a>.
           </p>
         </article>
       </section>
@@ -75,12 +114,13 @@
       <span>Bye Bye Fishing</span>
       <span>Privacy by keeping the work local.</span>
       <nav aria-label="Footer navigation">
+        <a href="support.html">Support</a>
         <a href="rules.html">Rules</a>
         <a href="install.html">Install</a>
         <a href="index.html">Home</a>
       </nav>
     </footer>
 
-    <script src="site.js?v=bbf3554853"></script>
+    <script src="site.js?v=f9fd7ce591"></script>
   </body>
 </html>

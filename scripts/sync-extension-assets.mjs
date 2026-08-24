@@ -112,7 +112,7 @@ const styleHash = shortHash(path.join(siteRoot, "styles.css"));
 const scriptHash = shortHash(path.join(siteRoot, "site.js"));
 const rulesHash = shortHash(path.join(siteRoot, "assets/rules-data.js"));
 
-for (const htmlFile of ["index.html", "install.html", "rules.html", "privacy.html"]) {
+for (const htmlFile of ["index.html", "install.html", "rules.html", "privacy.html", "support.html"]) {
   updateSiteFile(htmlFile, (source) => {
     let next = source
       .replace(/styles\.css(?:\?v=[^"]*)?/g, `styles.css?v=${styleHash}`)
