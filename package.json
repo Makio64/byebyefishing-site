@@ -5,6 +5,10 @@
   "description": "Static website for the Bye Bye Fishing browser extension.",
   "scripts": {
     "start": "python3 -m http.server 4173",
-    "sync:extension": "node scripts/sync-extension-assets.mjs .."
+    "sync:extension": "node scripts/sync-extension-assets.mjs ..",
+    "build:seo": "node scripts/build-seo.mjs",
+    "assets:share": "node scripts/build-share-images.mjs",
+    "check": "python3 scripts/check-site.py && node scripts/check-download-routing.mjs",
+    "build": "npm run sync:extension && npm run build:seo && npm run check"
   }
 }

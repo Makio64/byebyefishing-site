@@ -49,6 +49,28 @@
   }
 
   initInstallGuide();
+  const isFrench = document.documentElement.lang === "fr";
+  const browser = detectBrowser();
+  const desktopNames = {chrome:"Chrome",edge:"Edge",firefox:"Firefox"};
+  if (location.hash.startsWith("#platform-")) {
+    const selected = document.getElementById(location.hash.slice(1));
+    if (selected instanceof HTMLDetailsElement) selected.open = true;
+  }
+  document.querySelectorAll("[data-browser-cta]").forEach(link => {
+    if (!desktopNames[browser]) return;
+    const target = new URL(link.href);
+    target.hash = `platform-${browser}`;
+    link.href = target.href;
+    link.textContent = isFrench ? `Préversion gratuite pour ${desktopNames[browser]}` : `Get the free ${desktopNames[browser]} preview`;
+  });
+  document.addEventListener("click", event => {
+    const link = event.target.closest?.('a[download]');
+    const status = document.querySelector("[data-download-status]");
+    if (!link || !status) return;
+    status.textContent = isFrench
+      ? "Téléchargement demandé. Une fois terminé, décompressez le fichier et suivez les étapes de votre navigateur ci-dessous."
+      : "Download requested. When it finishes, unzip the file and follow your browser’s setup steps below.";
+  });
 
   const categoryNames = {
     accounting: "Accounting",
@@ -306,7 +328,7 @@
         copy:
           "Download the Chrome/Edge ZIP, unzip it, then load it from chrome://extensions with Developer mode enabled.",
         primaryText: "Download Chrome/Edge ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=7c02ed60f0",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=21e640411d",
         secondaryText: "Open Chrome steps",
         secondaryHref: "#platform-chrome"
       },
@@ -316,7 +338,7 @@
         copy:
           "Download the Chrome/Edge ZIP, unzip it, then load it from edge://extensions with Developer mode enabled.",
         primaryText: "Download Chrome/Edge ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=7c02ed60f0",
+        primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=21e640411d",
         secondaryText: "Open Edge steps",
         secondaryHref: "#platform-edge"
       },
@@ -326,7 +348,7 @@
         copy:
           "Download the Firefox ZIP, unzip it, then load manifest.json from about:debugging while the store listing is pending.",
         primaryText: "Download Firefox ZIP",
-        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=598781f8b9",
+        primaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=6e573cab7a",
         secondaryText: "Open Firefox steps",
         secondaryHref: "#platform-firefox"
       },
@@ -338,13 +360,13 @@
         primaryText: "Open Android steps",
         primaryHref: "#platform-firefox-android",
         secondaryText: "Developer testing ZIP",
-        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=598781f8b9"
+        secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=6e573cab7a"
       },
       safari: {
         kicker: "Safari detected",
         title: "Safari support is not released yet.",
         copy:
-          "Safari Web Extensions ship inside an app. Use the Safari steps below while the App Store release is prepared.",
+          "Safari support is deferred from this developer preview. No Safari package or App Store release is available yet.",
         primaryText: "Open Safari steps",
         primaryHref: "#platform-safari",
         secondaryText: "See supported webmail",
@@ -354,7 +376,7 @@
         kicker: "iPhone or iPad detected",
         title: "The iOS release is not available yet.",
         copy:
-          "Every iOS browser uses the same App Store extension path. Review the Safari steps while that release is prepared.",
+          "Safari support is deferred from this developer preview. No extension for iPhone or iPad is available yet.",
         primaryText: "Open iPhone and iPad steps",
         primaryHref: "#platform-safari",
         secondaryText: "See supported webmail",
@@ -376,11 +398,11 @@
       kicker: "Desktop developer preview",
       title: "Choose the browser you use for webmail.",
       copy:
-        "Chrome, Edge, Firefox, Firefox Android, Safari, and source-build instructions are all available below.",
+        "Desktop developer builds and experimental Firefox Android guidance are below. Safari is deferred.",
       primaryText: "Download Chrome/Edge ZIP",
-      primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=7c02ed60f0",
+      primaryHref: "downloads/byebyefishing-0.1.0-chrome.zip?v=21e640411d",
       secondaryText: "Firefox testing ZIP",
-      secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=598781f8b9"
+      secondaryHref: "downloads/byebyefishing-0.1.0-firefox-android.zip?v=6e573cab7a"
     };
 
     const detectedKey = detectBrowser();
@@ -431,27 +453,30 @@
       if (!element) return;
       element.textContent = text;
       element.setAttribute("href", href);
+      if (/\.zip(?:\?|$)/.test(href)) element.setAttribute("download", "");
+      else element.removeAttribute("download");
     }
 
-    function detectBrowser() {
-      const ua = navigator.userAgent || "";
-      const brands = navigator.userAgentData?.brands || [];
-      const brandNames = brands.map((brand) => brand.brand).join(" ");
-      const source = `${ua} ${brandNames}`;
-      const isAndroid = /Android/i.test(ua);
-      const isIOS = /iPhone|iPad|iPod/i.test(ua) ||
-        (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
-      if (isIOS) return "ios";
-      if (/Firefox\/\d+/i.test(ua) && isAndroid) return "firefox-android";
-      if (isAndroid) return "mobile";
-      if (/FxiOS|Firefox\/\d+/i.test(ua)) return "firefox";
-      if (/EdgA|EdgiOS|Edg\//i.test(ua) || /Microsoft Edge/i.test(brandNames)) return "edge";
-      if (/CriOS|Chrome\/\d+|Chromium/i.test(source) && !/OPR\/|Opera|SamsungBrowser|Edg\//i.test(source)) {
-        return "chrome";
-      }
-      if (/Safari/i.test(ua) && !/Chrome|Chromium|CriOS|FxiOS|Edg/i.test(ua)) return "safari";
-      return "";
+  }
+  function detectBrowser() {
+    const ua = navigator.userAgent || "";
+    const brands = navigator.userAgentData?.brands || [];
+    const brandNames = brands.map((brand) => brand.brand).join(" ");
+    const source = `${ua} ${brandNames}`;
+    const isAndroid = /Android/i.test(ua);
+    const isIOS = /iPhone|iPad|iPod/i.test(ua) ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+
+    if (isIOS) return "ios";
+    if (/Firefox\/\d+/i.test(ua) && isAndroid) return "firefox-android";
+    if (isAndroid) return "mobile";
+    if (/FxiOS|Firefox\/\d+/i.test(ua)) return "firefox";
+    if (/EdgA|EdgiOS|Edg\//i.test(ua) || /Microsoft Edge/i.test(brandNames)) return "edge";
+    if (/CriOS|Chrome\/\d+|Chromium/i.test(source) && !/OPR\/|Opera|SamsungBrowser|Edg\//i.test(source)) {
+      return "chrome";
     }
+    if (/Safari/i.test(ua) && !/Chrome|Chromium|CriOS|FxiOS|Edg/i.test(ua)) return "safari";
+    return "";
   }
 })();

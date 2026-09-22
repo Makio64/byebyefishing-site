@@ -1,5 +1,5 @@
 window.BYEBYEFISHING_RULES = {
-  "version": "2026-07-31.0",
+  "version": "2026-09-22.1",
   "generatedFrom": "src/default-rules.js",
   "count": 811,
   "rules": [
@@ -5021,7 +5021,9 @@ window.BYEBYEFISHING_RULES = {
       ],
       "allowedDomains": [
         "carrd.co",
-        "www.carrd.co"
+        "www.carrd.co",
+        "carrd.com",
+        "www.carrd.com"
       ],
       "senderDomains": [
         "carrd.co"
@@ -10122,7 +10124,8 @@ window.BYEBYEFISHING_RULES = {
         "gmail.com",
         "youtube.com",
         "youtu.be",
-        "accounts.google.com"
+        "accounts.google.com",
+        "chromeenterprise.google"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null,
@@ -10982,6 +10985,7 @@ window.BYEBYEFISHING_RULES = {
       "allowedDomains": [
         "zoho.com",
         "zoho.eu",
+        "zoho.uk",
         "zohomail.com",
         "zohomail.eu"
       ],
@@ -11656,9 +11660,12 @@ window.BYEBYEFISHING_RULES = {
         "runway ai"
       ],
       "allowedDomains": [
+        "runwayml.com",
+        "runway.com"
+      ],
+      "senderDomains": [
         "runwayml.com"
       ],
-      "senderDomains": null,
       "senderMatchSubdomains": null,
       "brandLinkDomains": [],
       "controlPlaneDomains": [],
@@ -13637,7 +13644,8 @@ window.BYEBYEFISHING_RULES = {
         "sony"
       ],
       "allowedDomains": [
-        "sony.com"
+        "sony.com",
+        "sony-asia.com"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null,
@@ -14673,7 +14681,8 @@ window.BYEBYEFISHING_RULES = {
         "nintendo"
       ],
       "allowedDomains": [
-        "nintendo.com"
+        "nintendo.com",
+        "nintendo.eu"
       ],
       "senderDomains": null,
       "senderMatchSubdomains": null,

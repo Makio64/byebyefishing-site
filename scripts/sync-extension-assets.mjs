@@ -2,9 +2,10 @@ import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
 import crypto from "node:crypto";
+import {fileURLToPath} from "node:url";
 
 const extensionRoot = path.resolve(process.argv[2] || "..");
-const siteRoot = path.resolve(new URL("..", import.meta.url).pathname);
+const siteRoot = fileURLToPath(new URL("..", import.meta.url));
 
 function read(relativePath) {
   return fs.readFileSync(path.join(extensionRoot, relativePath), "utf8");
@@ -95,6 +96,10 @@ const chromeDownload = `downloads/${releaseBasename}-chrome.zip`;
 const firefoxDownload = `downloads/${releaseBasename}-firefox-android.zip`;
 const chromeHash = shortHash(path.join(siteRoot, chromeDownload));
 const firefoxHash = shortHash(path.join(siteRoot, firefoxDownload));
+const packageFiles = [chromeDownload, firefoxDownload];
+fs.writeFileSync(path.join(siteRoot,"downloads/SHA256SUMS"), packageFiles.map(file =>
+  `${crypto.createHash("sha256").update(fs.readFileSync(path.join(siteRoot,file))).digest("hex")}  ${path.basename(file)}`
+).join("\n")+"\n");
 
 updateSiteFile("site.js", (source) =>
   source
@@ -112,7 +117,9 @@ const styleHash = shortHash(path.join(siteRoot, "styles.css"));
 const scriptHash = shortHash(path.join(siteRoot, "site.js"));
 const rulesHash = shortHash(path.join(siteRoot, "assets/rules-data.js"));
 
-for (const htmlFile of ["index.html", "install.html", "rules.html", "privacy.html", "support.html"]) {
+const htmlFiles = fs.readdirSync(siteRoot).filter(name=>name.endsWith(".html"));
+if(fs.existsSync(path.join(siteRoot,"fr"))) htmlFiles.push(...fs.readdirSync(path.join(siteRoot,"fr")).filter(name=>name.endsWith(".html")).map(name=>`fr/${name}`));
+for (const htmlFile of htmlFiles) {
   updateSiteFile(htmlFile, (source) => {
     let next = source
       .replace(/styles\.css(?:\?v=[^"]*)?/g, `styles.css?v=${styleHash}`)
@@ -125,6 +132,11 @@ for (const htmlFile of ["index.html", "install.html", "rules.html", "privacy.htm
         /downloads\/byebyefishing-[^"'?]+-firefox-android\.zip(?:\?v=[^"']*)?/g,
         `${firefoxDownload}?v=${firefoxHash}`
       );
+    next = next.replace(/(<span data-release-version>)[^<]*(<\/span>)/g,`$1${extensionPackage.version}$2`);
+    for(const [platform,file] of [["chrome",chromeDownload],["firefox-android",firefoxDownload]]) {
+      const size=(fs.statSync(path.join(siteRoot,file)).size/1024/1024).toFixed(1)+" MB";
+      next=next.replace(new RegExp(`(<span data-package-size="${platform}">)[^<]*(</span>)`,"g"),`$1${size}$2`);
+    }
 
     if (htmlFile === "rules.html") {
       next = next.replace(

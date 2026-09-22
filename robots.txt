@@ -1,0 +1,6 @@
+# robots.txt is effective only at the host root.
+# This project's GitHub Pages subpath cannot set host-wide crawler policy.
+User-agent: *
+Allow: /
+
+Sitemap: https://makio64.github.io/byebyefishing-site/sitemap.xml
